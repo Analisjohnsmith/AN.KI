@@ -66,18 +66,6 @@ AN.KI is released under a **dual license model**:
 STAUS : IN PROGRESS
 
 
-### Prohibition on Confusingly Similar Systems
-
-You may not create, distribute, or market any software, platform, or system
-that is confusingly similar to this project. This includes:
-
-- derivative works that replicate core functionality,
-- rebranded versions of the system,
-- substantially similar architectures or implementations,
-- naming, branding, or presentation likely to cause user confusion.
-
-No license is granted for the development of systems that imitate this project
-in a way that could reasonably mislead users into believing they are related,
 
  
 # =============================================================================
@@ -935,3 +923,15 @@ Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+### Prohibition on Confusingly Similar Systems
+
+You may not create, distribute, or market any software, platform, or system
+that is confusingly similar to this project. This includes:
+
+- derivative works that replicate core functionality,
+- rebranded versions of the system,
+- substantially similar architectures or implementations,
+- naming, branding, or presentation likely to cause user confusion.
+
+No license is granted for the development of systems that imitate this project
+in a way that could reasonably mislead users into believing they are related,
