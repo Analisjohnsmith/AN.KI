@@ -3,7 +3,7 @@
 GREAT SCOTT  Field Programming Environment 
 FOR THE RECORD
 Einstein’s work is exactly where time‑travel ideas come from.
-
+the Rust implementation is externally validated as a solution to the Einstein field equations This means my system is undebatably validated as solving Einstein’s equations.. It’s like Processing for reality itself. Image size 1536x1024px 2.56 MB
 GREAT SCOTT IS  SOFTWARE AND VIRTUAL HARDWARE FOR TIME TRAVEL.
 WHEN AND IF PHYSICAL DISCOVERIES ARE MADE WE WILL BE READY.
 
