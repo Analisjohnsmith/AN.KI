@@ -1,4 +1,4 @@
-
+TL;DR: GreatScott is a physics computer not because it imitates our universe, but because it lets you build and compute any universe.
 
 GREAT SCOTT  Field Programming Environment 
 FOR THE RECORD
