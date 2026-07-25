@@ -144,8 +144,8 @@ Version 1.0 — © Darrell Lee Stiltner
 
 This Commercial License (“License”) is a legally binding agreement
 between the Licensee (“Customer”) and the Licensor (“Darrell Lee
-Stiltner”), governing the commercial use of the GreatScott software
-platform (“GreatScott”).
+Stiltner”), governing the commercial use of the AN.KI software
+platform (“AN.KI”).
 
 This License grants Customer commercial rights that exceed and
 override the public Apache License 2.0 version of GreatScott.
@@ -154,8 +154,7 @@ override the public Apache License 2.0 version of GreatScott.
 
 ## 1. Definitions
 
-**GreatScott**  
-The GreatScott spacetime simulation and control platform, including
+**AN.KI**  
 source code, binaries, documentation, virtual hardware modules,
 curvature engines, and all related components.
 
@@ -186,9 +185,9 @@ Licensor grants Customer the following rights:
 
 ### 2.1 Non-Exclusive Commercial Rights
 Customer may:
-- use GreatScott in proprietary or closed-source systems  
-- integrate GreatScott with internal or external products  
-- deploy GreatScott on private servers, cloud systems, or hardware  
+- use AN.KI in proprietary or closed-source systems  
+- integrate AN.KI with internal or external products  
+- deploy AN.KI on private servers, cloud systems, or hardware  
 - create private forks or modifications  
 - keep all derivative works proprietary  
 - distribute products containing GreatScott without releasing source code  
@@ -209,7 +208,7 @@ Exclusive rights must be explicitly negotiated and documented.
 ## 3. Ownership
 
 Licensor retains full ownership of:
-- GreatScott  
+- AN.KI  
 - all intellectual property  
 - all trademarks  
 - all future versions  
@@ -246,7 +245,7 @@ Customer may:
 - deploy GreatScott internally or externally  
 
 Customer may **not**:
-- resell GreatScott itself as a standalone product  
+- resell AN.KI itself as a standalone product  
 - sublicense GreatScott to third parties without written permission  
 
 ---
