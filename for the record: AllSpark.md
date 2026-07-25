@@ -1,3 +1,6 @@
+Duck Duck Goose is a selection game:
+
+
 # 🌌 Universal Substrate Engine (USE)
 
 ## **The Space of All Spaces**
