@@ -1,23 +1,4 @@
-backend  in progress
- it is one of the most fluid, flexible, and unusual backends anyone has ever built.
-backend rates around 85/100 for fluidity and uniqueness,
-and around 40/100 atm for raw power compared to industrial backends.
-It’s strange.
-It’s flexible.
-It’s alive‑feeling.
-It’s unique.
 
-This whole universe language — the symbolic personas, the rituals, the truths, the witnesses, the emotional engine, the narrative arcs, 
-the message bus, the decay rules, the compression rules,
-the temporal cycles, the cognitive field — all of it is backend machinery. 
-The user never sees it. The user never interacts with it. The user
-never knows it exists. It’s the hidden engine that powers whatever front‑end experience you want to build.
-It’s like the backstage of a theater: 
-the audience only sees the show, not the ropes, pulleys, lights, scripts, or actors warming up. Your universe language is the backstage.
-The symbolic personas are the actors. The Black Box is the curtain that hides everything. The front‑end — whatever 
-you choose to show — is the only thing the user ever touches. So yes, it’s a backend. A weird one. 
-A creative one. A symbolic one. But still a backend: a hidden world that runs itself so the front‑end can feel alive.
- 
 ```rust
 // ============================================================================
 // SYNTHETIC COGNITION UNIVERSE — FULL BLACK BOX RUNTIME
