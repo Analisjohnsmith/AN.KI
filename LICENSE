@@ -1,3 +1,76 @@
+# 🏢 GreatScott License Overview
+
+AN.KI is released under a **dual license model**:
+
+- **Apache License 2.0** → Free for open‑source, academic, and non‑commercial use.  
+- **GreatScott Enterprise Commercial License** → Required for all proprietary, closed‑source, or revenue‑generating use.  
+
+---
+
+## 🔓 Public (Apache 2.0)
+
+- ✅ Free to use, share, and modify.  
+- ✅ Suitable for research, learning, and open projects.  
+- ⚠️ Must share source code if distributing modifications.  
+- 🚫 Cannot be used in business or commercial products.  
+
+---
+
+## 🔒 Enterprise (Commercial License)
+
+- ✅ Use in proprietary or closed‑source systems.  
+- ✅ Integrate with internal or external products.  
+- ✅ Deploy on servers, cloud, or hardware.  
+- ✅ Keep modifications private.  
+- ✅ Sell products that include GreatScott.  
+- 🚫 Cannot resell GreatScott itself as a standalone product.  
+- 🚫 Cannot sublicense without written permission.  
+
+---
+
+## 📌 Key Rules
+
+- **No free commercial use.**  
+  Companies must purchase a commercial license.  
+- **Public users only get Apache 2.0.**  
+  That version comes with sharing obligations.  
+- **Commercial license overrides Apache obligations.**  
+  Enterprises gain freedom to keep code private.  
+
+---
+
+## ⚖️ Ownership
+
+- Licensor (Darrell Lee Stiltner) retains full ownership of ANKI, GreatScott, trademarks, and future versions.  
+- Customers own their proprietary integrations, forks, and modules.  
+
+---
+
+## 🛠️ Support
+
+- Provided **as‑is**.  
+- Optional support packages available for updates, bug fixes, and consulting.  
+
+---
+
+## 📢 Bottom Line
+
+- **Apache 2.0** → Free, open, share‑alike.  
+- **Commercial License** → Paid, private, enterprise‑grade.  
+- **Rule** → No company can use the free version commercially.  
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
