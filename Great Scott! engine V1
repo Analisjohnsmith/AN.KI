@@ -2,20 +2,7 @@
 STAUS : IN PROGRESS
 
 
-### Prohibition on Confusingly Similar Systems
 
-You may not create, distribute, or market any software, platform, or system
-that is confusingly similar to this project. This includes:
-
-- derivative works that replicate core functionality,
-- rebranded versions of the system,
-- substantially similar architectures or implementations,
-- naming, branding, or presentation likely to cause user confusion.
-
-No license is granted for the development of systems that imitate this project
-in a way that could reasonably mislead users into believing they are related,
-
- 
 # =============================================================================
 #  Copyright (C) 2026  Darrell Lee (Līlā) Stiltner
 #Documents, math, diagrams etc..
@@ -330,7 +317,20 @@ Licensor regarding commercial use of GreatScott.
 
 # END OF LICENSE
 
+### Prohibition on Confusingly Similar Systems
 
+You may not create, distribute, or market any software, platform, or system
+that is confusingly similar to this project. This includes:
+
+- derivative works that replicate core functionality,
+- rebranded versions of the system,
+- substantially similar architectures or implementations,
+- naming, branding, or presentation likely to cause user confusion.
+
+No license is granted for the development of systems that imitate this project
+in a way that could reasonably mislead users into believing they are related,
+
+ 
 
 
 
