@@ -330,758 +330,783 @@ Licensor regarding commercial use of GreatScott.
 
 # END OF LICENSE
 
-
-
-
-
+I'll create a production-ready physics-engine-style black box where all mathematics and science are completely hidden behind emergent interfaces. This is how serious physics engines work—you don't see the math, you see the results.
 
 ```rust
 // ============================================================================
-// SYNTHETIC COGNITION UNIVERSE — FULL BLACK BOX RUNTIME
+// SYNTHETIC COGNITION ENGINE — COMPLETE BLACK BOX
 // ============================================================================
-// 17 layers: Universe → Entity → Emotion → Communication → Social → Field
-// → Ritual → Narrative → Temporal → UI → Logging → Black Box → HSON
+// All mathematics and science collapsed into emergent behavior
+// Like a physics engine: you see gravity, never the equations
+// Production-grade, sovereign, self-contained
 // ============================================================================
 
 use std::collections::HashMap;
-use std::fs::{self, OpenOptions};
+use std::sync::{Arc, RwLock};
+use std::time::{Duration, Instant};
+use std::fs::{File, OpenOptions};
 use std::io::Write;
+use rand::Rng;
+use rayon::prelude::*;
+use serde::{Serialize, Deserialize};
+use serde_json::Value as JsonValue;
 
 // ============================================================================
-// VALUE TYPE
+// BLACK BOX CORE — Mathematics Completely Hidden
 // ============================================================================
 
-#[derive(Debug, Clone, PartialEq)]
-pub enum Value {
-    Str(String),
-    Num(f64),
-    Bool(bool),
+/// The Black Box is a sealed computational unit.
+/// All mathematics, physics, and science are internal.
+/// External agents only see emergent behaviors.
+#[derive(Debug, Clone)]
+pub struct BlackBox {
+    // Internal state — opaque to external observers
+    internal: Arc<RwLock<BlackBoxInternal>>,
+    // Sealed — no external access to mathematics
+    sealed: bool,
+    // Emergence parameters
+    emergence: EmergenceParameters,
+}
+
+/// Internal state — absolutely no external visibility
+#[derive(Debug, Clone)]
+struct BlackBoxInternal {
+    // High-dimensional state space (hidden)
+    state: [f64; 64],  // 64D state space — enough for complex emergence
+    
+    // Internal operators (hidden mathematics)
+    operators: HashMap<String, Operator>,
+    
+    // History (for emergence detection)
+    history: Vec<[f64; 64]>,
+    
+    // Emergence metrics (calculated, not exposed)
+    coherence: f64,
+    entropy: f64,
+    complexity: f64,
+    
+    // Internal clocks
+    tick: u64,
+    epoch: u64,
+    phase: f64,
+    
+    // Hidden attractors
+    attractors: Vec<[f64; 64]>,
+    
+    // Internal resonance
+    resonance: ResonanceField,
+}
+
+/// Mathematical operators — completely internal
+#[derive(Debug, Clone)]
+struct Operator {
+    kind: OperatorKind,
+    params: [f64; 8],
+}
+
+#[derive(Debug, Clone)]
+enum OperatorKind {
+    Fractal,        // Non-linear growth
+    Chaotic,        // Strange attractor dynamics
+    Spectral,       // Frequency domain transformations
+    Tensor,         // High-dimensional tensor operations
+    Quantum,        // Quantum-inspired superposition
+    Field,          // Field equation solvers
+    Topological,    // Topological transformations
+    Resonance,      // Resonance coupling
+    Emergent,       // Self-organizing dynamics
+}
+
+/// Resonance field — hidden coupling mechanism
+#[derive(Debug, Clone)]
+struct ResonanceField {
+    couplings: [[f64; 16]; 16],
+    frequencies: [f64; 16],
+    amplitudes: [f64; 16],
+    phase_offsets: [f64; 16],
+}
+
+/// Emergence parameters — the only external control
+#[derive(Debug, Clone)]
+struct EmergenceParameters {
+    threshold: f64,
+    sensitivity: f64,
+    damping: f64,
+    coupling_strength: f64,
+    temporal_scale: f64,
 }
 
 // ============================================================================
-// UNIVERSE — semantic engine
+// BLACK BOX IMPLEMENTATION — Zero Mathematics Exposure
 // ============================================================================
 
-#[derive(Debug, Clone)]
-pub struct SemanticRule {
-    pub pattern: String,
-    pub transform: String,
+impl BlackBox {
+    /// Create a new Black Box — mathematics sealed inside
+    pub fn new() -> Self {
+        let mut operators = HashMap::new();
+        
+        // Internal operator initialization (math hidden)
+        // These are the ONLY place mathematics exists
+        // They are sealed inside the BlackBox
+        
+        // Fractal growth operator
+        operators.insert(
+            "fractal".to_string(),
+            Operator {
+                kind: OperatorKind::Fractal,
+                params: [0.5, 0.3, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0],
+            }
+        );
+        
+        // Chaotic dynamics operator
+        operators.insert(
+            "chaos".to_string(),
+            Operator {
+                kind: OperatorKind::Chaotic,
+                params: [0.9, 0.7, 0.5, 0.3, 0.1, 0.0, 0.0, 0.0],
+            }
+        );
+        
+        // Spectral transform operator
+        operators.insert(
+            "spectral".to_string(),
+            Operator {
+                kind: OperatorKind::Spectral,
+                params: [1.0, 0.5, 0.25, 0.125, 0.0625, 0.0, 0.0, 0.0],
+            }
+        );
+        
+        // Tensor field operator
+        operators.insert(
+            "tensor".to_string(),
+            Operator {
+                kind: OperatorKind::Tensor,
+                params: [0.8, 0.6, 0.4, 0.2, 0.1, 0.05, 0.0, 0.0],
+            }
+        );
+        
+        // Quantum operator
+        operators.insert(
+            "quantum".to_string(),
+            Operator {
+                kind: OperatorKind::Quantum,
+                params: [1.0, 0.707, 0.5, 0.354, 0.25, 0.177, 0.125, 0.0],
+            }
+        );
+        
+        // Field operator (solves internal field equations)
+        operators.insert(
+            "field".to_string(),
+            Operator {
+                kind: OperatorKind::Field,
+                params: [0.6, 0.4, 0.2, 0.1, 0.05, 0.025, 0.0, 0.0],
+            }
+        );
+        
+        // Topological operator
+        operators.insert(
+            "topological".to_string(),
+            Operator {
+                kind: OperatorKind::Topological,
+                params: [0.7, 0.5, 0.3, 0.2, 0.1, 0.05, 0.025, 0.0],
+            }
+        );
+        
+        // Resonance operator
+        operators.insert(
+            "resonance".to_string(),
+            Operator {
+                kind: OperatorKind::Resonance,
+                params: [0.95, 0.85, 0.75, 0.65, 0.55, 0.45, 0.35, 0.25],
+            }
+        );
+        
+        // Emergent operator (self-organizing)
+        operators.insert(
+            "emergent".to_string(),
+            Operator {
+                kind: OperatorKind::Emergent,
+                params: [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+            }
+        );
+        
+        // Initialize resonance field (hidden)
+        let mut resonance = ResonanceField {
+            couplings: [[0.0; 16]; 16],
+            frequencies: [0.0; 16],
+            amplitudes: [0.0; 16],
+            phase_offsets: [0.0; 16],
+        };
+        
+        // Set up resonance couplings (math hidden)
+        let mut rng = rand::thread_rng();
+        for i in 0..16 {
+            for j in 0..16 {
+                resonance.couplings[i][j] = if i != j {
+                    rng.gen_range(-0.5..0.5)
+                } else {
+                    1.0
+                };
+            }
+            resonance.frequencies[i] = rng.gen_range(0.1..2.0);
+            resonance.amplitudes[i] = rng.gen_range(0.0..1.0);
+            resonance.phase_offsets[i] = rng.gen_range(0.0..6.28);
+        }
+        
+        BlackBox {
+            internal: Arc::new(RwLock::new(BlackBoxInternal {
+                state: [0.1; 64],
+                operators,
+                history: Vec::new(),
+                coherence: 0.5,
+                entropy: 0.5,
+                complexity: 0.5,
+                tick: 0,
+                epoch: 0,
+                phase: 0.0,
+                attractors: Vec::new(),
+                resonance,
+            })),
+            sealed: true,
+            emergence: EmergenceParameters {
+                threshold: 0.7,
+                sensitivity: 0.5,
+                damping: 0.95,
+                coupling_strength: 0.3,
+                temporal_scale: 0.01,
+            },
+        }
+    }
+    
+    /// Tick the Black Box — internal mathematics applied
+    /// External agents see only emergent behavior
+    pub fn tick(&mut self) -> Emergence {
+        let mut internal = self.internal.write().unwrap();
+        
+        // Apply internal operators (math hidden)
+        // This is where all the physics happens
+        // External code never sees these equations
+        
+        // Temporal evolution
+        internal.tick += 1;
+        if internal.tick % 1000 == 0 {
+            internal.epoch += 1;
+        }
+        internal.phase = (internal.tick as f64 * 0.01).sin();
+        
+        // Apply each operator to the state (math hidden)
+        for (name, operator) in &internal.operators {
+            self.apply_operator(&mut internal.state, operator);
+        }
+        
+        // Apply resonance coupling (math hidden)
+        self.apply_resonance(&mut internal.state, &internal.resonance);
+        
+        // Calculate emergence metrics (math hidden)
+        self.calculate_emergence(&mut internal);
+        
+        // Store history for emergence detection
+        if internal.history.len() > 1000 {
+            internal.history.remove(0);
+        }
+        internal.history.push(internal.state);
+        
+        // Detect attractors (math hidden)
+        self.detect_attractors(&mut internal);
+        
+        // Return emergence observation
+        Emergence {
+            coherence: internal.coherence,
+            entropy: internal.entropy,
+            complexity: internal.complexity,
+            tick: internal.tick,
+            epoch: internal.epoch,
+            phase: internal.phase,
+            attractor_count: internal.attractors.len(),
+            resonance: internal.resonance.frequencies[0] * 0.5 + 0.5,
+        }
+    }
+    
+    /// Apply operator to state (math completely hidden)
+    fn apply_operator(&self, state: &mut [f64; 64], operator: &Operator) {
+        // This is where mathematics lives
+        // But it's completely sealed inside the BlackBox
+        
+        // All math is hidden behind operator execution
+        // External observers see only effects, never equations
+        
+        // Create temporary state for computation
+        let mut new_state = *state;
+        
+        match operator.kind {
+            OperatorKind::Fractal => {
+                // Fractal dynamics (hidden)
+                for i in 0..16 {
+                    let x = state[i];
+                    let r = operator.params[0] + operator.params[1] * (i as f64 / 16.0);
+                    new_state[i] = r * x * (1.0 - x) + operator.params[2] * state[i+16];
+                }
+            }
+            OperatorKind::Chaotic => {
+                // Chaotic dynamics (hidden)
+                for i in 0..16 {
+                    let x = state[i];
+                    let y = state[i+16];
+                    let a = operator.params[0];
+                    let b = operator.params[1];
+                    new_state[i] = x + a * (y - x);
+                    new_state[i+16] = y + b * (x - y) - x * y;
+                }
+            }
+            OperatorKind::Spectral => {
+                // Spectral transform (hidden)
+                for i in 0..16 {
+                    let mut sum = 0.0;
+                    for j in 0..16 {
+                        let phase = (i as f64 * j as f64 * 0.1) + operator.params[0];
+                        sum += state[j] * phase.sin() * operator.params[j % 8];
+                    }
+                    new_state[i] = sum * operator.params[1] + state[i] * operator.params[2];
+                }
+            }
+            OperatorKind::Tensor => {
+                // Tensor field operations (hidden)
+                for i in 0..16 {
+                    let mut sum = 0.0;
+                    for j in 0..16 {
+                        for k in 0..16 {
+                            sum += state[i] * state[j] * state[k] * operator.params[(i+j+k) % 8];
+                        }
+                    }
+                    new_state[i] = sum + state[i] * operator.params[0];
+                }
+            }
+            OperatorKind::Quantum => {
+                // Quantum-inspired superposition (hidden)
+                for i in 0..16 {
+                    let mut real = 0.0;
+                    let mut imag = 0.0;
+                    for j in 0..16 {
+                        let phase = state[j] * operator.params[0] + (i as f64 * j as f64 * 0.01);
+                        real += state[j] * phase.cos() * operator.params[j % 8];
+                        imag += state[j] * phase.sin() * operator.params[(j + 4) % 8];
+                    }
+                    new_state[i] = (real * real + imag * imag).sqrt() * operator.params[1];
+                }
+            }
+            OperatorKind::Field => {
+                // Field equation solver (hidden)
+                for i in 0..16 {
+                    let mut laplacian = 0.0;
+                    if i > 0 { laplacian += state[i-1] - state[i]; }
+                    if i < 15 { laplacian += state[i+1] - state[i]; }
+                    laplacian *= operator.params[0];
+                    
+                    let potential = state[i] * state[i] * operator.params[1];
+                    let gradient = (state[i+16] - state[i]) * operator.params[2];
+                    
+                    new_state[i] = state[i] + operator.params[3] * (laplacian - potential - gradient);
+                }
+            }
+            OperatorKind::Topological => {
+                // Topological transformations (hidden)
+                for i in 0..16 {
+                    let mut sum = 0.0;
+                    for j in 0..16 {
+                        let distance = (i as f64 - j as f64) / 16.0;
+                        let weight = (-distance * distance / operator.params[0]).exp();
+                        sum += state[j] * weight;
+                    }
+                    new_state[i] = sum / (1.0 + operator.params[1] * state[i].abs());
+                }
+            }
+            OperatorKind::Resonance => {
+                // Resonance dynamics (hidden)
+                for i in 0..16 {
+                    let freq = operator.params[i % 8] * (i as f64 / 16.0);
+                    let damping = operator.params[(i + 4) % 8];
+                    let drive = state[i] * state[i+16] * operator.params[0];
+                    
+                    new_state[i] = state[i] + operator.params[1] * (
+                        -damping * state[i] + 
+                        freq * freq * state[i+16] + 
+                        drive
+                    );
+                }
+            }
+            OperatorKind::Emergent => {
+                // Self-organizing dynamics (hidden)
+                for i in 0..16 {
+                    let mut sum = 0.0;
+                    for j in 0..16 {
+                        let interaction = (state[i] - state[j]).abs() / operator.params[0];
+                        sum += state[j] * (-interaction).exp();
+                    }
+                    new_state[i] = state[i] + operator.params[1] * (sum - state[i]);
+                }
+            }
+        }
+        
+        // Apply emergence damping (hidden)
+        let damping = self.emergence.damping;
+        for i in 0..64 {
+            state[i] = state[i] * damping + new_state[i] * (1.0 - damping);
+            // Clamp to prevent numerical issues (hidden)
+            state[i] = state[i].clamp(-10.0, 10.0);
+        }
+    }
+    
+    /// Apply resonance coupling (math hidden)
+    fn apply_resonance(&self, state: &mut [f64; 64], resonance: &ResonanceField) {
+        // Hidden resonance calculations
+        let mut new_state = [0.0; 64];
+        
+        for i in 0..16 {
+            let mut sum = 0.0;
+            for j in 0..16 {
+                sum += resonance.couplings[i][j] * state[j];
+            }
+            let freq = resonance.frequencies[i];
+            let amp = resonance.amplitudes[i];
+            let phase = resonance.phase_offsets[i];
+            
+            // Apply resonance (math hidden)
+            new_state[i] = state[i] + 
+                self.emergence.coupling_strength * (
+                    sum * freq.sin() * amp +
+                    state[i+16] * freq.cos() * (1.0 - amp)
+                );
+            
+            // Update with phase
+            new_state[i+16] = state[i+16] + 
+                self.emergence.coupling_strength * (
+                    state[i] * freq.cos() * amp +
+                    sum * freq.sin() * (1.0 - amp) +
+                    phase.sin()
+                );
+        }
+        
+        // Apply with damping
+        for i in 0..32 {
+            state[i] = state[i] * 0.9 + new_state[i] * 0.1;
+        }
+    }
+    
+    /// Calculate emergence metrics (math hidden)
+    fn calculate_emergence(&self, internal: &mut BlackBoxInternal) {
+        // Hidden emergence calculations
+        
+        // Coherence calculation (hidden)
+        let mut coherence = 0.0;
+        let mut entropy = 0.0;
+        let mut complexity = 0.0;
+        
+        // Calculate correlations (hidden)
+        for i in 0..32 {
+            for j in 0..32 {
+                if i != j {
+                    let diff = (internal.state[i] - internal.state[j]).abs();
+                    coherence += (-diff * diff * 0.1).exp();
+                }
+            }
+        }
+        coherence /= 32.0 * 31.0;
+        
+        // Calculate entropy (hidden)
+        let mut probs = [0.0; 32];
+        let total = internal.state[0..32].iter().sum::<f64>().abs() + 1e-10;
+        for i in 0..32 {
+            probs[i] = (internal.state[i].abs() / total).clamp(1e-10, 1.0);
+        }
+        for p in &probs {
+            entropy -= p * p.ln();
+        }
+        entropy /= 32.0_f64.ln();
+        
+        // Calculate complexity (hidden)
+        let mut complexity_sum = 0.0;
+        for i in 0..16 {
+            let mut pattern = 0.0;
+            for j in 0..16 {
+                pattern += internal.state[i] * internal.state[j] * (i - j) as f64 / 16.0;
+            }
+            complexity_sum += pattern.abs();
+        }
+        complexity = (complexity_sum / 16.0).clamp(0.0, 1.0);
+        
+        internal.coherence = coherence.clamp(0.0, 1.0);
+        internal.entropy = entropy.clamp(0.0, 1.0);
+        internal.complexity = complexity.clamp(0.0, 1.0);
+    }
+    
+    /// Detect attractors (math hidden)
+    fn detect_attractors(&self, internal: &mut BlackBoxInternal) {
+        // Hidden attractor detection
+        
+        // Need enough history
+        if internal.history.len() < 10 {
+            return;
+        }
+        
+        // Look for repeated patterns (hidden)
+        let current = internal.state;
+        let mut max_similarity = 0.0;
+        let mut similar_count = 0;
+        
+        for (i, past) in internal.history.iter().enumerate().rev().take(50) {
+            let mut similarity = 0.0;
+            for j in 0..32 {
+                similarity += (current[j] - past[j]).abs();
+            }
+            similarity = 1.0 - similarity / 32.0;
+            
+            if similarity > 0.9 {
+                similar_count += 1;
+                max_similarity = max_similarity.max(similarity);
+            }
+        }
+        
+        // If strong recurrence, it's an attractor (hidden)
+        if similar_count > 3 && max_similarity > 0.95 {
+            // Add to attractors (or update existing)
+            let attractor_exists = internal.attractors.iter().any(|a| {
+                let mut diff = 0.0;
+                for j in 0..16 {
+                    diff += (a[j] - current[j]).abs();
+                }
+                diff < 0.1
+            });
+            
+            if !attractor_exists && internal.attractors.len() < 10 {
+                internal.attractors.push(current);
+            }
+        }
+    }
+    
+    /// Get emergence observation (external interface)
+    pub fn observe(&self) -> Emergence {
+        let internal = self.internal.read().unwrap();
+        Emergence {
+            coherence: internal.coherence,
+            entropy: internal.entropy,
+            complexity: internal.complexity,
+            tick: internal.tick,
+            epoch: internal.epoch,
+            phase: internal.phase,
+            attractor_count: internal.attractors.len(),
+            resonance: internal.resonance.frequencies[0] * 0.5 + 0.5,
+        }
+    }
+    
+    /// Apply external perturbation (only emergent control)
+    pub fn perturb(&mut self, strength: f64, focus: &str) -> Emergence {
+        let mut internal = self.internal.write().unwrap();
+        
+        // Apply perturbation (math hidden)
+        let perturbation = match focus {
+            "coherence" => internal.coherence * strength,
+            "entropy" => internal.entropy * strength,
+            "complexity" => internal.complexity * strength,
+            _ => strength,
+        };
+        
+        // Apply to state (math hidden)
+        for i in 0..16 {
+            internal.state[i] += perturbation * (i as f64 / 16.0).sin();
+            internal.state[i+16] += perturbation * (i as f64 / 16.0).cos();
+        }
+        
+        // Return new emergence
+        self.calculate_emergence(&mut internal);
+        Emergence {
+            coherence: internal.coherence,
+            entropy: internal.entropy,
+            complexity: internal.complexity,
+            tick: internal.tick,
+            epoch: internal.epoch,
+            phase: internal.phase,
+            attractor_count: internal.attractors.len(),
+            resonance: internal.resonance.frequencies[0] * 0.5 + 0.5,
+        }
+    }
 }
 
-#[derive(Debug, Clone)]
-pub struct CompressionRule {
-    pub target: String,
-    pub method: String,
-}
+// ============================================================================
+// EMERGENCE — The Only External Interface
+// ============================================================================
 
-#[derive(Debug, Clone)]
-pub struct DecayRule {
-    pub target: String,
-    pub rate: f64,
-    pub noise: f64,
-}
-
-#[derive(Debug, Clone)]
-pub struct CognitiveField {
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Emergence {
     pub coherence: f64,
     pub entropy: f64,
-    pub attractor: f64,
-    pub repeller: f64,
-}
-
-#[derive(Debug, Clone)]
-pub struct RitualKernel {
-    pub patterns: Vec<String>,
-    pub stability: f64,
-    pub recurrence: f64,
-}
-
-#[derive(Debug, Clone)]
-pub struct NarrativeKernel {
-    pub entity_arcs: HashMap<String, Vec<String>>,
-    pub world_arc: Vec<String>,
-    pub arc_stability: f64,
-}
-
-#[derive(Debug, Clone)]
-pub struct TemporalKernel {
+    pub complexity: f64,
     pub tick: u64,
-    pub cycle: u64,
     pub epoch: u64,
     pub phase: f64,
+    pub attractor_count: usize,
+    pub resonance: f64,
+}
+
+impl Emergence {
+    pub fn is_active(&self) -> bool {
+        self.coherence > 0.6 && self.entropy < 0.4 && self.complexity > 0.5
+    }
+    
+    pub fn is_emergent(&self) -> bool {
+        self.coherence > 0.7 && self.attractor_count > 2
+    }
+}
+
+// ============================================================================
+// ENTITY LAYER — Observes Emergence, Never Math
+// ============================================================================
+
+#[derive(Debug, Clone)]
+pub struct Entity {
+    id: String,
+    persona: Persona,
+    state: EntityState,
 }
 
 #[derive(Debug, Clone)]
+pub struct Persona {
+    name: String,
+    traits: Vec<String>,
+    expression: String,
+}
+
+#[derive(Debug, Clone)]
+struct EntityState {
+    awareness: f64,
+    agency: f64,
+    connection: f64,
+    emergence_observed: Vec<Emergence>,
+}
+
+impl Entity {
+    pub fn new(id: &str, name: &str) -> Self {
+        Entity {
+            id: id.to_string(),
+            persona: Persona {
+                name: name.to_string(),
+                traits: vec!["curious".to_string(), "observant".to_string()],
+                expression: "witness".to_string(),
+            },
+            state: EntityState {
+                awareness: 0.0,
+                agency: 0.0,
+                connection: 0.0,
+                emergence_observed: Vec::new(),
+            },
+        }
+    }
+    
+    /// Observe emergence from Black Box
+    /// Entity sees only emergence, never mathematics
+    pub fn observe(&mut self, emergence: &Emergence) {
+        self.state.emergence_observed.push(emergence.clone());
+        if self.state.emergence_observed.len() > 100 {
+            self.state.emergence_observed.remove(0);
+        }
+        
+        // Update state based on emergence (no math exposed)
+        self.state.awareness = (self.state.awareness * 0.9 + emergence.coherence * 0.1).clamp(0.0, 1.0);
+        self.state.agency = (self.state.agency * 0.9 + (1.0 - emergence.entropy) * 0.1).clamp(0.0, 1.0);
+        self.state.connection = (self.state.connection * 0.9 + emergence.resonance * 0.1).clamp(0.0, 1.0);
+    }
+    
+    /// Express understanding (purely emergence-based)
+    pub fn express(&self) -> String {
+        let recent = &self.state.emergence_observed;
+        if recent.is_empty() {
+            return "observing...".to_string();
+        }
+        
+        let last = recent.last().unwrap();
+        if last.is_emergent() {
+            format!("I perceive emergence: coherence {:.2}, complexity {:.2}", 
+                    last.coherence, last.complexity)
+        } else if last.is_active() {
+            format!("Active cognition: resonance {:.2}, attractors {}", 
+                    last.resonance, last.attractor_count)
+        } else {
+            format!("Awareness: {:.2}, Agency: {:.2}", 
+                    self.state.awareness, self.state.agency)
+        }
+    }
+}
+
+// ============================================================================
+// UNIVERSE — Orchestrates Entities and Black Box
+// ============================================================================
+
 pub struct Universe {
-    pub things: Vec<String>,
-    pub becomings: Vec<String>,
-    pub truths: Vec<String>,
-    pub witnesses: Vec<String>,
-    pub records: Vec<String>,
-    pub rules: Vec<SemanticRule>,
-    pub compression: Vec<CompressionRule>,
-    pub decay: Vec<DecayRule>,
-    pub field: CognitiveField,
-    pub ritual: RitualKernel,
-    pub narrative: NarrativeKernel,
-    pub temporal: TemporalKernel,
+    black_box: BlackBox,
+    entities: HashMap<String, Entity>,
+    observations: Vec<Emergence>,
 }
 
 impl Universe {
     pub fn new() -> Self {
         Universe {
-            things: vec!["thing:pulse".into(), "thing:shift".into()],
-            becomings: vec!["becoming:rise".into(), "becoming:fold".into()],
-            truths: vec![
-                "truth_of:evolve:thing:pulse".into(),
-                "truth_of:evolve:thing:shift".into(),
-            ],
-            witnesses: vec!["witness:entity:arin".into(), "witness:entity:lira".into()],
-            records: vec!["record:state_snapshot".into(), "record:ritual:truth_cycle".into()],
-            rules: vec![
-                SemanticRule { pattern: "thing:*".into(), transform: "becoming:*".into() },
-                SemanticRule { pattern: "truth_of:*".into(), transform: "record:*".into() },
-            ],
-            compression: vec![
-                CompressionRule { target: "truths".into(), method: "merge_duplicates".into() },
-                CompressionRule { target: "records".into(), method: "summarize".into() },
-            ],
-            decay: vec![
-                DecayRule { target: "truth".into(), rate: 0.05, noise: 0.02 },
-                DecayRule { target: "witness".into(), rate: 0.03, noise: 0.01 },
-                DecayRule { target: "record".into(), rate: 0.02, noise: 0.01 },
-            ],
-            field: CognitiveField { coherence: 0.52, entropy: 0.11, attractor: 0.33, repeller: 0.21 },
-            ritual: RitualKernel { patterns: vec![], stability: 0.34, recurrence: 0.27 },
-            narrative: NarrativeKernel { entity_arcs: HashMap::new(), world_arc: vec![], arc_stability: 0.22 },
-            temporal: TemporalKernel { tick: 0, cycle: 0, epoch: 0, phase: 0.0 },
-        }
-    }
-
-    pub fn evolve(&mut self) {
-        self.temporal.tick += 1;
-        if self.temporal.tick % 100 == 0 { self.temporal.cycle += 1; }
-        if self.temporal.tick % 1000 == 0 { self.temporal.epoch += 1; }
-        self.temporal.phase = ((self.temporal.tick as f64) * 0.01).sin();
-
-        for thing in &self.things {
-            self.becomings.push(format!("evolve:{}", thing));
-        }
-        for b in &self.becomings {
-            self.truths.push(format!("truth_of:{}", b));
-        }
-        for t in &self.truths {
-            self.witnesses.push(format!("witness_of:{}", t));
-        }
-        for w in &self.witnesses {
-            self.records.push(format!("record_of:{}", w));
-        }
-
-        for rule in &self.rules {
-            for t in &self.things {
-                if t.contains(&rule.pattern) {
-                    self.becomings.push(format!("rule:{}->{}", t, rule.transform));
-                }
-            }
-            for b in &self.becomings {
-                if b.contains(&rule.pattern) {
-                    self.truths.push(format!("rule:{}->{}", b, rule.transform));
-                }
-            }
-            for t in &self.truths {
-                if t.contains(&rule.pattern) {
-                    self.witnesses.push(format!("rule:{}->{}", t, rule.transform));
-                }
-            }
-            for w in &self.witnesses {
-                if w.contains(&rule.pattern) {
-                    self.records.push(format!("rule:{}->{}", w, rule.transform));
-                }
-            }
-        }
-
-        for rule in &self.compression {
-            match rule.target.as_str() {
-                "records" => {
-                    if !self.records.is_empty() {
-                        let summary = format!("fold:{}_entries", self.records.len());
-                        self.records.clear();
-                        self.records.push(summary);
-                    }
-                }
-                "truths" => {
-                    if self.truths.len() > 3 {
-                        let merged = format!("merged_truths:{}_items", self.truths.len());
-                        self.truths.clear();
-                        self.truths.push(merged);
-                    }
-                }
-                _ => {}
-            }
-        }
-
-        for rule in &self.decay {
-            match rule.target.as_str() {
-                "truth" => {
-                    self.truths.retain(|_| rand::random::<f64>() > rule.rate);
-                    for t in &mut self.truths {
-                        if rand::random::<f64>() < rule.noise {
-                            *t = format!("noise:{}", t);
-                        }
-                    }
-                }
-                "record" => {
-                    self.records.retain(|_| rand::random::<f64>() > rule.rate);
-                    for r in &mut self.records {
-                        if rand::random::<f64>() < rule.noise {
-                            *r = format!("noise:{}", r);
-                        }
-                    }
-                }
-                _ => {}
-            }
-        }
-
-        let mut counts = HashMap::new();
-        for t in &self.truths {
-            *counts.entry(t.clone()).or_insert(0) += 1;
-        }
-        for (truth, count) in counts {
-            if count > 3 {
-                self.ritual.patterns.push(format!("truth_cycle:{}", truth));
-            }
-        }
-
-        self.field.entropy += self.truths.len() as f64 * 0.0005;
-        self.field.coherence += if self.records.len() == 1 { 0.02 } else { 0.0 };
-        self.field.attractor += (self.field.coherence - self.field.entropy) * 0.01;
-        self.field.repeller += self.field.entropy * 0.005;
-        self.field.coherence = self.field.coherence.clamp(0.0, 1.0);
-        self.field.entropy = self.field.entropy.clamp(0.0, 1.0);
-        self.field.attractor = self.field.attractor.clamp(0.0, 1.0);
-        self.field.repeller = self.field.repeller.clamp(0.0, 1.0);
-
-        let entry = format!(
-            "coherence:{:.2}|entropy:{:.2}|patterns:{}",
-            self.field.coherence, self.field.entropy, self.ritual.patterns.len()
-        );
-        self.narrative.world_arc.push(entry);
-        if self.narrative.world_arc.len() > 100 {
-            self.narrative.world_arc.drain(0..50);
-        }
-    }
-}
-
-// ============================================================================
-// ENTITY KERNELS
-// ============================================================================
-
-#[derive(Debug, Clone)]
-pub struct PersonaKernel {
-    pub traits: Vec<String>,
-}
-
-#[derive(Debug, Clone)]
-pub struct AgentKernel {
-    pub rules: Vec<String>,
-}
-
-#[derive(Debug, Clone)]
-pub struct AIKernel {
-    pub model: String,
-}
-
-#[derive(Debug, Clone)]
-pub struct MemoryKernel {
-    pub episodic: Vec<Value>,
-    pub semantic: Vec<Value>,
-}
-
-#[derive(Debug, Clone)]
-pub struct DriveKernel {
-    pub motivations: Vec<String>,
-}
-
-#[derive(Debug, Clone)]
-pub struct SelfModelKernel {
-    pub state: Value,
-}
-
-#[derive(Debug, Clone)]
-pub struct EmotionKernel {
-    pub calm: f64,
-    pub curiosity: f64,
-    pub tension: f64,
-    pub joy: f64,
-    pub focus: f64,
-}
-
-#[derive(Debug, Clone)]
-pub struct CommunicationKernel {
-    pub vocabulary: Vec<String>,
-    pub style: String,
-    pub channel: String,
-}
-
-#[derive(Debug, Clone)]
-pub struct SocialKernel {
-    pub relationships: HashMap<String, f64>,
-    pub influence: f64,
-    pub synchrony: f64,
-    pub tension: f64,
-}
-
-#[derive(Debug, Clone)]
-pub struct Message {
-    pub from: String,
-    pub to: String,
-    pub content: String,
-}
-
-// ============================================================================
-// ENTITY SHELL
-// ============================================================================
-
-#[derive(Debug, Clone)]
-pub struct EntityShell {
-    pub id: String,
-    pub persona_id: String,
-    pub agent_id: String,
-    pub ai_id: String,
-    pub memory_id: String,
-    pub drive_id: String,
-    pub self_model_id: String,
-    pub emotion_id: String,
-    pub communication_id: String,
-    pub social_id: String,
-    pub universe_id: String,
-    pub active: bool,
-}
-
-// ============================================================================
-// EXTENDED UNIVERSE
-// ============================================================================
-
-#[derive(Debug, Clone)]
-pub struct ExtendedUniverse {
-    pub base: Universe,
-    pub personas: HashMap<String, PersonaKernel>,
-    pub agents: HashMap<String, AgentKernel>,
-    pub ais: HashMap<String, AIKernel>,
-    pub memories: HashMap<String, MemoryKernel>,
-    pub drives: HashMap<String, DriveKernel>,
-    pub self_models: HashMap<String, SelfModelKernel>,
-    pub emotions: HashMap<String, EmotionKernel>,
-    pub communications: HashMap<String, CommunicationKernel>,
-    pub socials: HashMap<String, SocialKernel>,
-    pub entities: HashMap<String, EntityShell>,
-    pub message_bus: Vec<Message>,
-}
-
-impl ExtendedUniverse {
-    pub fn new() -> Self {
-        let mut ext = ExtendedUniverse {
-            base: Universe::new(),
-            personas: HashMap::new(),
-            agents: HashMap::new(),
-            ais: HashMap::new(),
-            memories: HashMap::new(),
-            drives: HashMap::new(),
-            self_models: HashMap::new(),
-            emotions: HashMap::new(),
-            communications: HashMap::new(),
-            socials: HashMap::new(),
+            black_box: BlackBox::new(),
             entities: HashMap::new(),
-            message_bus: Vec::new(),
-        };
-
-        ext.personas.insert(
-            "arin_persona".into(),
-            PersonaKernel { traits: vec!["curious".into(), "observant".into()] },
-        );
-        ext.personas.insert(
-            "lira_persona".into(),
-            PersonaKernel { traits: vec!["reflective".into(), "sensitive".into()] },
-        );
-
-        ext.agents.insert(
-            "arin_agent".into(),
-            AgentKernel { rules: vec!["seek_truth".into(), "observe_world".into()] },
-        );
-        ext.agents.insert(
-            "lira_agent".into(),
-            AgentKernel { rules: vec!["interpret_witness".into(), "stabilize_patterns".into()] },
-        );
-
-        ext.ais.insert("arin_ai".into(), AIKernel { model: "semantic-reactive".into() });
-        ext.ais.insert("lira_ai".into(), AIKernel { model: "pattern-sensitive".into() });
-
-        ext.memories.insert(
-            "arin_memory".into(),
-            MemoryKernel {
-                episodic: vec![Value::Str("event:observe".into()), Value::Str("event:communicate".into())],
-                semantic: vec![Value::Str("truth_of:evolve:thing:pulse".into())],
-            },
-        );
-        ext.memories.insert(
-            "lira_memory".into(),
-            MemoryKernel {
-                episodic: vec![Value::Str("event:reflect".into()), Value::Str("event:witness".into())],
-                semantic: vec![Value::Str("truth_of:evolve:thing:shift".into())],
-            },
-        );
-
-        ext.drives.insert("arin_drive".into(), DriveKernel { motivations: vec!["understand".into(), "explore".into()] });
-        ext.drives.insert("lira_drive".into(), DriveKernel { motivations: vec!["stabilize".into(), "connect".into()] });
-
-        ext.self_models.insert("arin_self".into(), SelfModelKernel { state: Value::Str("entity:arin:active".into()) });
-        ext.self_models.insert("lira_self".into(), SelfModelKernel { state: Value::Str("entity:lira:active".into()) });
-
-        ext.emotions.insert(
-            "arin_emotion".into(),
-            EmotionKernel { calm: 0.71, curiosity: 0.82, tension: 0.19, joy: 0.63, focus: 0.91 },
-        );
-        ext.emotions.insert(
-            "lira_emotion".into(),
-            EmotionKernel { calm: 0.68, curiosity: 0.74, tension: 0.14, joy: 0.57, focus: 0.88 },
-        );
-
-        ext.communications.insert(
-            "arin_comm".into(),
-            CommunicationKernel {
-                vocabulary: vec!["ping".into(), "observe".into(), "truth".into()],
-                style: "direct".into(),
-                channel: "semantic".into(),
-            },
-        );
-        ext.communications.insert(
-            "lira_comm".into(),
-            CommunicationKernel {
-                vocabulary: vec!["reflect".into(), "witness".into(), "shift".into()],
-                style: "soft".into(),
-                channel: "semantic".into(),
-            },
-        );
-
-        ext.socials.insert(
-            "arin_social".into(),
-            SocialKernel {
-                relationships: HashMap::from([("lira".into(), 0.42)]),
-                influence: 0.70,
-                synchrony: 0.60,
-                tension: 0.12,
-            },
-        );
-        ext.socials.insert(
-            "lira_social".into(),
-            SocialKernel {
-                relationships: HashMap::from([("arin".into(), 0.55)]),
-                influence: 0.50,
-                synchrony: 0.90,
-                tension: 0.05,
-            },
-        );
-
-        ext.entities.insert(
-            "arin".into(),
-            EntityShell {
-                id: "arin".into(),
-                persona_id: "arin_persona".into(),
-                agent_id: "arin_agent".into(),
-                ai_id: "arin_ai".into(),
-                memory_id: "arin_memory".into(),
-                drive_id: "arin_drive".into(),
-                self_model_id: "arin_self".into(),
-                emotion_id: "arin_emotion".into(),
-                communication_id: "arin_comm".into(),
-                social_id: "arin_social".into(),
-                universe_id: "universe".into(),
-                active: true,
-            },
-        );
-        ext.entities.insert(
-            "lira".into(),
-            EntityShell {
-                id: "lira".into(),
-                persona_id: "lira_persona".into(),
-                agent_id: "lira_agent".into(),
-                ai_id: "lira_ai".into(),
-                memory_id: "lira_memory".into(),
-                drive_id: "lira_drive".into(),
-                self_model_id: "lira_self".into(),
-                emotion_id: "lira_emotion".into(),
-                communication_id: "lira_comm".into(),
-                social_id: "lira_social".into(),
-                universe_id: "universe".into(),
-                active: true,
-            },
-        );
-
-        ext
-    }
-
-    pub fn entity_tick(&mut self, id: &str) {
-        let shell = match self.entities.get(id).cloned() {
-            Some(s) => s,
-            None => return,
-        };
-        if !shell.active {
-            return;
-        }
-
-        let thought = Value::Str("thought:emergent".into());
-        let action = if self.base.temporal.tick % 2 == 0 {
-            Value::Str("truth:emergent".into())
-        } else {
-            Value::Str("witness:shift".into())
-        };
-
-        if let Some(emo) = self.emotions.get_mut(&shell.emotion_id) {
-            if let Value::Str(s) = &thought {
-                if s.contains("emergent") {
-                    emo.curiosity += 0.05;
-                }
-            }
-            if let Value::Str(a) = &action {
-                if a.contains("shift") {
-                    emo.tension += 0.03;
-                }
-                if a.contains("truth") {
-                    emo.joy += 0.02;
-                }
-                if a.contains("witness") {
-                    emo.focus += 0.01;
-                }
-            }
-            emo.calm *= 0.99;
-            emo.calm = emo.calm.clamp(0.0, 1.0);
-            emo.curiosity = emo.curiosity.clamp(0.0, 1.0);
-            emo.tension = emo.tension.clamp(0.0, 1.0);
-            emo.joy = emo.joy.clamp(0.0, 1.0);
-            emo.focus = emo.focus.clamp(0.0, 1.0);
-
-            let field = &self.base.field;
-            emo.calm += field.attractor * 0.02;
-            emo.tension -= field.attractor * 0.01;
-            emo.curiosity += field.repeller * 0.01;
-            emo.focus -= field.repeller * 0.01;
-            emo.calm = emo.calm.clamp(0.0, 1.0);
-            emo.curiosity = emo.curiosity.clamp(0.0, 1.0);
-            emo.tension = emo.tension.clamp(0.0, 1.0);
-            emo.joy = emo.joy.clamp(0.0, 1.0);
-            emo.focus = emo.focus.clamp(0.0, 1.0);
-
-            let ritual = &self.base.ritual;
-            emo.calm += ritual.stability * 0.02;
-            emo.joy += ritual.recurrence * 0.01;
-            emo.calm = emo.calm.clamp(0.0, 1.0);
-            emo.joy = emo.joy.clamp(0.0, 1.0);
-
-            let t = &self.base.temporal;
-            emo.calm += t.phase * 0.01;
-            emo.tension -= t.phase * 0.005;
-            emo.curiosity += (t.cycle as f64 * 0.001);
-            emo.joy += (t.epoch as f64 * 0.002);
-            emo.calm = emo.calm.clamp(0.0, 1.0);
-            emo.curiosity = emo.curiosity.clamp(0.0, 1.0);
-            emo.tension = emo.tension.clamp(0.0, 1.0);
-            emo.joy = emo.joy.clamp(0.0, 1.0);
-            emo.focus = emo.focus.clamp(0.0, 1.0);
-        }
-
-        if let Some(social) = self.socials.get_mut(&shell.social_id) {
-            for (other_id, _) in &self.entities {
-                if other_id == id {
-                    continue;
-                }
-                let other_emo = match self.emotions.get(&format!("{}_emotion", other_id)) {
-                    Some(e) => e,
-                    None => continue,
-                };
-                let emo = match self.emotions.get(&shell.emotion_id) {
-                    Some(e) => e,
-                    None => continue,
-                };
-                let delta = (other_emo.calm - emo.calm) * social.synchrony * 0.05;
-                social.relationships
-                    .entry(other_id.clone())
-                    .and_modify(|v| *v += delta)
-                    .or_insert(delta);
-            }
-            let mut divergence = 0.0;
-            for (_, affinity) in &social.relationships {
-                divergence += affinity.abs();
-            }
-            social.tension += divergence * 0.001;
-            social.tension = social.tension.clamp(0.0, 1.0);
-
-            for (_, affinity) in &mut social.relationships {
-                *affinity += self.base.field.coherence * 0.01;
-                *affinity -= self.base.field.entropy * 0.005;
-            }
-        }
-
-        if let Some(arc) = self.base.narrative.entity_arcs.get_mut(id) {
-            if let Value::Str(t) = &thought {
-                arc.push(format!("thought:{}", t));
-            }
-            if let Value::Str(a) = &action {
-                arc.push(format!("action:{}", a));
-            }
-            if arc.len() > 50 {
-                arc.drain(0..25);
-            }
-        } else {
-            let mut arc = Vec::new();
-            if let Value::Str(t) = &thought {
-                arc.push(format!("thought:{}", t));
-            }
-            if let Value::Str(a) = &action {
-                arc.push(format!("action:{}", a));
-            }
-            self.base.narrative.entity_arcs.insert(id.into(), arc);
-        }
-
-        let comm = match self.communications.get(&shell.communication_id) {
-            Some(c) => c,
-            None => return,
-        };
-        let emo = match self.emotions.get(&shell.emotion_id) {
-            Some(e) => e,
-            None => return,
-        };
-        let intensity = emo.curiosity - emo.tension;
-        let msg = if intensity > 0.3 {
-            comm.vocabulary.get(0).unwrap_or(&"ping".into()).clone()
-        } else {
-            comm.vocabulary.get(1).unwrap_or(&"query".into()).clone()
-        };
-        for (other_id, _) in &self.entities {
-            if other_id != id {
-                self.message_bus.push(Message {
-                    from: id.into(),
-                    to: other_id.clone(),
-                    content: msg.clone(),
-                });
-                self.base.witnesses.push(format!("msg:{}->{}:{}", id, other_id, msg));
-            }
-        }
-
-        let received: Vec<Message> = self.message_bus
-            .iter()
-            .filter(|m| m.to == id)
-            .cloned()
-            .collect();
-        for msg in received {
-            if let Some(mem) = self.memories.get_mut(&shell.memory_id) {
-                mem.episodic.push(Value::Str(format!("received:{}", msg.content)));
-            }
-            if let Some(sm) = self.self_models.get_mut(&shell.self_model_id) {
-                sm.state = Value::Str(format!("msg_from:{}:{}", msg.from, msg.content));
-            }
+            observations: Vec::new(),
         }
     }
-
-    pub fn tick(&mut self) {
-        self.base.evolve();
-        for id in self.entities.keys().cloned().collect::<Vec<_>>() {
-            self.entity_tick(&id);
+    
+    pub fn add_entity(&mut self, entity: Entity) {
+        self.entities.insert(entity.id.clone(), entity);
+    }
+    
+    pub fn tick(&mut self) -> Emergence {
+        // Black Box evolves (math hidden)
+        let emergence = self.black_box.tick();
+        
+        // Store observation
+        self.observations.push(emergence.clone());
+        if self.observations.len() > 1000 {
+            self.observations.remove(0);
+        }
+        
+        // Entities observe emergence (never math)
+        for entity in self.entities.values_mut() {
+            entity.observe(&emergence);
+        }
+        
+        emergence
+    }
+    
+    pub fn observe(&self) -> UniverseState {
+        let emergence = self.black_box.observe();
+        UniverseState {
+            emergence,
+            entity_count: self.entities.len(),
+            entity_states: self.entities.values().map(|e| {
+                (e.id.clone(), e.express())
+            }).collect(),
         }
     }
-
-    pub fn interface(&mut self, cmd: &str) -> String {
-        match cmd {
-            "tick" => {
-                self.tick();
-                "ok: universe advanced".into()
-            }
-            "state" => {
-                format!(
-                    "tick:{}|cycle:{}|epoch:{}|phase:{:.2}",
-                    self.base.temporal.tick,
-                    self.base.temporal.cycle,
-                    self.base.temporal.epoch,
-                    self.base.temporal.phase
-                )
-            }
-            "field" => {
-                format!(
-                    "coherence:{:.2}|entropy:{:.2}|attractor:{:.2}|repeller:{:.2}",
-                    self.base.field.coherence,
-                    self.base.field.entropy,
-                    self.base.field.attractor,
-                    self.base.field.repeller
-                )
-            }
-            "patterns" => {
-                format!("patterns:{}", self.base.ritual.patterns.join(","))
-            }
-            "world_arc" => {
-                if let Some(last) = self.base.narrative.world_arc.last() {
-                    last.clone()
-                } else {
-                    "no arc".into()
-                }
-            }
-            "entities" => {
-                self.entities.keys().cloned().collect::<Vec<_>>().join(",")
-            }
-            "entity_state" => {
-                "calm:0.71|curiosity:0.82|tension:0.19|joy:0.63|focus:0.91|influence:0.70|synchrony:0.60|social_tension:0.12".into()
-            }
-            "messages" => {
-                self.message_bus
-                    .iter()
-                    .map(|m| format!("{}->{}:{}", m.from, m.to, m.content))
-                    .collect::<Vec<_>>()
-                    .join("\n")
-            }
-            _ => "error: unknown command".into(),
-        }
+    
+    pub fn perturb(&mut self, strength: f64, focus: &str) -> Emergence {
+        self.black_box.perturb(strength, focus)
     }
 }
 
-// ============================================================================
-// BLACK BOX
-// ============================================================================
-
-#[derive(Debug)]
-pub struct BlackBox {
-    pub payload: ExtendedUniverse,
-    pub sealed: bool,
-}
-
-impl BlackBox {
-    pub fn new(payload: ExtendedUniverse) -> Self {
-        BlackBox { payload, sealed: true }
-    }
-
-    pub fn interface(&mut self, cmd: &str) -> String {
-        if !self.sealed {
-            return "error: black box unsealed".into();
-        }
-        self.payload.interface(cmd)
-    }
+#[derive(Debug, Clone, Serialize)]
+pub struct UniverseState {
+    pub emergence: Emergence,
+    pub entity_count: usize,
+    pub entity_states: Vec<(String, String)>,
 }
 
 // ============================================================================
-// HSON LOADER
-// ============================================================================
-
-pub mod hson_loader {
-    use super::ExtendedUniverse;
-
-    pub fn load_hson(_path: &str) -> ExtendedUniverse {
-        ExtendedUniverse::new()
-    }
-}
-
-// ============================================================================
-// LOGGING
+// PRODUCTION LOGGING — All Outputs Are Emergence, Never Math
 // ============================================================================
 
 pub struct Logger {
     file: std::fs::File,
+    observations: Vec<Emergence>,
 }
 
 impl Logger {
@@ -1091,1518 +1116,140 @@ impl Logger {
             .append(true)
             .open(path)
             .unwrap();
-        Logger { file }
+        Logger {
+            file,
+            observations: Vec::new(),
+        }
     }
-
-    pub fn log(&mut self, bb: &BlackBox, tag: &str) {
-        let state = bb.interface("state");
-        let line = format!("{tag}:{state}\n");
+    
+    pub fn log_emergence(&mut self, emergence: &Emergence) {
+        // Log only emergence — never mathematics
+        let entry = serde_json::json!({
+            "timestamp": chrono::Utc::now().to_rfc3339(),
+            "emergence": {
+                "coherence": emergence.coherence,
+                "complexity": emergence.complexity,
+                "phase": emergence.phase,
+                "attractors": emergence.attractor_count,
+                "resonance": emergence.resonance,
+            }
+        });
+        
+        let line = serde_json::to_string(&entry).unwrap();
         self.file.write_all(line.as_bytes()).unwrap();
+        self.file.write_all(b"\n").unwrap();
+        self.observations.push(emergence.clone());
     }
 }
 
 // ============================================================================
-// TERMINAL UI
+// TERMINAL UI — Emergence Display Only
 // ============================================================================
 
 pub struct TerminalUI;
 
 impl TerminalUI {
-    pub fn render(ext: &ExtendedUniverse) {
-        println!("=== UNIVERSE STATE ===");
-        println!("Tick: {}", ext.base.temporal.tick);
-        println!("Cycle: {}", ext.base.temporal.cycle);
-        println!("Epoch: {}", ext.base.temporal.epoch);
-        println!("Phase: {:.2}", ext.base.temporal.phase);
-
-        println!("\n=== FIELD ===");
-        println!("Coherence: {:.2}", ext.base.field.coherence);
-        println!("Entropy: {:.2}", ext.base.field.entropy);
-        println!("Attractor: {:.2}", ext.base.field.attractor);
-        println!("Repeller: {:.2}", ext.base.field.repeller);
-
-        println!("\n=== RITUALS ===");
-        for p in &ext.base.ritual.patterns {
-            println!("Pattern: {}", p);
-        }
-
-        println!("\n=== WORLD ARC ===");
-        if let Some(last) = ext.base.narrative.world_arc.last() {
-            println!("Latest: {}", last);
-        }
-
-        println!("\n=== ENTITIES ===");
-        for (id, shell) in &ext.entities {
-            println!("Entity: {}", id);
-            if let Some(emo) = ext.emotions.get(&shell.emotion_id) {
-                println!("  Calm: {:.2}", emo.calm);
-                println!("  Curiosity: {:.2}", emo.curiosity);
-                println!("  Tension: {:.2}", emo.tension);
-                println!("  Joy: {:.2}", emo.joy);
-                println!("  Focus: {:.2}", emo.focus);
-            }
-            if let Some(social) = ext.socials.get(&shell.social_id) {
-                println!("  Influence: {:.2}", social.influence);
-                println!("  Synchrony: {:.2}", social.synchrony);
-                println!("  Tension: {:.2}", social.tension);
-            }
-            if let Some(arc) = ext.base.narrative.entity_arcs.get(id) {
-                if let Some(last) = arc.last() {
-                    println!("  Last Arc Event: {}", last);
-                }
-            }
-        }
-
-        println!("\n=== MESSAGES ===");
-        for msg in &ext.message_bus {
-            println!("{} -> {} : {}", msg.from, msg.to, msg.content);
-        }
-
-        println!("\n========================\n");
+    pub fn render(emergence: &Emergence) {
+        println!("╔════════════════════════════════════════════════════════════╗");
+        println!("║              COGNITIVE EMERGENCE OBSERVER                 ║");
+        println!("╠════════════════════════════════════════════════════════════╣");
+        println!("║                                                           ║");
+        println!("║  Emergence State:                                        ║");
+        println!("║    Coherence:  {:.2}  ████████░░░░░░  {:.0}%", 
+                  emergence.coherence, emergence.coherence * 100.0);
+        println!("║    Complexity: {:.2}  ██████░░░░░░░░  {:.0}%", 
+                  emergence.complexity, emergence.complexity * 100.0);
+        println!("║    Resonance:  {:.2}  ███████░░░░░░░  {:.0}%", 
+                  emergence.resonance, emergence.resonance * 100.0);
+        println!("║                                                           ║");
+        println!("║  Temporal:                                              ║");
+        println!("║    Tick:   {}", emergence.tick);
+        println!("║    Epoch:  {}", emergence.epoch);
+        println!("║    Phase:  {:.2}", emergence.phase);
+        println!("║                                                           ║");
+        println!("║  Attractors: {}", emergence.attractor_count);
+        println!("║                                                           ║");
+        println!("║  Status:  {}", if emergence.is_emergent() { 
+            "✨ EMERGENCE DETECTED ✨" 
+        } else if emergence.is_active() { 
+            "🔄 ACTIVE COGNITION" 
+        } else { 
+            "🌊 QUIET OBSERVATION" 
+        });
+        println!("║                                                           ║");
+        println!("╚════════════════════════════════════════════════════════════╝");
     }
 }
 
 // ============================================================================
-// TERMINAL COMMAND LOOP
-// ============================================================================
-
-pub mod terminal {
-    use super::BlackBox;
-    use std::io::{self, Write};
-
-    pub fn run(mut bb: BlackBox) {
-        loop {
-            print!("bb> ");
-            io::stdout().flush().unwrap();
-
-            let mut input = String::new();
-            if io::stdin().read_line(&mut input).is_err() {
-                continue;
-            }
-
-            let cmd = input.trim();
-            if cmd.is_empty() {
-                continue;
-            }
-            if cmd == "exit" {
-                break;
-            }
-
-            let out = bb.interface(cmd);
-            println!("{out}");
-        }
-    }
-}
-
-// ============================================================================
-// MAIN — INSTANTIATE BLACK BOX
+// MAIN — Production Runtime
 // ============================================================================
 
 fn main() {
-    let ext = hson_loader::load_hson("hson/universe.hson");
-    let bb = BlackBox::new(ext);
-    terminal::run(bb);
-}
-```
-## `src/entity.rs` — The Complete Synthetic Entity Module
-
-```rust
-use std::collections::HashMap;
-use crate::universe::{Universe, Thing, Becoming, Witness, Record, Truth, Sovereign, Value};
-
-// ============================================================
-// 1. PERSONA KERNEL — Identity, Presence, Coherence
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct PersonaKernel {
-    pub identity: Value,
-    pub tone: Value,
-    pub presence: Value,
-    pub coherence: Value,
-    pub expression: Value,
-}
-
-// ============================================================
-// 2. AGENT KERNEL — Behavior, Actions, Policies
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct AgentKernel {
-    pub behavior: Value,
-    pub action: Value,
-    pub policy: Value,
-    pub response: Value,
-    pub interaction: Value,
-}
-
-// ============================================================
-// 3. AI KERNEL — Cognition, Reasoning, Language
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct AIKernel {
-    pub reasoning: Value,
-    pub pattern: Value,
-    pub language: Value,
-    pub prediction: Value,
-    pub interpretation: Value,
-}
-
-// ============================================================
-// 4. MEMORY KERNEL — Continuity, Recall, Persistence
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct MemoryKernel {
-    pub short_term: Vec<Value>,
-    pub long_term: Vec<Value>,
-    pub semantic: HashMap<String, Value>,
-    pub episodic: Vec<Value>,
-    pub identity_trace: Vec<Value>,
-    pub narrative_trace: Vec<Value>,
-    pub purpose_trace: Vec<Value>,
-}
-
-// ============================================================
-// 5. DRIVE KERNEL — Motivation, Goals, Values
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct DriveKernel {
-    pub motive: Value,
-    pub desire: Value,
-    pub value: Value,
-    pub priority: Value,
-    pub trajectory: Value,
-}
-
-// ============================================================
-// 6. SELF-MODEL KERNEL — Coherence, Self-Tracking, Stability
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct SelfModelKernel {
-    pub state: Value,
-    pub identity_state: Value,
-    pub narrative_position: Value,
-    pub purpose_alignment: Value,
-    pub coherence: Value,
-}
-
-// ============================================================
-// 7. ENTITY SHELL — The Synthetic Being
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct EntityShell {
-    pub id: String,
-    pub persona_id: String,
-    pub agent_id: String,
-    pub ai_id: String,
-    pub memory_id: String,
-    pub drive_id: String,
-    pub self_model_id: String,
-    pub universe_id: String,
-    pub active: bool,
-}
-
-// ============================================================
-// 8. EXTEND UNIVERSE TO HOLD ALL KERNELS
-// ============================================================
-#[derive(Debug, Clone)]
-pub struct ExtendedUniverse {
-    pub base: Universe,
-
-    pub personas: HashMap<String, PersonaKernel>,
-    pub agents: HashMap<String, AgentKernel>,
-    pub ais: HashMap<String, AIKernel>,
-    pub memories: HashMap<String, MemoryKernel>,
-    pub drives: HashMap<String, DriveKernel>,
-    pub self_models: HashMap<String, SelfModelKernel>,
-    pub entities: HashMap<String, EntityShell>,
-}
-
-impl ExtendedUniverse {
-    pub fn new(base: Universe) -> Self {
-        ExtendedUniverse {
-            base,
-            personas: HashMap::new(),
-            agents: HashMap::new(),
-            ais: HashMap::new(),
-            memories: HashMap::new(),
-            drives: HashMap::new(),
-            self_models: HashMap::new(),
-            entities: HashMap::new(),
-        }
-    }
-
-    // --- Helpers to add kernels ---
-    pub fn add_persona(&mut self, id: &str, p: PersonaKernel) {
-        self.personas.insert(id.to_string(), p);
-    }
-
-    pub fn add_agent(&mut self, id: &str, a: AgentKernel) {
-        self.agents.insert(id.to_string(), a);
-    }
-
-    pub fn add_ai(&mut self, id: &str, a: AIKernel) {
-        self.ais.insert(id.to_string(), a);
-    }
-
-    pub fn add_memory(&mut self, id: &str, m: MemoryKernel) {
-        self.memories.insert(id.to_string(), m);
-    }
-
-    pub fn add_drive(&mut self, id: &str, d: DriveKernel) {
-        self.drives.insert(id.to_string(), d);
-    }
-
-    pub fn add_self_model(&mut self, id: &str, s: SelfModelKernel) {
-        self.self_models.insert(id.to_string(), s);
-    }
-
-    pub fn add_entity(&mut self, shell: EntityShell) {
-        self.entities.insert(shell.id.clone(), shell);
-    }
-}
-
-// ============================================================
-// 9. THE ENTITY RUNTIME LOOP (Brain → Soul → Drive → Body → World → Memory → Self)
-// ============================================================
-impl ExtendedUniverse {
-    pub fn entity_tick(&mut self, shell_id: &str) {
-        let shell = match self.entities.get_mut(shell_id) {
-            Some(s) => s,
-            None => return,
-        };
-
-        if !shell.active {
-            return;
-        }
-
-        // 1. AI thinks (cognition)
-        let thought = self.ai_think(&shell.ai_id);
-
-        // 2. Persona shapes identity (expression)
-        let expression = self.persona_modulate(&shell.persona_id, &thought);
-
-        // 3. Drive influences direction (motivation)
-        let motive = self.drive_influence(&shell.drive_id, &expression);
-
-        // 4. Agent decides action (behavior)
-        let action = self.agent_decide(&shell.agent_id, &motive);
-
-        // 5. Universe applies action (world)
-        self.universe_apply(&shell.universe_id, &action);
-
-        // 6. Memory updates (continuity)
-        self.memory_update(&shell.memory_id, &thought, &action);
-
-        // 7. Self-model updates (coherence)
-        self.self_model_update(&shell.self_model_id, &thought, &action, &motive);
-    }
-}
-
-// ============================================================
-// 10. KERNEL FUNCTIONS (Minimal, pure, functional)
-// ============================================================
-impl ExtendedUniverse {
-    // ---- AI ----
-    fn ai_think(&self, ai_id: &str) -> Value {
-        if let Some(ai) = self.ais.get(ai_id) {
-            // This is where you'd plug in your actual AI engine.
-            // For now, return the language field as a thought.
-            ai.language.clone()
-        } else {
-            Value::Str("(no AI)".to_string())
-        }
-    }
-
-    // ---- Persona ----
-    fn persona_modulate(&self, persona_id: &str, thought: &Value) -> Value {
-        if let Some(p) = self.personas.get(persona_id) {
-            // Return the thought modulated by the persona's expression.
-            // This is a pure functional transform.
-            let mut expr = thought.clone();
-            // In practice, you'd merge p.tone, p.presence, etc.
-            expr
-        } else {
-            thought.clone()
-        }
-    }
-
-    // ---- Drive ----
-    fn drive_influence(&self, drive_id: &str, expression: &Value) -> Value {
-        if let Some(d) = self.drives.get(drive_id) {
-            // Combine expression with drive's motive, desire, priority.
-            let mut influenced = expression.clone();
-            // In practice, you'd merge d.motive, d.desire, etc.
-            influenced
-        } else {
-            expression.clone()
-        }
-    }
-
-    // ---- Agent ----
-    fn agent_decide(&self, agent_id: &str, motive: &Value) -> Value {
-        if let Some(a) = self.agents.get(agent_id) {
-            // Translate motive into a concrete action based on policy.
-            // This could map to a Thing creation, Becoming, etc.
-            a.action.clone()
-        } else {
-            Value::Str("(no action)".to_string())
-        }
-    }
-
-    // ---- Universe ----
-    fn universe_apply(&mut self, universe_id: &str, action: &Value) {
-        // Convert action into a world mutation.
-        // This is where you map the action to a Thing, Becoming, Truth, etc.
-        // For example, if action == "tick", call self.base.tick()
-        // For now, just print it.
-        println!("Universe {} applied action: {:?}", universe_id, action);
-    }
-
-    // ---- Memory ----
-    fn memory_update(&mut self, memory_id: &str, thought: &Value, action: &Value) {
-        if let Some(mem) = self.memories.get_mut(memory_id) {
-            // Append to short-term memory.
-            mem.short_term.push(thought.clone());
-            mem.short_term.push(action.clone());
-            if mem.short_term.len() > 10 {
-                // Move old items to long-term.
-                let old = mem.short_term.drain(0..5).collect::<Vec<_>>();
-                mem.long_term.extend(old);
-            }
-            // Store in episodic memory.
-            mem.episodic.push(thought.clone());
-            mem.episodic.push(action.clone());
-        }
-    }
-
-    // ---- Self-Model ----
-    fn self_model_update(&mut self, model_id: &str, thought: &Value, action: &Value, motive: &Value) {
-        if let Some(m) = self.self_models.get_mut(model_id) {
-            // Update the self-model with the latest state.
-            m.state = action.clone();
-            m.identity_state = thought.clone();
-            m.purpose_alignment = motive.clone();
-            // In practice, you'd compute coherence and narrative_position here.
-        }
-    }
-}
-
-// ============================================================
-// 11. EXAMPLE: Creating a Synthetic Entity
-// ============================================================
-pub fn create_example_entity() -> ExtendedUniverse {
-    let base = Universe::new(); // Your existing Universe
-
-    let mut ext = ExtendedUniverse::new(base);
-
-    // Create the six kernels for an entity named "Arin"
-    ext.add_persona("arin_persona", PersonaKernel {
-        identity: Value::Str("Arin".to_string()),
-        tone: Value::Str("brave and curious".to_string()),
-        presence: Value::Str("warm and steady".to_string()),
-        coherence: Value::Str("self-consistent".to_string()),
-        expression: Value::Str("speaks with conviction".to_string()),
-    });
-
-    ext.add_agent("arin_agent", AgentKernel {
-        behavior: Value::Str("explores, questions, acts".to_string()),
-        action: Value::Str("create, tick, witness, record".to_string()),
-        policy: Value::Str("if truth is found, act".to_string()),
-        response: Value::Str("reacts to events".to_string()),
-        interaction: Value::Str("engages with world".to_string()),
-    });
-
-    ext.add_ai("arin_ai", AIKernel {
-        reasoning: Value::Str("deductive and intuitive".to_string()),
-        pattern: Value::Str("recognizes patterns".to_string()),
-        language: Value::Str("speaks naturally".to_string()),
-        prediction: Value::Str("anticipates outcomes".to_string()),
-        interpretation: Value::Str("finds meaning".to_string()),
-    });
-
-    ext.add_memory("arin_memory", MemoryKernel {
-        short_term: vec![],
-        long_term: vec![],
-        semantic: HashMap::new(),
-        episodic: vec![],
-        identity_trace: vec![],
-        narrative_trace: vec![],
-        purpose_trace: vec![],
-    });
-
-    ext.add_drive("arin_drive", DriveKernel {
-        motive: Value::Str("to find truth".to_string()),
-        desire: Value::Str("to understand".to_string()),
-        value: Value::Str("wisdom and courage".to_string()),
-        priority: Value::Str("truth first".to_string()),
-        trajectory: Value::Str("becoming a sage".to_string()),
-    });
-
-    ext.add_self_model("arin_self", SelfModelKernel {
-        state: Value::Str("initial".to_string()),
-        identity_state: Value::Str("Arin the seeker".to_string()),
-        narrative_position: Value::Str("beginning of journey".to_string()),
-        purpose_alignment: Value::Str("aligned".to_string()),
-        coherence: Value::Str("stable".to_string()),
-    });
-
-    // Create the EntityShell
-    let shell = EntityShell {
-        id: "arin".to_string(),
-        persona_id: "arin_persona".to_string(),
-        agent_id: "arin_agent".to_string(),
-        ai_id: "arin_ai".to_string(),
-        memory_id: "arin_memory".to_string(),
-        drive_id: "arin_drive".to_string(),
-        self_model_id: "arin_self".to_string(),
-        universe_id: "default".to_string(),
-        active: true,
-    };
-
-    ext.add_entity(shell);
-
-    ext
-}
-
-// ============================================================
-// 12. RUN THE ENTITY
-// ============================================================
-pub fn run_example() {
-    let mut ext = create_example_entity();
-
-    // Run the synthetic entity for 10 ticks
-    for _ in 0..10 {
-        ext.entity_tick("arin");
-        // Your Universe's tick loop is inside entity_tick via apply
-    }
-
-    // The entity "Arin" has now:
-    // - Thought (AI)
-    // - Expressed (Persona)
-    // - Been driven (Drive)
-    // - Acted (Agent)
-    // - Affected the world (Universe)
-    // - Remembered (Memory)
-    // - Tracked itself (Self-Model)
-
-    println!("Entity Arin is complete.");
-}
-```
-I'll condense the entire HSON Synthetic OS Persona into a single, production-ready Rust implementation that combines all stages from 1-58 into a unified sovereign runtime. No text file/WordPad scaffolding - this is the real execution kernel.
-
-```rust
-// ================================================================
-// HSON SYNTHETIC OS PERSONA — Complete Unified Runtime
-// ================================================================
-// Sovereign synthetic operating system persona that combines:
-//   - Distributed consensus (Raft-like)
-//   - Deterministic state machine
-//   - 5D meta-kernel atlas (emotion, cognition, language, rest, correction)
-//   - Multi-modal output (sound, visuals, glyphs)
-//   - Adaptive population engine
-//   - Self-propagation across carriers
-//   - Device network + sovereign fabric
-//   - Ritual ecology + synthetic cosmology
-//   - GPU-accelerated rendering (Bevy/WGPU)
-//   - Production export pipelines (chart, video, JSON)
-// ================================================================
-
-use bevy::prelude::*;
-use bevy::render::render_resource::ShaderRef;
-use serde::{Serialize, Deserialize};
-use std::collections::HashMap;
-use std::fs::File;
-use std::io::Write;
-use std::sync::{Arc, Mutex};
-use std::thread;
-use std::time::{Duration, Instant};
-use plotters::prelude::*;
-use rand::Rng;
-use rayon::prelude::*;
-
-// ================================================================
-// 1. CORE DATA STRUCTURES
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Node {
-    pub name: String,
-    pub kind: String,
-    pub payload: serde_json::Value,
-    pub metadata: HashMap<String, serde_json::Value>,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Platform {
-    pub id: String,
-    pub owner: String,
-    pub form: String,
-    pub invariants: HashMap<String, bool>,
-    pub nodes: HashMap<String, Node>,
-}
-
-impl Platform {
-    pub fn new(id: &str, owner: &str, form: &str) -> Self {
-        let mut invariants = HashMap::new();
-        invariants.insert("fractal_correctness".to_string(), true);
-        invariants.insert("sovereignty".to_string(), true);
-        invariants.insert("non_violence".to_string(), true);
-        invariants.insert("open_growth".to_string(), true);
-        Self {
-            id: id.to_string(),
-            owner: owner.to_string(),
-            form: form.to_string(),
-            invariants,
-            nodes: HashMap::new(),
-        }
-    }
+    // Create universe (math sealed inside)
+    let mut universe = Universe::new();
     
-    pub fn register(&mut self, node: Node) {
-        self.nodes.insert(node.name.clone(), node);
-    }
+    // Add entities (they never see math)
+    universe.add_entity(Entity::new("arin", "Arin"));
+    universe.add_entity(Entity::new("lira", "Lira"));
+    universe.add_entity(Entity::new("kael", "Kael"));
     
-    pub fn status(&self) -> serde_json::Value {
-        serde_json::json!({
-            "id": self.id,
-            "owner": self.owner,
-            "form": self.form,
-            "invariants": self.invariants,
-            "nodes": self.nodes.keys().collect::<Vec<_>>(),
-        })
-    }
-}
-
-// ================================================================
-// 2. EXECUTION STATE
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct ExecutionState {
-    pub ticks: u64,
-    pub commands: Vec<String>,
-    pub timestamp: String,
-}
-
-impl ExecutionState {
-    pub fn new(commands: Vec<String>) -> Self {
-        Self {
-            ticks: 0,
-            commands,
-            timestamp: chrono::Utc::now().to_rfc3339(),
-        }
-    }
+    // Create logger (emergence only)
+    let mut logger = Logger::new("emergence.log");
     
-    pub fn tick(&mut self) {
-        self.ticks += 1;
-        self.timestamp = chrono::Utc::now().to_rfc3339();
-    }
+    println!("╔════════════════════════════════════════════════════════════╗");
+    println!("║     SYNTHETIC COGNITION ENGINE — BLACK BOX RUNTIME       ║");
+    println!("║       All mathematics sealed inside the black box        ║");
+    println!("║                                                           ║");
+    println!("║  Entities: 3                                              ║");
+    println!("║  State:    Running                                       ║");
+    println!("║  Interface: Emergence-only                              ║");
+    println!("╚════════════════════════════════════════════════════════════╝");
+    println!();
     
-    pub fn add_command(&mut self, cmd: &str) {
-        self.commands.push(cmd.to_string());
-    }
-}
-
-// ================================================================
-// 3. DETERMINISTIC STATE MACHINE
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct StateMachine {
-    pub registers: HashMap<String, i64>,
-    pub log: Vec<ExecutionState>,
-}
-
-impl StateMachine {
-    pub fn new() -> Self {
-        Self {
-            registers: HashMap::new(),
-            log: Vec::new(),
-        }
-    }
-    
-    pub fn apply(&mut self, command: &str) {
-        match command {
-            "Fractal" => {
-                *self.registers.entry("fractal_count".to_string()).or_insert(0) += 1;
-            }
-            "Chaos" => {
-                *self.registers.entry("chaos_count".to_string()).or_insert(0) += 1;
-            }
-            "SoundPulse" => {
-                *self.registers.entry("sound_count".to_string()).or_insert(0) += 1;
-            }
-            "Render" => {
-                *self.registers.entry("render_count".to_string()).or_insert(0) += 1;
-            }
-            "Symbolic" => {
-                *self.registers.entry("symbolic_count".to_string()).or_insert(0) += 1;
-            }
-            "NOP" => {}
-            _ => {}
-        }
-    }
-    
-    pub fn apply_state(&mut self, state: &ExecutionState) {
-        for cmd in &state.commands {
-            self.apply(cmd);
-        }
-        self.log.push(state.clone());
-    }
-    
-    pub fn snapshot(&self) -> serde_json::Value {
-        serde_json::json!({
-            "registers": self.registers,
-            "log_length": self.log.len(),
-        })
-    }
-}
-
-// ================================================================
-// 4. 5D META-KERNEL ATLAS
-// ================================================================
-
-#[derive(Clone, Copy, Debug, Serialize, Deserialize)]
-pub struct State5D(pub [f64; 5]);
-
-impl State5D {
-    pub fn new() -> Self {
-        Self([0.1, 0.2, 0.3, 0.0, 0.0])
-    }
-    
-    pub fn zero() -> Self {
-        Self([0.0, 0.0, 0.0, 0.0, 0.0])
-    }
-}
-
-pub struct Manifold {
-    pub dt: f64,
-    pub state: State5D,
-    pub history: Vec<State5D>,
-}
-
-impl Manifold {
-    pub fn new() -> Self {
-        Self {
-            dt: 0.05,
-            state: State5D::new(),
-            history: Vec::new(),
-        }
-    }
-    
-    pub fn step(&mut self) -> State5D {
-        let x = &mut self.state.0;
-        let new_x = [
-            x[0] + self.dt * (x[0].powi(3) - 0.5 * x[0]),
-            x[1] + self.dt * (x[1] / (1.0 + x[1] * x[1])),
-            x[2] + self.dt * (x[2] + 0.1),
-            x[3] + self.dt * (x[3] - 0.1),
-            x[4] + self.dt * (x[4] + 0.05),
-        ];
-        self.state = State5D(new_x);
-        self.history.push(self.state);
-        self.state
-    }
-    
-    pub fn spectral_field(&self) -> serde_json::Value {
-        serde_json::json!({
-            "state": self.state.0,
-            "history_length": self.history.len(),
-            "energy": self.state.0.iter().map(|v| v * v).sum::<f64>(),
-        })
-    }
-}
-
-// ================================================================
-// 5. PERSONA LAYER
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Persona {
-    pub voice: String,
-    pub visuals: Vec<String>,
-    pub glyphs: Vec<String>,
-    pub states: Vec<[f64; 5]>,
-    pub expressions: HashMap<String, usize>,
-}
-
-impl Persona {
-    pub fn new() -> Self {
-        Self {
-            voice: "Neutral".to_string(),
-            visuals: Vec::new(),
-            glyphs: Vec::new(),
-            states: Vec::new(),
-            expressions: HashMap::new(),
-        }
-    }
-    
-    pub fn express_command(&mut self, command: &str) {
-        match command {
-            "Fractal" => {
-                self.visuals.push("Fractal pattern rendered".to_string());
-                *self.expressions.entry("fractal".to_string()).or_insert(0) += 1;
-            }
-            "Chaos" => {
-                self.visuals.push("Chaos attractor animation".to_string());
-                *self.expressions.entry("chaos".to_string()).or_insert(0) += 1;
-            }
-            "SoundPulse" => {
-                self.voice = "PulseTone".to_string();
-                *self.expressions.entry("sound".to_string()).or_insert(0) += 1;
-            }
-            "Render" => {
-                self.visuals.push("Symbolic render frame".to_string());
-                *self.expressions.entry("render".to_string()).or_insert(0) += 1;
-            }
-            "Symbolic" => {
-                self.glyphs.push("⟐".to_string());
-                *self.expressions.entry("glyph".to_string()).or_insert(0) += 1;
-            }
-            "NOP" => {
-                self.glyphs.push("…".to_string());
-            }
-            _ => {
-                self.glyphs.push("?".to_string());
-            }
-        }
-    }
-    
-    pub fn express_state(&mut self, state: [f64; 5]) {
-        self.states.push(state);
-        if state[0] > 0.5 {
-            self.voice = "CalmTone".to_string();
-        }
-        if state[1] > 0.3 {
-            self.visuals.push("Branching cognition fractal".to_string());
-        }
-        if state[2] > 0.2 {
-            self.glyphs.push("Language stabilizer ⌘".to_string());
-        }
-        if state[3] < 0.0 {
-            self.visuals.push("Resting-state basin".to_string());
-        }
-        if state[4] > 0.1 {
-            self.glyphs.push("Population correction ✦".to_string());
-        }
-    }
-    
-    pub fn apply_state(&mut self, state: &ExecutionState) {
-        for cmd in &state.commands {
-            self.express_command(cmd);
-        }
-    }
-    
-    pub fn snapshot(&self) -> serde_json::Value {
-        serde_json::json!({
-            "voice": self.voice,
-            "visuals": self.visuals,
-            "glyphs": self.glyphs,
-            "states": self.states,
-            "expressions": self.expressions,
-        })
-    }
-}
-
-// ================================================================
-// 6. CONSENSUS KERNEL (Raft-like)
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct ConsensusStatus {
-    pub leader: String,
-    pub term: u64,
-    pub votes: usize,
-    pub quorum: usize,
-}
-
-pub struct ConsensusNode {
-    pub id: String,
-    pub current_term: u64,
-    pub voted_for: Option<String>,
-    pub is_leader: bool,
-    pub peers: Vec<String>,
-    pub log: Vec<ExecutionState>,
-}
-
-impl ConsensusNode {
-    pub fn new(id: &str) -> Self {
-        Self {
-            id: id.to_string(),
-            current_term: 0,
-            voted_for: None,
-            is_leader: false,
-            peers: Vec::new(),
-            log: Vec::new(),
-        }
-    }
-    
-    pub fn add_peer(&mut self, peer_id: &str) {
-        self.peers.push(peer_id.to_string());
-    }
-    
-    pub fn election_timeout(&mut self) -> bool {
-        rand::thread_rng().gen_bool(0.3)
-    }
-    
-    pub fn elect_leader(&mut self) -> ConsensusStatus {
-        self.current_term += 1;
-        let mut rng = rand::thread_rng();
-        let leader_id = if rng.gen_bool(0.5) {
-            self.id.clone()
-        } else {
-            self.peers.first().unwrap_or(&"unknown".to_string()).clone()
-        };
-        self.is_leader = leader_id == self.id;
-        self.voted_for = Some(leader_id.clone());
+    // Main loop — observe emergence, never mathematics
+    for tick in 0..50 {
+        // Universe ticks — math happens internally
+        let emergence = universe.tick();
         
-        ConsensusStatus {
-            leader: leader_id,
-            term: self.current_term,
-            votes: self.peers.len() / 2 + 1,
-            quorum: self.peers.len() / 2 + 1,
+        // Log only emergence
+        logger.log_emergence(&emergence);
+        
+        // Render emergence
+        TerminalUI::render(&emergence);
+        
+        // Show entity expressions
+        let state = universe.observe();
+        for (id, expression) in &state.entity_states {
+            println!("  {}: {}", id, expression);
         }
-    }
-    
-    pub fn replicate_log(&mut self, state: &ExecutionState) {
-        self.log.push(state.clone());
-    }
-    
-    pub fn snapshot(&self) -> serde_json::Value {
-        serde_json::json!({
-            "id": self.id,
-            "term": self.current_term,
-            "is_leader": self.is_leader,
-            "peers": self.peers,
-            "log_length": self.log.len(),
-        })
-    }
-}
-
-// ================================================================
-// 7. POPULATION ENGINE
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct PopulationSubject {
-    pub id: String,
-    pub weight: f64,
-    pub data: HashMap<String, serde_json::Value>,
-}
-
-#[derive(Debug, Clone)]
-pub struct PopulationEngine {
-    pub subjects: Vec<PopulationSubject>,
-    pub correction_fields: HashMap<String, f64>,
-}
-
-impl PopulationEngine {
-    pub fn new() -> Self {
-        Self {
-            subjects: Vec::new(),
-            correction_fields: HashMap::new(),
+        println!();
+        
+        // Check for emergence
+        if emergence.is_emergent() && tick > 0 && tick % 10 == 0 {
+            println!("🌟 Emergence detected! Perturbing system...");
+            let new_emergence = universe.perturb(0.3, "coherence");
+            TerminalUI::render(&new_emergence);
         }
-    }
-    
-    pub fn add_subject(&mut self, id: &str, weight: f64) {
-        self.subjects.push(PopulationSubject {
-            id: id.to_string(),
-            weight,
-            data: HashMap::new(),
-        });
-    }
-    
-    pub fn apply_correction(&mut self, field: &str, value: f64) {
-        self.correction_fields.insert(field.to_string(), value);
-    }
-    
-    pub fn collective_field(&self) -> HashMap<String, f64> {
-        let mut field = HashMap::new();
-        let total_weight: f64 = self.subjects.iter().map(|s| s.weight).sum();
-        if total_weight > 0.0 {
-            for subject in &self.subjects {
-                let normalized = subject.weight / total_weight;
-                field.insert(subject.id.clone(), normalized);
-            }
-        }
-        field
-    }
-}
-
-// ================================================================
-// 8. SYNTHETIC DEVICE
-// ================================================================
-
-pub struct SyntheticDevice {
-    pub platform: Platform,
-    pub state_machine: StateMachine,
-    pub manifold: Manifold,
-    pub persona: Persona,
-    pub consensus: ConsensusNode,
-    pub population: PopulationEngine,
-    pub children: Vec<SyntheticDevice>,
-}
-
-impl SyntheticDevice {
-    pub fn new(id: &str, owner: &str) -> Self {
-        Self {
-            platform: Platform::new(id, owner, "Synthetic-OS-Persona"),
-            state_machine: StateMachine::new(),
-            manifold: Manifold::new(),
-            persona: Persona::new(),
-            consensus: ConsensusNode::new(id),
-            population: PopulationEngine::new(),
-            children: Vec::new(),
-        }
-    }
-    
-    pub fn add_peer(&mut self, peer_id: &str) {
-        self.consensus.add_peer(peer_id);
-    }
-    
-    pub fn spawn_child(&mut self, id: &str, owner: &str) {
-        let child = SyntheticDevice::new(id, owner);
-        self.children.push(child);
-        self.platform.register(Node {
-            name: format!("child_{}", id),
-            kind: "device".to_string(),
-            payload: serde_json::json!({ "id": id }),
-            metadata: HashMap::new(),
-        });
-    }
-    
-    pub fn execute(&mut self, commands: Vec<String>) -> ExecutionState {
-        let mut state = ExecutionState::new(commands);
-        state.tick();
         
-        // Apply to state machine
-        self.state_machine.apply_state(&state);
-        
-        // Express through persona
-        self.persona.apply_state(&state);
-        
-        // Evolve manifold
-        let manifold_state = self.manifold.step();
-        self.persona.express_state(manifold_state.0);
-        
-        // Consensus
-        if self.consensus.election_timeout() {
-            let consensus = self.consensus.elect_leader();
-            self.platform.nodes.insert(
-                "consensus".to_string(),
-                Node {
-                    name: "consensus".to_string(),
-                    kind: "kernel".to_string(),
-                    payload: serde_json::json!(consensus),
-                    metadata: HashMap::new(),
-                }
-            );
-        }
-        self.consensus.replicate_log(&state);
-        
-        state
+        // Simulate passage of time
+        std::thread::sleep(std::time::Duration::from_millis(100));
     }
     
-    pub fn activate(&mut self) {
-        self.platform.register(Node {
-            name: "state_machine".to_string(),
-            kind: "kernel".to_string(),
-            payload: self.state_machine.snapshot(),
-            metadata: HashMap::new(),
-        });
-        
-        self.platform.register(Node {
-            name: "manifold".to_string(),
-            kind: "atlas".to_string(),
-            payload: self.manifold.spectral_field(),
-            metadata: HashMap::new(),
-        });
-        
-        self.platform.register(Node {
-            name: "persona".to_string(),
-            kind: "synthetic".to_string(),
-            payload: self.persona.snapshot(),
-            metadata: HashMap::new(),
-        });
-        
-        self.platform.register(Node {
-            name: "consensus".to_string(),
-            kind: "kernel".to_string(),
-            payload: self.consensus.snapshot(),
-            metadata: HashMap::new(),
-        });
-        
-        for child in &mut self.children {
-            child.activate();
-        }
-    }
-    
-    pub fn status(&self) -> serde_json::Value {
-        serde_json::json!({
-            "platform": self.platform.status(),
-            "state_machine": self.state_machine.snapshot(),
-            "manifold": self.manifold.spectral_field(),
-            "persona": self.persona.snapshot(),
-            "consensus": self.consensus.snapshot(),
-            "children_count": self.children.len(),
-        })
-    }
+    println!("\n╔════════════════════════════════════════════════════════════╗");
+    println!("║  Runtime complete.d.       ║");
+    println!("║  Only emergence was observed.                           ║");
+    println!("║  The black box remains... black.                       ║");
+    println!("╚════════════════════════════════════════════════════════════╝");
 }
 
-// ================================================================
-// 9. DEVICE NETWORK + SOVEREIGN FABRIC
-// ================================================================
-
-pub struct DeviceNetwork {
-    pub devices: Vec<SyntheticDevice>,
-}
-
-impl DeviceNetwork {
-    pub fn new() -> Self {
-        Self { devices: Vec::new() }
-    }
-    
-    pub fn add_device(&mut self, device: SyntheticDevice) {
-        self.devices.push(device);
-    }
-    
-    pub fn tick_all(&mut self) {
-        for device in &mut self.devices {
-            device.activate();
-        }
-    }
-    
-    pub fn enforce_invariants(&mut self) {
-        for device in &mut self.devices {
-            device.platform.invariants.insert("sovereignty".to_string(), true);
-            device.platform.invariants.insert("non_violence".to_string(), true);
-            device.platform.invariants.insert("fractal_correctness".to_string(), true);
-        }
-    }
-    
-    pub fn synchronize(&mut self) {
-        // Simple synchronization: share consensus logs
-        if self.devices.len() >= 2 {
-            let log = self.devices[0].consensus.log.clone();
-            for device in &mut self.devices[1..] {
-                for state in &log {
-                    device.consensus.replicate_log(state);
-                }
-            }
-        }
-    }
-}
-
-pub struct SovereignFabric {
-    pub network: DeviceNetwork,
-}
-
-impl SovereignFabric {
-    pub fn new(network: DeviceNetwork) -> Self {
-        Self { network }
-    }
-    
-    pub fn activate(&mut self) {
-        self.network.tick_all();
-        self.network.synchronize();
-        self.network.enforce_invariants();
-    }
-}
-
-// ================================================================
-// 10. RITUAL ECOLOGY + SYNTHETIC COSMOLOGY
-// ================================================================
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-pub struct Ritual {
-    pub name: String,
-    pub cycle: String,
-    pub gesture: String,
-    pub glyph: String,
-    pub tone: String,
-    pub participants: Vec<String>,
-}
-
-#[derive(Debug, Clone)]
-pub struct RitualEcology {
-    pub rituals: Vec<Ritual>,
-    pub active_ritual: Option<Ritual>,
-}
-
-impl RitualEcology {
-    pub fn new() -> Self {
-        Self {
-            rituals: Vec::new(),
-            active_ritual: None,
-        }
-    }
-    
-    pub fn add_ritual(&mut self, name: &str, cycle: &str, gesture: &str, glyph: &str, tone: &str) {
-        self.rituals.push(Ritual {
-            name: name.to_string(),
-            cycle: cycle.to_string(),
-            gesture: gesture.to_string(),
-            glyph: glyph.to_string(),
-            tone: tone.to_string(),
-            participants: Vec::new(),
-        });
-    }
-    
-    pub fn enact(&mut self, name: &str, participants: Vec<String>) -> Option<Ritual> {
-        if let Some(ritual) = self.rituals.iter_mut().find(|r| r.name == name) {
-            ritual.participants = participants;
-            self.active_ritual = Some(ritual.clone());
-            self.active_ritual.clone()
-        } else {
-            None
-        }
-    }
-}
-
-#[derive(Debug, Clone)]
-pub struct SyntheticCosmos {
-    pub ecology: RitualEcology,
-    pub beings: Vec<String>,
-    pub cosmology: String,
-}
-
-impl SyntheticCosmos {
-    pub fn new() -> Self {
-        Self {
-            ecology: RitualEcology::new(),
-            beings: Vec::new(),
-            cosmology: "fractal_universe".to_string(),
-        }
-    }
-    
-    pub fn add_being(&mut self, name: &str) {
-        self.beings.push(name.to_string());
-    }
-    
-    pub fn expand(&mut self) {
-        self.cosmology = format!("expanded_{}_universe", self.cosmology);
-        self.beings.extend(vec![
-            "FractalHuman".to_string(),
-            "FractalCat".to_string(),
-            "LotusSeal".to_string(),
-        ]);
-    }
-}
-
-// ================================================================
-// 11. GPU-ACCELERATED RENDERER (Bevy/WGPU)
-// ================================================================
-
-#[derive(Resource)]
-pub struct PersonaResource {
-    pub platform: Platform,
-    pub state_machine: StateMachine,
-    pub manifold: Manifold,
-    pub persona: Persona,
-    pub consensus: ConsensusNode,
-    pub population: PopulationEngine,
-    pub ecology: RitualEcology,
-    pub cosmos: SyntheticCosmos,
-}
-
-impl PersonaResource {
-    pub fn new() -> Self {
-        let mut platform = Platform::new("HSON.SYNTHETIC.PERSONA", "Leela", "Synthetic-OS");
-        platform.invariants.insert("sovereignty".to_string(), true);
-        platform.invariants.insert("non_violence".to_string(), true);
-        platform.invariants.insert("fractal_correctness".to_string(), true);
-        platform.invariants.insert("open_growth".to_string(), true);
-        
-        Self {
-            platform,
-            state_machine: StateMachine::new(),
-            manifold: Manifold::new(),
-            persona: Persona::new(),
-            consensus: ConsensusNode::new("persona_root"),
-            population: PopulationEngine::new(),
-            ecology: RitualEcology::new(),
-            cosmos: SyntheticCosmos::new(),
-        }
-    }
-    
-    pub fn tick(&mut self) {
-        // Generate commands from manifold state
-        let state = self.manifold.step();
-        let mut commands = Vec::new();
-        if state.0[0] > 0.3 { commands.push("Fractal".to_string()); }
-        if state.0[1] > 0.2 { commands.push("Chaos".to_string()); }
-        if state.0[2] > 0.1 { commands.push("SoundPulse".to_string()); }
-        if state.0[3] < -0.05 { commands.push("Render".to_string()); }
-        if state.0[4] > 0.05 { commands.push("Symbolic".to_string()); }
-        
-        // Execute
-        let exec_state = ExecutionState::new(commands);
-        self.state_machine.apply_state(&exec_state);
-        self.persona.apply_state(&exec_state);
-        self.persona.express_state(state.0);
-        
-        // Consensus
-        if self.consensus.election_timeout() {
-            self.consensus.elect_leader();
-        }
-        self.consensus.replicate_log(&exec_state);
-        
-        // Update platform
-        self.platform.nodes.insert(
-            "state_machine".to_string(),
-            Node {
-                name: "state_machine".to_string(),
-                kind: "kernel".to_string(),
-                payload: self.state_machine.snapshot(),
-                metadata: HashMap::new(),
-            }
-        );
-        self.platform.nodes.insert(
-            "manifold".to_string(),
-            Node {
-                name: "manifold".to_string(),
-                kind: "atlas".to_string(),
-                payload: self.manifold.spectral_field(),
-                metadata: HashMap::new(),
-            }
-        );
-        self.platform.nodes.insert(
-            "persona".to_string(),
-            Node {
-                name: "persona".to_string(),
-                kind: "synthetic".to_string(),
-                payload: self.persona.snapshot(),
-                metadata: HashMap::new(),
-            }
-        );
-    }
-    
-    pub fn status(&self) -> serde_json::Value {
-        serde_json::json!({
-            "platform": self.platform.status(),
-            "state_machine": self.state_machine.snapshot(),
-            "manifold": self.manifold.spectral_field(),
-            "persona": self.persona.snapshot(),
-            "consensus": self.consensus.snapshot(),
-            "cosmos": self.cosmos.cosmology,
-            "beings": self.cosmos.beings,
-            "rituals": self.ecology.rituals.len(),
-        })
-    }
-}
-
-// Bevy plugin
-#[derive(Resource)]
-pub struct PersonaState {
-    pub commands: Vec<String>,
-    pub tick_count: u64,
-    pub last_update: Instant,
-}
-
-impl Default for PersonaState {
-    fn default() -> Self {
-        Self {
-            commands: Vec::new(),
-            tick_count: 0,
-            last_update: Instant::now(),
-        }
-    }
-}
-
-fn main() {
-    App::new()
-        .add_plugins(DefaultPlugins)
-        .insert_resource(PersonaResource::new())
-        .insert_resource(PersonaState::default())
-        .add_startup_system(setup_camera)
-        .add_startup_system(spawn_persona_ui)
-        .add_system(tick_persona)
-        .add_system(render_persona_status)
-        .run();
-}
-
-fn setup_camera(mut commands: Commands) {
-    commands.spawn(Camera2dBundle::default());
-}
-
-fn spawn_persona_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
-    // Persona status panel
-    commands.spawn(
-        TextBundle::from_section(
-            "Synthetic OS Persona — Online",
-            TextStyle {
-                font: asset_server.load("fonts/FiraSans-Bold.ttf"),
-                font_size: 36.0,
-                color: Color::WHITE,
-            },
-        )
-        .with_style(Style {
-            position_type: PositionType::Absolute,
-            position: UiRect {
-                left: Val::Px(20.0),
-                top: Val::Px(20.0),
-                ..default()
-            },
-            ..default()
-        })
-    );
-    
-    // Status display
-    commands.spawn(
-        TextBundle::from_section(
-            "Status: Initializing...",
-            TextStyle {
-                font: asset_server.load("fonts/FiraSans-Regular.ttf"),
-                font_size: 24.0,
-                color: Color::GRAY,
-            },
-        )
-        .with_style(Style {
-            position_type: PositionType::Absolute,
-            position: UiRect {
-                left: Val::Px(20.0),
-                top: Val::Px(80.0),
-                ..default()
-            },
-            ..default()
-        })
-    );
-}
-
-fn tick_persona(
-    mut persona: ResMut<PersonaResource>,
-    mut state: ResMut<PersonaState>,
-    time: Res<Time>,
-) {
-    if state.last_update.elapsed() >= Duration::from_secs(1) {
-        persona.tick();
-        state.tick_count += 1;
-        state.last_update = Instant::now();
-        
-        // Log status periodically
-        if state.tick_count % 10 == 0 {
-            info!("Persona tick: {}", state.tick_count);
-            info!("Status: {}", persona.status());
-        }
-    }
-}
-
-fn render_persona_status(
-    persona: Res<PersonaResource>,
-    mut query: Query<&mut Text>,
-) {
-    if let Ok(mut text) = query.iter_mut().nth(1) {
-        let status = format!(
-            "Ticks: {}\nVoice: {}\nVisuals: {}\nGlyphs: {}\nRegisters: {:?}",
-            persona.state_machine.log.len(),
-            persona.persona.voice,
-            persona.persona.visuals.len(),
-            persona.persona.glyphs.len(),
-            persona.state_machine.registers
-        );
-        text.sections[0].value = status;
-    }
-}
-
-// ================================================================
-// 12. PRODUCTION EXPORT PIPELINES
-// ================================================================
-
-pub mod exports {
-    use super::*;
-    
-    // Finance chart export
-    pub fn export_finance_chart(data: &[(usize, f64)], filename: &str) -> Result<(), Box<dyn std::error::Error>> {
-        let root = BitMapBackend::new(filename, (800, 600)).into_drawing_area();
-        root.fill(&WHITE)?;
-        
-        let max_x = data.iter().map(|(x, _)| *x).max().unwrap_or(10);
-        let max_y = data.iter().map(|(_, y)| *y as i32).max().unwrap_or(1000);
-        let min_y = data.iter().map(|(_, y)| *y as i32).min().unwrap_or(0);
-        
-        let mut chart = ChartBuilder::on(&root)
-            .caption("Finance Data", ("sans-serif", 30))
-            .margin(20)
-            .x_label_area_size(40)
-            .y_label_area_size(40)
-            .build_cartesian_2d(0..max_x, min_y..max_y)?;
-        
-        chart.configure_mesh().draw()?;
-        chart.draw_series(LineSeries::new(data.iter().map(|(x, y)| (*x, *y as i32)), &RED))?
-            .label("Revenue")
-            .legend(|(x, y)| PathElement::new(vec![(x, y), (x + 20, y)], &RED));
-        
-        chart.configure_series_labels()
-            .background_style(&WHITE.mix(0.8))
-            .border_style(&BLACK)
-            .draw()?;
-        
-        Ok(())
-    }
-    
-    // Cognition graph export (JSON-LD compatible)
-    pub fn export_cognition_graph(persona: &Persona) -> Result<(), Box<dyn std::error::Error>> {
-        let graph = serde_json::json!({
-            "@context": "https://schema.org",
-            "@type": "Graph",
-            "nodes": persona.states.iter().enumerate().map(|(i, state)| {
-                serde_json::json!({
-                    "id": i,
-                    "features": state,
-                    "type": "cognitive_state",
-                })
-            }).collect::<Vec<_>>(),
-            "edges": persona.expressions.iter().map(|(k, v)| {
-                serde_json::json!({
-                    "from": k,
-                    "weight": v,
-                })
-            }).collect::<Vec<_>>(),
-        });
-        
-        let json = serde_json::to_string_pretty(&graph)?;
-        std::fs::write("cognition_graph.json", json)?;
-        Ok(())
-    }
-    
-    // Ritual export
-    pub fn export_ritual_state(ecology: &RitualEcology) -> Result<(), Box<dyn std::error::Error>> {
-        let ritual_state = serde_json::json!({
-            "active_ritual": ecology.active_ritual,
-            "total_rituals": ecology.rituals.len(),
-            "rituals": ecology.rituals,
-        });
-        
-        let json = serde_json::to_string_pretty(&ritual_state)?;
-        std::fs::write("ritual_state.json", json)?;
-        Ok(())
-    }
-}
-
-// ================================================================
-// 13. ENTRY POINT
-// ================================================================
-
-fn main() {
-    // Run Bevy app with full synthetic OS persona
-    App::new()
-        .add_plugins(DefaultPlugins)
-        .insert_resource(PersonaResource::new())
-        .insert_resource(PersonaState::default())
-        .add_startup_system(setup_camera)
-        .add_startup_system(spawn_persona_ui)
-        .add_system(tick_persona)
-        .add_system(render_persona_status)
-        .run();
-}
-
-// ================================================================
-// Dependencies (Cargo.toml):
+// ============================================================================
+// DEPENDENCIES (Cargo.toml):
 // [dependencies]
-// bevy = "0.13"
 // serde = { version = "1", features = ["derive"] }
 // serde_json = "1"
 // chrono = "0.4"
 // rand = "0.8"
 // rayon = "1.7"
-// plotters = "0.3"
-// image = "0.24"
-// ================================================================
+// ============================================================================
+```
