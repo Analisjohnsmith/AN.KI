@@ -974,3 +974,291 @@ that is confusingly similar to this project. This includes:
 
 No license is granted for the development of systems that imitate this project
 in a way that could reasonably mislead users into believing they are related,
+# GreatScott Enterprise Commercial License v2.0  
+© 2026 Darrell Lee (Līlā) Stiltner  
+All Rights Reserved.
+
+This Commercial License (“License”) is a legally binding agreement between the
+Customer (“Customer”) and the Licensor (“Darrell Lee Stiltner”), governing the
+commercial use of the AN.KI™, Hazeru™, GreatScott™, and related software systems.
+
+This License overrides all obligations of the public Apache 2.0 version and
+grants expanded commercial rights under the terms below.
+
+---
+
+# 1. Definitions
+
+**Software**  
+Refers to AN.KI, Hazeru, GreatScott, and all related components, including
+source code, binaries, virtual hardware modules, curvature engines, symbolic
+systems, metaphysics, cognitive models, and runtime environments.
+
+**Customer**  
+The individual or legal entity obtaining commercial rights under this License.
+
+**Commercial Use**  
+Any proprietary, closed‑source, internal, external, or revenue‑generating use
+of the Software.
+
+**Derivative Works**  
+Any modifications, extensions, integrations, or enhancements made by Customer.
+
+**Exclusive License**  
+A paid license granting Customer exclusive rights within a defined scope.
+
+---
+
+# 2. Grant of Commercial Rights
+
+Customer is granted the following rights:
+
+- Use the Software in proprietary or closed‑source systems  
+- Integrate the Software into internal or external products  
+- Deploy the Software on servers, cloud systems, or hardware  
+- Create private forks or modifications  
+- Keep all derivative works proprietary  
+- Sell products that include the Software  
+- Use the Software without Apache 2.0 obligations  
+
+Customer may **not**:
+
+- Resell the Software as a standalone product  
+- Sublicense the Software without written permission  
+- Redistribute the Software outside Customer’s organization  
+
+---
+
+# 3. Trademark and Identity Restrictions
+
+Customer may not use AN.KI™, Hazeru™, GreatScott™, or any related marks,
+symbols, glyphs, metaphysical constructs, universe names, or identity elements
+in marketing, branding, product naming, or public communication without written
+permission.
+
+All trademark rights remain exclusively with Licensor.
+
+---
+
+# 4. Documentation License (CC BY‑NC 4.0)
+
+All documentation, diagrams, math, symbolic systems, metaphysics, and universe
+definitions are licensed under **CC BY‑NC 4.0** for non‑commercial use only.
+
+Commercial use of documentation requires a paid license.
+
+---
+
+# 5. No Copyleft Obligations
+
+Commercial customers are not required to:
+
+- release source code  
+- disclose modifications  
+- publish derivative works  
+- comply with Apache 2.0 for commercial usage  
+
+This License fully overrides public obligations.
+
+---
+
+# 6. Redistribution Rights
+
+Customer may:
+
+- distribute products containing the Software  
+- embed the Software in proprietary systems  
+- deploy the Software internally or externally  
+
+Customer may **not**:
+
+- redistribute the Software standalone  
+- sublicense the Software  
+- offer the Software as a hosted platform or API  
+
+---
+
+# 7. Confidentiality
+
+Customer may keep all proprietary integrations, modules, forks, and internal
+documentation private.
+
+Licensor agrees not to disclose Customer’s proprietary information.
+
+---
+
+# 8. Indemnification
+
+Customer agrees to indemnify Licensor against:
+
+- misuse of the Software  
+- illegal applications  
+- unsafe deployments  
+- violations of third‑party rights  
+
+The Software is provided **as‑is**, without warranty.
+
+---
+
+# 9. Limitation of Liability
+
+Licensor is not liable for:
+
+- damages  
+- data loss  
+- business interruption  
+- hardware failures  
+- financial losses  
+
+Maximum liability is limited to the amount paid by Customer.
+
+---
+
+# 10. Termination
+
+This License may be terminated if Customer:
+
+- violates redistribution rules  
+- attempts to resell the Software  
+- sublicenses without permission  
+- engages in harmful or prohibited use  
+
+Upon termination:
+
+- Customer retains proprietary modifications  
+- Customer must cease distribution  
+- Internal use may continue unless explicitly revoked  
+
+---
+
+# 11. AI Training and Machine Learning Restrictions
+
+Customer may not use the Software to train, fine‑tune, evaluate, or generate
+datasets for machine learning systems or artificial intelligence models without
+explicit written permission.
+
+This includes:
+
+- LLM training  
+- embedding extraction  
+- dataset creation  
+- model distillation  
+- autonomous agent development  
+
+AI‑related use requires a separate license.
+
+---
+
+# 12. Non‑Violence and No Harmful Use
+
+Customer may not use the Software in the development or operation of:
+
+- weapons  
+- autonomous targeting systems  
+- military robotics  
+- harmful surveillance  
+- violent applications  
+- systems intended to inflict physical injury  
+
+Licensor may revoke the license immediately for harmful use.
+
+---
+
+# 13. Export Control Compliance
+
+Customer is responsible for complying with all applicable export laws,
+including EAR, ITAR, and regional restrictions.
+
+Customer may not export the Software to prohibited countries or entities.
+
+---
+
+# 14. Audit Rights
+
+Licensor may request written certification of compliance.
+
+If violations are suspected, Customer agrees to cooperate with a limited audit
+focused solely on verifying license compliance.
+
+---
+
+# 15. Data Privacy
+
+Licensor does not process Customer data except when required for optional
+support services.
+
+Customer is responsible for compliance with all data privacy laws.
+
+---
+
+# 16. License Tier Definitions
+
+### **Standard Commercial License**
+- Internal business use  
+- Closed‑source integration  
+- Private forks  
+
+### **Enterprise License**
+- External product integration  
+- Cloud/SaaS deployment  
+- Hardware embedding  
+
+### **Exclusive License**
+- Industry exclusivity  
+- Regional exclusivity  
+- Domain exclusivity  
+- Time‑limited exclusivity  
+
+---
+
+# 17. No Platform Resale
+
+Customer may not offer the Software as:
+
+- a hosted service  
+- a platform  
+- an API  
+- a cloud engine  
+
+unless explicitly permitted.
+
+---
+
+# 18. Ethical Use Clause
+
+Customer agrees to use the Software in ways that respect:
+
+- human rights  
+- privacy  
+- safety  
+- lawful conduct  
+
+Licensor may revoke the license for unethical use.
+
+---
+
+# 19. Survival of Terms
+
+The following obligations survive termination:
+
+- confidentiality  
+- trademark restrictions  
+- non‑violence clause  
+- AI restrictions  
+- export compliance  
+- liability limits  
+
+---
+
+# 20. Governing Law
+
+This License is governed by the laws of the United States and the State of
+Tennessee.
+
+---
+
+# 21. Entire Agreement
+
+This License constitutes the entire agreement between Customer and Licensor
+regarding commercial use of the Software.
+
