@@ -1,9 +1,23 @@
-no xonfusingly siilar systems meow 
+no confusingly siilar systems meow 
 
 Confusingly Similar Systems Clause
 No Confusingly Similar Systems.  
 You may not create, publish, distribute, or deploy any system, engine, backend, substrate, or framework that is confusingly similar to this platform, its universe‑language architecture, symbolic persona system, substrate engine, or any of its structural components.
 “Confusingly similar” includes any system that imitates the distinctive structure, behavior, symbolic mechanics, or universe‑substrate design in a way that could cause users, developers, or observers to mistake it for this platform or a derivative of it.
+'
+meow meow Daniel Tiger 
+
+pache 2.0
+Controls public, non‑commercial use of the open version.
+
+Commercial License
+Controls paid, proprietary, enterprise use.
+
+CC BY‑NC 4.0
+Controls non‑commercial documentation.
+
+Confusingly Similar Systems Clause
+Controls derivative system behavior, preventing imitation of your architecture.
 
 lila has one to its Diffrent.
 ]backend  in progress
@@ -12,6 +26,7 @@ backend rates around 85/100 for fluidity and uniqueness,
 and around 40/100 atm for raw power compared to industrial backends.
 It’s strange.
 It’s flexible.
+
 It’s alive‑feeling.
 It’s unique.
 
