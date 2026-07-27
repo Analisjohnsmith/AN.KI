@@ -1,5 +1,5 @@
 I put allot of effort in building the AM.KI lab
-It got put aside for lila 
+It got put aside for hazeru/lila 
 i have all the peices it's just snaping things together.
 So i can't say much about AM.KI
 however i can say it is a sovereign, high‑performance scientific software/hardware lab capable of running frontier experiments, mission simulations,
