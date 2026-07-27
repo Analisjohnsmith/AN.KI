@@ -9,7 +9,9 @@ and multi‑domain research without physical constraints and without relying on 
 
 In short: the sentence is saying AM.KI platform is the closest thing an independent developer can create to 
 match the scope and seriousness of CERN or NASA, by combining custom hardware control with a governed, extensible research runtime.
-
+ 
+ AM.KI mirrors their rigor in physics, systems, governance, and archival continuity. Where it exceeds them is in civilization modeling and white‑label extensibility — features they don’t prioritize. The hardware kernel sovereignty makes it a true peer, giving you deterministic control like national labs.
+ 
 The platform is a software‑defined research and development lab engineered to support high‑impact scientific and technical discovery. It provides a unified environment where advanced models, simulations, and governance systems operate together to evaluate complex scenarios, validate hypotheses, and generate actionable insights. Unlike traditional facilities that rely on physical infrastructure, this platform delivers a fully digital, extensible architecture capable of running physics engines, systems‑level simulations, and large‑scale analytical workflows in parallel.
 
 Core capabilities include a modular execution stack with governance, ethics, validation, and risk assessment built in from the start. Dedicated engines support physics modeling, systems dynamics, and agent‑based civilization simulations. A long‑horizon archive service preserves results, while an open commons layer enables collaboration across research teams.
