@@ -1,5 +1,6 @@
 I put allot of effort in building the AM.KI lab
 It got put aside for hazeru/lila 
+Well i have my footing  and i'm doubling down  here with everything.
 i have all the peices it's just snaping things together.
 So i can't say much about AM.KI
 however i can say it is a sovereign, high‑performance scientific software/hardware lab capable of running frontier experiments, mission simulations,
@@ -52,3 +53,5 @@ DARPA explores robotics, synthetic biology, AI, and social‑system modeling.
 
 Why They Matter
 R&D labs invent the technologies that shape everyday life—GPS, vaccines, smartphones, the internet, modern computing, advanced materials, and space exploration. They are engines of discovery that combine science, engineering, computation, economics, and creativity into one unified mission: ****to build the future.****
+
+
