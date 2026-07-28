@@ -42,7 +42,9 @@ Beyond self‑modifying interpreters.
 It is self‑modifying ontology.
 
 
+****Ontological reflection is:
 
+A system that can rewrite the nature of its own reality.****
 
 
 
