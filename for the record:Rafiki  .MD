@@ -1,5 +1,6 @@
 Rafiki — The Humane Interface to Synthetic Reality
 Rafiki is a humane language packaged with a persona.  
+& Narrative Physics Engine
 Rafiki means:
 
 friend
