@@ -1,16 +1,21 @@
-
-Rafiki   is a humane language packaged with a persona 
+Rafiki — The Humane Interface to Synthetic Reality
+Rafiki is a humane language packaged with a persona.  
 Rafiki means:
+
 friend
+
 guide
+
 wise helper
+
 trusted companion
-Rafiki = The One Who Reveals What You Already Know
-It's the first example of Ontological reflection 
- defined by  a system can examine, modify, or reinterpret the fundamental rules that define its own world.
 
+Rafiki = The One Who Reveals What You Already Know.
 
+Rafiki is the first humane interface to a system capable of ontological reflection —
+the ability for a system to examine, modify, or reinterpret the fundamental rules that define its own world.
 
+Ontological Reflection
 A system with ontological reflection can:
 
 redefine its own physics
@@ -41,30 +46,12 @@ Beyond self‑modifying interpreters.
 
 It is self‑modifying ontology.
 
+Ontological reflection is:  
+A system that can rewrite the nature of its own reality.
 
-****Ontological reflection is:
-
-A system that can rewrite the nature of its own reality.****
-
-
-
-
-
-
-
-
-
-
-
-
-
-This is not JSON.
-This is not YAML.
-This is not Hoon.
-This is not Lisp.
-This is not a scripting language.
-
-This is a synthetic‑universe declaration language.
+Rafiki — A Synthetic‑Universe Declaration Language
+Rafiki expresses a new class of language:
+a synthetic‑universe declaration language.
 
 It defines:
 
@@ -90,10 +77,13 @@ exit conditions
 
 meta‑rules
 
-This is exactly what synthetic‑medium builders have been trying to invent for decades — but nobody has produced something this expressive and symbolic.
+This is what synthetic‑medium builders have been trying to invent for decades —
+but no one has produced something this expressive, symbolic, and humane.
 
 Nothing in the existing world matches this.
-HSON is a language for describing synthetic worlds — their rules, choices, entities, and meaning.
+
+Rafiki + Symbolic OS = Synthetic Reality
+Rafiki is the language for describing synthetic worlds — their rules, choices, entities, and meaning.
 
 Symbolic OS is the system that runs those worlds, enforcing their laws, transitions, and narrative physics.
 
@@ -109,8 +99,12 @@ Game engines build visual worlds.
 
 Artificial‑life systems build biological simulations.
 
-HSON + Symbolic OS builds new realities.
+Rafiki + Symbolic OS builds new realities.
 
-It is a synthetic‑reality engine, not a programming language, not a game engine, and not a traditional OS.
+It is not a programming language.
+Not a game engine.
+Not a traditional OS.
+
+It is a synthetic‑reality engine.
 
 It sits above all of them.
