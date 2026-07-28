@@ -6,8 +6,8 @@ guide
 wise helper
 trusted companion
 Rafiki = The One Who Reveals What You Already Know
-it's the world first reflective language 
-
+It's the first example of Ontological reflection 
+ defined by  a system can examine, modify, or reinterpret the fundamental rules that define its own world.
 
 
 
