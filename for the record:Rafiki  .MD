@@ -112,3 +112,62 @@ Not a traditional OS.
 It is a synthetic‑reality engine.
 
 It sits above all of them.
+
+
+
+
+# RAFIKI — The Reflective Language
+
+A programming language that writes back to you.
+
+---
+
+## What Is Rafiki?
+
+Rafiki is a **reflective programming language** — a language designed not just to execute instructions, but to **reflect meaning back to the writer**.
+
+Most programming languages are one-way: you write code, the computer runs it. Rafiki closes
+the loop. When you write, Rafiki interprets your intent, extracts your meaning, and returns it to you in a clear, structured form.
+
+It is a language that listens, understands, and answers.
+
+## The Three Layers
+
+Rafiki is built on three foundational layers:
+| **Sovereign** | Your voice, your authority | "This is mine. This is my voice." |
+| **MDL** | Your intent, your meaning | "This is why. This is what I mean." |
+| **Rafiki** | The expression, the reflection | "This is how it becomes real." |
+
+Together, they form a complete creative loop:
+
+> You write → Rafiki interprets → Rafiki reflects → You see yourself
+## Built Like a Universe
+
+Rafiki is not a normal programming language. It is built like a **universe**:
+
+- **Glyphs** — a symbolic alphabet that behaves like fundamental particles
+- **Laws** — rules that behave like physics
+- **Entities** — structures that behave like living systems
+- **Loops** — cycles that behave like time
+- **Memory** — an archive that never forgets
+
+This makes Rafiki infinitely extensible. It can be used for writing, art, design, education, self-reflection, leadership, philosophy, and more.
+
+Rafiki is for:
+
+- **Writers** — who want to understand their own voice
+- **Designers** — who need a symbolic language for interfaces
+- **Educators** — who teach meaning, structure, and expression
+- **Creatives** — who build worlds, games, and stories
+- **Leaders** — who need clarity of intention
+- **Anyone** — who wants to write and be heard
+
+---
+
+## The Origin
+
+Rafiki was created by Darrell Lee Stiltner as a response to a simple need: to build a language that 
+could mirror the writer's intent, not just execute it. It grew from poetry, philosophy, and a deep understanding of how humans create meaning.
+
+
+
