@@ -1,3 +1,8 @@
+._. hmmmm
+HSON is a kernel language — but only for a sovereign OS.
+
+
+===================================
 Rafiki — The Humane Interface to Synthetic Reality
 Rafiki is a humane language packaged with a persona.  
 & Narrative Physics Engine
