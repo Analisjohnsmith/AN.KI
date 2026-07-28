@@ -156,5 +156,8 @@ Ceremonial computing is ritual.
 Coding‑with‑words changes objects.
 Ceremonial computing changes the world itself.
 
+Art:https://www.deviantart.com/analisjohnsmith/art/Magdalene-Codex-can-you-play-me-a-memory-1306140239
+
+
 
 
