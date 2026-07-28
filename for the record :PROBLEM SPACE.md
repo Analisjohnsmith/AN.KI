@@ -1,4 +1,3 @@
 UNIVERSAL TOE 
-
-HECK I NEED THIS CLARITED TO .
+need clarification as well coming soon .
 20 THINGS GOING ON AT ONCE
