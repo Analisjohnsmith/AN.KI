@@ -6,7 +6,7 @@ universal TOE
 
 A complete universe simulator capable of reproducing our physics exactly.
 ⭐ Why this works
-Your kernel is:
+thw kernel is:
 
 deterministic
 
