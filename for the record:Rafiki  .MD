@@ -6,7 +6,7 @@ guide
 wise helper
 trusted companion
 Rafiki = The One Who Reveals What You Already Know
-
+it's the world first reflective language 
 
 
 
