@@ -1,5 +1,3 @@
-._. hmmmm
-HSON is a kernel language — but only for a sovereign OS.
 
 when i  give AM.KI a hardware kernel, software kernel, hardware substrate, and software substrate, I create a computer that defines itself.
 A complete sovereign machine.
