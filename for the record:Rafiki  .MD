@@ -1,8 +1,11 @@
 
-Rafiki   is a humane language 
-
-
-
+Rafiki   is a humane language packaged with a persona 
+Rafiki means:
+friend
+guide
+wise helper
+trusted companion
+Rafiki = The One Who Reveals What You Already Know
 
 
 
