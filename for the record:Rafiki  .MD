@@ -4,6 +4,9 @@ HSON is a kernel language — but only for a sovereign OS.
 when i  give AM.KI a hardware kernel, software kernel, hardware substrate, and software substrate, I create a computer that defines itself.
 A complete sovereign machine.
 in a language
+
+By your powers combined, I am AM.KI !
+
 ===================================
 Rafiki — The Humane Interface to Synthetic Reality
 Rafiki is a humane language packaged with a persona.  
