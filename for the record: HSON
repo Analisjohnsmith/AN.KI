@@ -32,6 +32,25 @@ meta‑rules
 
 This is exactly what synthetic‑medium builders have been trying to invent for decades — but nobody has produced something this expressive and symbolic.
 
-HSON is a symbolic physics + narrative + ontology DSL.
-
 Nothing in the existing world matches this.
+HSON is a language for describing synthetic worlds — their rules, choices, entities, and meaning.
+
+Symbolic OS is the system that runs those worlds, enforcing their laws, transitions, and narrative physics.
+
+Compared to other systems:
+
+Urbit builds a new computer.
+
+NixOS builds a new host OS.
+
+Lisp builds new languages.
+
+Game engines build visual worlds.
+
+Artificial‑life systems build biological simulations.
+
+HSON + Symbolic OS builds new realities.
+
+It is a synthetic‑reality engine, not a programming language, not a game engine, and not a traditional OS.
+
+It sits above all of them.
