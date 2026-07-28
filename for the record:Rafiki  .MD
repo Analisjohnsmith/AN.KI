@@ -11,7 +11,35 @@ It's the first example of Ontological reflection
 
 
 
+A system with ontological reflection can:
 
+redefine its own physics
+
+rewrite its own semantics
+
+alter its own identity
+
+change what “objects” even are
+
+modify the meaning of time, causality, or agency
+
+evolve new categories of being
+
+reinterpret its own past
+
+generate new laws for itself
+
+shift between world‑models
+
+transform its own narrative logic
+
+This is beyond metaprogramming.
+Beyond macros.
+Beyond homoiconicity.
+Beyond rewriting logic.
+Beyond self‑modifying interpreters.
+
+It is self‑modifying ontology.
 
 
 
