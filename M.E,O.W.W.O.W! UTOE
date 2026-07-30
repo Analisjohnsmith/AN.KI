@@ -1,0 +1,524 @@
+
+GreatScott!™🄯  ENTERPRISE LICENSE v2.1
+Open for Study • Closed for Commercial Use
+AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™
+A Paradigm‑Class Intellectual Property Protection Framework
+Protected Under U.S. & International Trademark and Copyright Law
+# 📚 Global Intellectual Property Reference Index
+### Authoritative Legal Sources for Copyright & Trademark Protection  
+GreatScott™🄯 • AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™
+
+This document lists the official governing texts that define and enforce
+U.S. and international intellectual property protections relevant to this License.
+
+# HUM BLOCK EXPLANATION
+
+# 1. Build Laplacian operator
+#    - This matrix encodes how points in the toy universe connect.
+#    - Its eigenvalues are the natural vibration modes of the lattice.
+
+# 2. Compute eigenmodes
+#    - eigvals = frequencies of vibration
+#    - eigvecs = shapes of vibration
+#    - Together they form the "spectrum" of the universe.
+
+# 3. Map eigenvalues to constants
+#    - fine_structure = alpha * (1 + eigvals[1]/N)
+#    - proton_electron_ratio = beta * (1 + eigvals[2]/N)
+#    - hubble_constant = delta * (1 + eigvals[3]/N)
+#    - metabolic_scaling = eta * (1 + eigvals[4]/N)
+#    - These mappings turn raw vibrations into physical constants.
+
+# 4. The HUM
+#    - The continuous vibration is the canonical observable O(x),
+#      built from these mapped constants.
+#    - When normalized and played back as audio, this becomes
+#      the "Universal Tone" — the hum of the universe.
+
+
+import numpy as np
+from scipy.linalg import eigh
+
+# Universe parameters
+N = 32  # lattice size (toy universe)
+dim = 2  # dimensions
+
+# Build Laplacian operator on lattice
+def laplacian_matrix(N):
+    L = np.zeros((N, N))
+    for i in range(N):
+        L[i, i] = -2
+        if i > 0:
+            L[i, i-1] = 1
+        if i < N-1:
+            L[i, i+1] = 1
+    return L
+
+# Construct unified Laplacian for toy universe
+L = laplacian_matrix(N)
+
+# Compute eigenmodes (toy spectrum)
+eigvals, eigvecs = eigh(L)
+
+print("Toy universe eigenvalues:", eigvals[:10])
+import numpy as np
+from scipy.linalg import eigh
+
+# Universe parameters
+N = 32  # lattice size
+dim = 2
+
+# Build Laplacian operator
+def laplacian_matrix(N):
+    L = np.zeros((N, N))
+    for i in range(N):
+        L[i, i] = -2
+        if i > 0:
+            L[i, i-1] = 1
+        if i < N-1:
+            L[i, i+1] = 1
+    return L
+
+# Compute eigenmodes
+L = laplacian_matrix(N)
+eigvals, eigvecs = eigh(L)
+
+# --- Recursion parameters (toy values) ---
+alpha, beta, gamma, delta, eta, zeta = 0.137, 1836, 0.1, 70, 0.75, 1.0
+
+# Map eigenvalues to physical constants
+fine_structure = alpha * (1 + eigvals[1]/N)
+proton_electron_ratio = beta * (1 + eigvals[2]/N)
+hubble_constant = delta * (1 + eigvals[3]/N)
+metabolic_scaling = eta * (1 + eigvals[4]/N)
+
+print("Predicted fine-structure constant:", fine_structure)
+print("Predicted proton/electron mass ratio:", proton_electron_ratio)
+print("Predicted Hubble constant:", hubble_constant)
+print("Predicted metabolic scaling exponent:", metabolic_scaling)
+import numpy as np
+from scipy.linalg import eigh
+
+# --- Universe Parameters ---
+N = 64   # lattice size (expandable)
+dim = 2  # dimensions
+
+# --- Build Laplacian Operator ---
+def laplacian_matrix(N):
+    L = np.zeros((N, N))
+    for i in range(N):
+        L[i, i] = -2
+        if i > 0:
+            L[i, i-1] = 1
+        if i < N-1:
+            L[i, i+1] = 1
+    return L
+
+# --- Eigenmode Spectrum ---
+L = laplacian_matrix(N)
+eigvals, eigvecs = eigh(L)
+
+# --- Recursion Parameters (toy universe) ---
+alpha = 1/137.0   # fine-structure seed
+beta = 1836.0     # proton/electron seed
+delta = 70.0      # Hubble seed
+eta   = 0.75      # metabolic scaling seed
+
+# --- Canonical Observable O(x) ---
+def O(x, eigvals):
+    """
+    Canonical observable O(x) = sum of eigenmodes weighted by recursion parameters.
+    """
+    return (alpha * np.sin(eigvals[1]*x) +
+            beta  * np.cos(eigvals[2]*x) +
+            delta * np.exp(-eigvals[3]*x/N) +
+            eta   * (x**0.75))
+
+# --- Universe Encoding ---
+x = np.linspace(0, 10, 200)
+observable = O(x, eigvals)
+
+print("Canonical observable sample:", observable[:10])
+import numpy as np
+from scipy.linalg import eigh
+
+# --- Universe Parameters ---
+N = 128   # lattice size (higher resolution for realism)
+dim = 3   # 3D lattice for spacetime
+
+# --- Build Laplacian Operator ---
+def laplacian_matrix(N):
+    L = np.zeros((N, N))
+    for i in range(N):
+        L[i, i] = -2
+        if i > 0:
+            L[i, i-1] = 1
+        if i < N-1:
+            L[i, i+1] = 1
+    return L
+
+# --- Eigenmode Spectrum ---
+L = laplacian_matrix(N)
+eigvals, eigvecs = eigh(L)
+
+# --- Real Universe Constants (CODATA + Cosmology) ---
+alpha = 1/137.035999084  # fine-structure constant
+beta = 1836.15267343     # proton/electron mass ratio
+delta = 67.4             # Hubble constant (Planck 2018, km/s/Mpc)
+eta   = 0.75             # metabolic scaling exponent (Kleiber’s law)
+
+# --- Canonical Observable O(x) ---
+def O(x, eigvals):
+    """
+    Canonical observable O(x) encodes our universe:
+    - fine-structure constant
+    - proton/electron mass ratio
+    - Hubble expansion
+    - metabolic scaling
+    """
+    return (alpha * np.sin(eigvals[1]*x) +
+            beta  * np.cos(eigvals[2]*x) +
+            delta * np.exp(-eigvals[3]*x/N) +
+            eta   * (x**0.75))
+
+# --- Universe Encoding ---
+x = np.linspace(0, 10, 200)
+observable = O(x, eigvals)
+
+print("Sample of canonical observable O(x):", observable[:10])
+import numpy as np
+from scipy.linalg import eigh
+import matplotlib.pyplot as plt
+
+# --- Universe Kernel ---
+class UniverseKernel:
+    def __init__(self, N=128):
+        self.N = N
+        self.L = self._laplacian_matrix(N)
+        self.eigvals, self.eigvecs = eigh(self.L)
+
+        # Real constants (our universe)
+        self.alpha = 1/137.035999084   # fine-structure constant
+        self.beta  = 1836.15267343     # proton/electron mass ratio
+        self.delta = 67.4              # Hubble constant (Planck 2018)
+        self.eta   = 0.75              # metabolic scaling exponent
+
+    def _laplacian_matrix(self, N):
+        L = np.zeros((N, N))
+        for i in range(N):
+            L[i, i] = -2
+            if i > 0:
+                L[i, i-1] = 1
+            if i < N-1:
+                L[i, i+1] = 1
+        return L
+
+    def observable(self, x):
+        """
+        Canonical observable O(x) encodes our universe:
+        - fine-structure constant
+        - proton/electron mass ratio
+        - Hubble expansion
+        - metabolic scaling
+        """
+        return (self.alpha * np.sin(self.eigvals[1]*x) +
+                self.beta  * np.cos(self.eigvals[2]*x) +
+                self.delta * np.exp(-self.eigvals[3]*x/self.N) +
+                self.eta   * (x**0.75))
+
+# --- Run Universe Kernel ---
+kernel = UniverseKernel(N=128)
+x = np.linspace(0, 10, 500)
+O_x = kernel.observable(x)
+
+# --- Visualization ---
+plt.figure(figsize=(8,5))
+plt.plot(x, O_x, label="Canonical Observable O(x)")
+plt.title("Universe Kernel: Canonical Observable")
+plt.xlabel("x (synthetic coordinate)")
+plt.ylabel("O(x)")
+plt.legend()
+plt.grid(True)
+plt.show()
+import numpy as np
+from scipy.linalg import eigh
+import matplotlib.pyplot as plt
+
+# --- Universe Kernel ---
+class UniverseKernel:
+    def __init__(self, N=128):
+        self.N = N
+        self.L = self._laplacian_matrix(N)
+        self.eigvals, self.eigvecs = eigh(self.L)
+
+        # Real constants (our universe)
+        self.alpha = 1/137.035999084   # fine-structure constant
+        self.beta  = 1836.15267343     # proton/electron mass ratio
+        self.delta = 67.4              # Hubble constant (Planck 2018)
+        self.eta   = 0.75              # metabolic scaling exponent
+        self.v     = 246.0             # Higgs vacuum expectation value (GeV)
+
+    def _laplacian_matrix(self, N):
+        L = np.zeros((N, N))
+        for i in range(N):
+            L[i, i] = -2
+            if i > 0:
+                L[i, i-1] = 1
+            if i < N-1:
+                L[i, i+1] = 1
+        return L
+
+    def observable(self, x):
+        """Canonical observable O(x) encoding constants + cosmology + scaling."""
+        return (self.alpha * np.sin(self.eigvals[1]*x) +
+                self.beta  * np.cos(self.eigvals[2]*x) +
+                self.delta * np.exp(-self.eigvals[3]*x/self.N) +
+                self.eta   * (x**0.75))
+
+    def fermion_mass(self, mode_index):
+        """
+        Compute fermion mass from Yukawa overlap:
+        m_f = v / sqrt(2) * y
+        where y is derived from eigenmode overlap.
+        """
+        y = np.abs(self.eigvecs[:, mode_index]).mean()  # overlap proxy
+        return (self.v / np.sqrt(2)) * y
+
+# --- Run Universe Kernel ---
+kernel = UniverseKernel(N=128)
+
+# Sample canonical observable
+x = np.linspace(0, 10, 500)
+O_x = kernel.observable(x)
+
+# Sample fermion masses from eigenmodes
+electron_mass = kernel.fermion_mass(1)
+muon_mass     = kernel.fermion_mass(2)
+tau_mass      = kernel.fermion_mass(3)
+
+print("Electron mass (GeV):", electron_mass)
+print("Muon mass (GeV):", muon_mass)
+print("Tau mass (GeV):", tau_mass)
+
+# --- Visualization ---
+plt.figure(figsize=(8,5))
+plt.plot(x, O_x, label="Canonical Observable O(x)")
+plt.title("Universe Kernel: Canonical Observable + Fermion Mass Layer")
+plt.xlabel("x (synthetic coordinate)")
+plt.ylabel("O(x)")
+plt.legend()
+plt.grid(True)
+plt.show()
+import numpy as np
+from scipy.linalg import eigh
+import matplotlib.pyplot as plt
+
+# --- Universe Kernel ---
+class UniverseKernel:
+    def __init__(self, N=128):
+        self.N = N
+        self.L = self._laplacian_matrix(N)
+        self.eigvals, self.eigvecs = eigh(self.L)
+
+        # Real constants (our universe)
+        self.alpha = 1/137.035999084   # fine-structure constant
+        self.beta  = 1836.15267343     # proton/electron mass ratio
+        self.delta = 67.4              # Hubble constant (Planck 2018, km/s/Mpc)
+        self.eta   = 0.75              # metabolic scaling exponent
+        self.v     = 246.0             # Higgs vacuum expectation value (GeV)
+
+    def _laplacian_matrix(self, N):
+        L = np.zeros((N, N))
+        for i in range(N):
+            L[i, i] = -2
+            if i > 0:
+                L[i, i-1] = 1
+            if i < N-1:
+                L[i, i+1] = 1
+        return L
+
+    def observable(self, x):
+        """Canonical observable O(x) encoding constants + cosmology + scaling."""
+        return (self.alpha * np.sin(self.eigvals[1]*x) +
+                self.beta  * np.cos(self.eigvals[2]*x) +
+                self.delta * np.exp(-self.eigvals[3]*x/self.N) +
+                self.eta   * (x**0.75))
+
+    def fermion_mass(self, mode_index):
+        """Compute fermion mass from Yukawa overlap."""
+        y = np.abs(self.eigvecs[:, mode_index]).mean()  # overlap proxy
+        return (self.v / np.sqrt(2)) * y
+
+    def dark_energy_density(self):
+        """
+        Cosmology layer: recursion dark energy density.
+        ρ ~ H^4, where H is the Hubble constant.
+        """
+        H = self.delta * 1e-18  # convert to 1/s (approx scaling)
+        return H**4
+
+    def hubble_expansion(self, t):
+        """
+        Scale factor a(t) ~ exp(H t).
+        """
+        H = self.delta * 1e-18
+        return np.exp(H * t)
+
+# --- Run Universe Kernel ---
+kernel = UniverseKernel(N=128)
+
+# Canonical observable
+x = np.linspace(0, 10, 500)
+O_x = kernel.observable(x)
+
+# Fermion masses
+electron_mass = kernel.fermion_mass(1)
+muon_mass     = kernel.fermion_mass(2)
+tau_mass      = kernel.fermion_mass(3)
+
+# Cosmology outputs
+rho_dark = kernel.dark_energy_density()
+a_t      = kernel.hubble_expansion(np.linspace(0, 1e17, 100))  # time in seconds
+
+print("Electron mass (GeV):", electron_mass)
+print("Muon mass (GeV):", muon_mass)
+print("Tau mass (GeV):", tau_mass)
+print("Dark energy density (arb. units):", rho_dark)
+
+# --- Visualization ---
+plt.figure(figsize=(8,5))
+plt.plot(x, O_x, label="Canonical Observable O(x)")
+plt.plot(np.linspace(0, 1e17, 100), a_t, label="Scale Factor a(t)")
+plt.title("Universe Kernel: Particle Physics + Cosmology Layer")
+plt.xlabel("Synthetic coordinate / time")
+plt.ylabel("Observable / Scale Factor")
+plt.legend()
+plt.grid(True)
+plt.show()
+import numpy as np
+from scipy.linalg import eigh
+import matplotlib.pyplot as plt
+
+# --- Universe Kernel ---
+class UniverseKernel:
+    def __init__(self, N=128):
+        self.N = N
+        self.L = self._laplacian_matrix(N)
+        self.eigvals, self.eigvecs = eigh(self.L)
+
+        # Real constants (our universe)
+        self.alpha = 1/137.035999084   # fine-structure constant
+        self.beta  = 1836.15267343     # proton/electron mass ratio
+        self.delta = 67.4              # Hubble constant (Planck 2018, km/s/Mpc)
+        self.eta   = 0.75              # metabolic scaling exponent
+        self.v     = 246.0             # Higgs vacuum expectation value (GeV)
+
+    def _laplacian_matrix(self, N):
+        L = np.zeros((N, N))
+        for i in range(N):
+            L[i, i] = -2
+            if i > 0:
+                L[i, i-1] = 1
+            if i < N-1:
+                L[i, i+1] = 1
+        return L
+
+    def observable(self, x):
+        """Canonical observable O(x) encoding constants + cosmology + scaling."""
+        return (self.alpha * np.sin(self.eigvals[1]*x) +
+                self.beta  * np.cos(self.eigvals[2]*x) +
+                self.delta * np.exp(-self.eigvals[3]*x/self.N) +
+                self.eta   * (x**0.75))
+
+    def fermion_mass(self, mode_index):
+        """Compute fermion mass from Yukawa overlap."""
+        y = np.abs(self.eigvecs[:, mode_index]).mean()  # overlap proxy
+        return (self.v / np.sqrt(2)) * y
+
+    def dark_energy_density(self):
+        """Cosmology layer: recursion dark energy density ρ ~ H^4."""
+        H = self.delta * 1e-18  # convert to 1/s (approx scaling)
+        return H**4
+
+    def hubble_expansion(self, t):
+        """Scale factor a(t) ~ exp(H t)."""
+        H = self.delta * 1e-18
+        return np.exp(H * t)
+
+    def metabolic_rate(self, mass):
+        """
+        Biology layer: Kleiber's law.
+        B(M) ~ M^(3/4).
+        """
+        return mass**self.eta
+
+    def renormalization_flow(self, scale):
+        """
+        Biology layer: renormalization flow proxy.
+        Flow ~ log(scale) * metabolic exponent.
+        """
+        return np.log(scale+1) * self.eta
+
+# --- Run Universe Kernel ---
+kernel = UniverseKernel(N=128)
+
+# Canonical observable
+x = np.linspace(0, 10, 500)
+O_x = kernel.observable(x)
+
+# Fermion masses
+electron_mass = kernel.fermion_mass(1)
+muon_mass     = kernel.fermion_mass(2)
+tau_mass      = kernel.fermion_mass(3)
+
+# Cosmology outputs
+rho_dark = kernel.dark_energy_density()
+a_t      = kernel.hubble_expansion(np.linspace(0, 1e17, 100))
+
+# Biology outputs
+mass_range = np.linspace(1, 1000, 100)
+metabolic_rates = kernel.metabolic_rate(mass_range)
+flows = kernel.renormalization_flow(mass_range)
+
+print("Electron mass (GeV):", electron_mass)
+print("Muon mass (GeV):", muon_mass)
+print("Tau mass (GeV):", tau_mass)
+print("Dark energy density (arb. units):", rho_dark)
+print("Sample metabolic rates:", metabolic_rates[:5])
+
+# --- Visualization ---
+plt.figure(figsize=(10,6))
+plt.subplot(2,1,1)
+plt.plot(x, O_x, label="Canonical Observable O(x)")
+plt.plot(np.linspace(0, 1e17, 100), a_t, label="Scale Factor a(t)")
+plt.title("Universe Kernel: Physics + Cosmology")
+plt.legend(); plt.grid(True)
+
+plt.subplot(2,1,2)
+plt.plot(mass_range, metabolic_rates, label="Metabolic Rate B(M)")
+plt.plot(mass_range, flows, label="Renormalization Flow")
+plt.title("Universe Kernel: Biology Layer")
+plt.legend(); plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+GreatScott!™🄯  ENTERPRISE LICENSE v2.1
+Open for Study • Closed for Commercial Use
+AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™
+A Paradigm‑Class Intellectual Property Protection Framework
+Protected Under U.S. & International Trademark and Copyright Law
+# 📚 Global Intellectual Property Reference Index
+### Authoritative Legal Sources for Copyright & Trademark Protection  
+GreatScott™🄯 • AN.KI™ • Hazeru™ • M.E.O.W.W.O.W!™
+
+This document lists the official governing texts that define and enforce
+U.S. and international intellectual property protections relevant to this License.
+
+---
+
+## 🇺🇸 U.S. Copyright Law  
+### Title 17 — United States Code (U.S. Copyright Act)
+
+**Official Text:**  
+https://www.copyright.gov/title17/
