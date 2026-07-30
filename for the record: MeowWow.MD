@@ -1,2 +1,2 @@
 
-Machine‑Encoded Ontic Whorl Within Ontological World
+Machine‑Encoded Ontic Whorl Within Ontological World (C)(TM)
