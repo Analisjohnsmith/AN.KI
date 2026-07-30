@@ -2841,3 +2841,166 @@ All rights remain fully reserved by the Licensor.
 - **[Madrid Protocol](ca://s?q=Explain_Madrid_Protocol)**  
 - **[TRIPS Agreement](ca://s?q=Explain_TRIPS_Agreement)**
 
+GREATSCOTT ENTERPRISE LICENSE v3.1
+Effective Date: [DATE] Version: 3.1
+
+PART 1: DEFINITIONS AND SCOPE
+1.1 Definitions
+"Software" means the source code, object code, documentation, artwork, trademarks, and other materials provided by Licensor under this License.
+
+"Licensor" means [INSERT NAME/ENTITY].
+
+"Customer" means the individual or entity accepting this License.
+
+"Protected Assets" include only materials in which Licensor possesses rights recognized under applicable law, including software, documentation, artwork, trademarks, logos, specifications, databases, and other original expressive content. This definition does not extend to ideas, concepts, algorithms, mathematical principles, or scientific discoveries.
+
+"Commercial License" means a separate written agreement granting additional rights beyond this public License.
+
+1.2 License Hierarchy
+The following hierarchy governs all assets:
+
+Asset Type	License
+Source Code	Apache License 2.0 (unless a Commercial License is purchased)
+Documentation	CC BY-NC 4.0 (unless otherwise stated)
+Artwork	Copyright Reserved (all rights reserved)
+Trademarks	Never licensed except through written authorization
+Commercial License	Overrides all other licenses for the licensed Customer, within the scope expressly granted
+1.3 Scope of Rights
+The rights granted under this License apply only to rights recognized under applicable copyright, trademark, patent, trade secret, and contract laws. Nothing in this License claims ownership of ideas, concepts, algorithms, mathematical principles, or scientific facts.
+
+Independent development of software performing similar functions is not prohibited, provided it does not copy protected expression, infringe trademarks, violate patents, misappropriate trade secrets, or otherwise violate applicable law.
+
+PART 2: GRANT OF RIGHTS
+2.1 Public License Grant
+Subject to compliance with this License, Licensor grants Customer a worldwide, royalty-free, non-exclusive, non-transferable license to use the Software for internal purposes only.
+
+2.2 Commercial License
+For commercial use, distribution, or any use beyond the scope of the public license, Customer must purchase a separate Commercial License from Licensor.
+
+2.3 Reservation of Rights
+All rights not expressly granted remain exclusively reserved by Licensor. No implied license arises through possession, observation, reverse engineering, interoperability, publication, demonstration, or any other conduct.
+
+PART 3: RESTRICTIONS AND PROHIBITED USES
+3.1 AI and Machine Learning Restrictions
+Without prior written authorization, Customer may not use the Software or Protected Assets for:
+
+Training machine learning models
+Fine-tuning AI systems
+Embedding generation
+Dataset creation
+Model distillation
+Benchmark generation
+3.2 Trademark Restrictions
+Nothing in this License grants permission to use any trademark, logo, product name, service mark, or branding belonging to Licensor, except as expressly authorized in writing.
+
+Customer may not use branding in a manner likely to cause consumer confusion regarding source, sponsorship, or affiliation. Reasonable nominative reference is permitted where allowed by law.
+
+3.3 Derivative Works
+Any authorized derivative work must clearly identify itself as a modified version. Customer shall not represent modified versions as official releases of Licensor.
+
+Only software published directly by Licensor may be described as Official, Certified, Verified, or Reference implementations.
+
+3.4 Authenticity and Attribution
+Customer shall preserve all copyright notices, trademark notices, patent notices, attribution notices, and license headers. Removal or alteration of ownership notices without authorization is prohibited.
+
+The Software may include digital signatures, cryptographic hashes, watermarks, or other authenticity mechanisms. Circumvention of such mechanisms is prohibited.
+
+PART 4: COMPLIANCE AND OVERSIGHT
+4.1 Audit Rights
+Licensor may request reasonable written evidence demonstrating compliance. If objective evidence suggests a material violation, Licensor may request a compliance audit upon prior written notice.
+
+Audits shall:
+
+Occur during normal business hours
+Minimize disruption
+Protect Customer confidential information
+Remain limited to License compliance
+Licensor shall bear audit costs unless a material violation is discovered.
+
+4.2 Notice of Breach
+Except where immediate termination is authorized, Licensor shall provide written notice describing the alleged material breach. Customer shall have thirty (30) days to cure the breach unless it cannot reasonably be cured.
+
+4.3 Infringement Notification
+If Customer becomes aware of unauthorized copying, trademark infringement, or misuse of the Software, Customer shall promptly notify Licensor.
+
+4.4 Security Research
+Nothing in this License prohibits lawful security research performed solely for defensive purposes where permitted by law. Public disclosure of vulnerabilities should be reported privately to Licensor when reasonably practical.
+
+PART 5: OWNERSHIP AND SUCCESSION
+5.1 Ownership
+Licensor retains all ownership rights in the Software, including copyrights, trademarks, patents, and trade secrets. No ownership interest, patent assignment, trademark assignment, copyright assignment, or transfer of goodwill is granted.
+
+5.2 Succession
+Upon Licensor's death or legal incapacity, licensing authority shall pass to Licensor's designated successor in accordance with applicable estate planning documents and governing law. This clause does not supersede applicable probate or inheritance law.
+
+5.3 Assignment
+Customer may not assign, transfer, sublicense, merge, or otherwise convey this License without prior written consent. Any attempted assignment in violation is void. The rights under this License are personal to the licensed Customer and do not automatically transfer through corporate transactions unless approved in writing.
+
+PART 6: WARRANTIES AND LIABILITY
+6.1 Disclaimer of Warranties
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+6.2 Limitation of Liability
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS OR DATA, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+6.3 Force Majeure
+Neither party shall be liable for delays caused by events beyond reasonable control, including natural disasters, war, terrorism, labor disputes, governmental actions, power failures, or widespread network outages.
+
+PART 7: SURVIVAL AND GENERAL TERMS
+7.1 Survival
+The following provisions survive termination:
+
+Ownership
+Trademark Restrictions
+Liability Limitations
+Audit Records
+Payment Obligations
+Reserved Rights
+Governing Law
+Confidentiality
+7.2 Governing Law
+This License shall be governed by and construed in accordance with the laws of [JURISDICTION], without regard to its conflict of law provisions.
+
+7.3 Severability
+If any provision is held invalid, illegal, or unenforceable, the remaining provisions remain in full force. Invalid provisions shall be interpreted or modified only to the minimum extent necessary to make them enforceable.
+
+7.4 No Waiver
+Failure to enforce any provision shall not constitute a waiver. Any waiver must be in writing and signed by Licensor.
+
+7.5 Entire Agreement
+This License constitutes the complete agreement regarding the Software. No heading, example, explanatory note, marketing statement, or descriptive text modifies the legal effect of the operative provisions unless expressly stated.
+
+7.6 Version Control
+Each released version is permanently identified by its version number and publication date. Customers remain governed by the version under which rights were granted unless both parties agree in writing to adopt a newer version.
+
+7.7 Language
+The English version of this License is controlling. Translations are provided for convenience; if a conflict exists, the English version governs.
+
+7.8 Electronic Agreement
+Electronic acceptance and signatures shall have the same force and effect as written documents where recognized by applicable law.
+
+7.9 Cumulative Remedies
+All rights and remedies provided by this License are cumulative. The exercise of one remedy does not prevent pursuing any additional remedy available under law.
+
+7.10 Good Faith
+The parties agree to exercise rights and perform obligations under this License in good faith and in a commercially reasonable manner.
+
+---## License Misapplication and Accidental Sharing
+
+Customer shall not publish, distribute, or otherwise release the Software or Protected Assets under any license other than those expressly permitted by this Agreement.
+
+Accidental misapplication of a different license (e.g., GPL, MIT, BSD) shall be treated as a material breach unless cured within thirty (30) days of written notice from Licensor.
+
+Cure requires:
+
+Withdrawal of the misapplied license version
+Replacement with the correct license headers
+Public correction notice where reasonably practical
+Failure to cure within the specified period shall result in immediate termination of rights under this License.
+
+VERSION HISTORY
+Version	Date	Changes
+v3.1	[7/29/26]	Consolidated and reorganized. Clarified license hierarchy, audit rights, trademark policy, AI restrictions, and survival provisions.
+END OF LICENSE
+
+This restructured document eliminates duplicate sections, groups related provisions into logical parts, and presents a clear hierarchy between public and commercial licenses. It's now suitable for enterprise and legal review while preserving the protections developed.
