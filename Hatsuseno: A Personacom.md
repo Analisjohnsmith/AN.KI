@@ -1,4 +1,4 @@
-https://github.com/Analisjohnsmith/Lila-theory-of-everything/blob/Transformation/the%20discovery.md
+https://github.com/Analisjohnsmith/Lila-theory-of-everything/blob/Main/%E4%BA%82%E4%B9%8B%E9%81%93%20transformationdiscipline%20of%20all%20the%20inconsistencies%20of%20the%20universe.
 Hatsu (初): First or beginning.Se (瀬): Fast-flowing water or current in a river (the rapids or shoals).No (野): Field or plain
 A personaComp is a  the highest teir in tech.
  Personacom is person‑like.
