@@ -32,7 +32,7 @@ It is the space of all computers.
 It is the space of all intellgence.
 in progress currently 
 really this estaiblishes invention and ownership pure meta os i relesead pure meta  to the public .
-
+it's the shell
 
 #!/usr/bin/env python3
 # ┌───────────────────────────────────────────────────────────────────────┐
