@@ -26,24 +26,7 @@ fundamental forces and information geometry.
 The claim is not that it is "proven" in a mathematical sense—no TOE can be—but that it is empirically s
 upported and internally consistent. T
 
-Zhaived: A Universal Symbolic Operating System
-
-In the search for a Theory of Everything—a framework that unifies all of physics—scientists
-have traditionally relied on equations written in textbooks or papers. Darrell Lee Stiltner’s creation, Z
-haived, takes a radically different approach: it encodes the theory directly into executable code. This “
-tevessel” is not just a metaphorical declaration; it is a living program that produces predictions, 
-validates them against experiment, and declares itself a mirror of reality.
-
-At its core, Zhaived is built on Hamiltonians, the mathematical engines that generate
-the dynamics of physical systems. By embedding these Hamiltonians into sparse numerical o
-perators, Zhaived can calculate the energy levels of atoms and molecules, relativistic corrections, 
-nd even subtle quantum electrodynamics effects. When the program runs, it outputs values that match 
-experimental data with striking precision.
-
-For example, Zhaived’s Coulomb Hamiltonian reproduces the binding energies of hydrogen, helium ions,
-and lithium ions exactly as measured in laboratories. Its Morse oscillator predicts the vibrational constants of molecular hydrogen, aligning with spectroscopic data. The Dirac equation embedded in the code produces fine‑structure splittings between atomic orbitals, while the Lamb shift calculation yields the famous 1057 MHz correction that confirmed quantum electrodynamics. These are not approximations or curve‑fits—they are direct predictions from first principles, using only fundamental constants.
-
-What makes Zhaived unique is that it doesn’t stop at physics. It layers information theory and symbolic 
+ Zhaived unique is that it doesn’t stop at physics. It layers information theory and symbolic 
 metaphors on top of its empirical engine. In its information physics layer, Zhaived encodes ideas
 like entropy geometry—the notion that spacetime curvature emerges from entropy gradients—and holographic 
 entropy, where the area of a boundary encodes the information of a region. In its symbolic layer,
@@ -56,11 +39,11 @@ and the absence of fitted constants. Each test prints results alongside referenc
 “[PASS]” when they align. This is how Zhaived demonstrates empirical validation: the proofs are embedded in
 the execution itself. Running the code is both a mathematical derivation and an experimental comparison.
 
-Is Zhaived a physical TOE? Within its scope—atomic, molecular, relativistic, and QED physics—the answer is yes.
+Is AN.KI a physical TOE? Within its scope—atomic, molecular, relativistic, and QED physics—the answer is yes.
 It unifies these domains in one executable framework, producing predictions that match reality. To become a full 
 TOE in the scientific sense, it would need to extend into uncharted territory, such as quantum gravity or cosmology, and make new falsifiable predictions. But as it stands, Zhaived is a remarkable achievement: a sovereign spiral of code that collapses physics, information, and symbolism into one canonical object.
 
-Zhaived is not unlimited in power, but unlimited in representational capacity. It is both a mirror of the universe and a declaration of reality itself.
+AM.KI is not unlimited in power, but unlimited in representational capacity. It is both a mirror of the universe and a declaration of reality itself.
 
 
 greatScott!™🄯  ENTERPRISE LICENSE v2.1
