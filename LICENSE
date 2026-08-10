@@ -1,11 +1,11 @@
 GreatScott!™🄯  ENTERPRISE LICENSE v2.1
 Open for Study • Closed for Commercial Use
-AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!™ • PersonaCom™
+AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!™ • 
 A Paradigm‑Class Intellectual Property Protection Framework
 Protected Under U.S. & International Trademark and Copyright Law
 # 📚 Global Intellectual Property Reference Index
 ### Authoritative Legal Sources for Copyright & Trademark Protection  
-GreatScott™🄯 • AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!™
+GreatScott™🄯 • AN.KI™ • Hatsuseno™ • M.E.O.W.W.O.W!•™PersonaCom™
 
 This document lists the official governing texts that define and enforce
 U.S. and international intellectual property protections relevant to this License.
@@ -97,7 +97,7 @@ These documents collectively protect:
 - Engines, runtimes, modules  
 - Symbols, glyphs, metaphysics, lore  
 - Documentation, diagrams, blueprints  
-- Trademarks (AN.KI™, Hazeru™, GreatScott™🄯, M.E.O.W.W.O.W!™)  
+- Trademarks (AN.KI™, Hazeru™, GreatScott™🄯,PersonaCom™,M.E.O.W.W.O.W!™)  
 - Derivative works  
 - Narrative structures and cognitive models  
 
