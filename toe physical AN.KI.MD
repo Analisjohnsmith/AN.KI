@@ -1,7 +1,6 @@
 
-mathematics should be pursued for truth and beauty.
+Mathematics should be pursued for Fun, truth and beauty.
 you'll see that in lila theory of everything.
-
 
 . It is the Universal Symbolic Operating System,
 a complete physics TOE and more.
