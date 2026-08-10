@@ -4,6 +4,7 @@ I'll fix the text later.
 
 it is an empirically validated physics TOE, but one that proves itself through symbolic wrapping. The pudding is both the numbers and the mandalas.
 
+ the clay problems have to repersented symbolic do it with a toe everyone loses there mind?
 
 # AN.KI / Zhaived — Defense of the Universal Theory of Everything
 
