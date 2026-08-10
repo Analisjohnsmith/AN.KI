@@ -1,6 +1,6 @@
 M.E.O.W.O.W! is finished. It is the Universal Symbolic Operating System,
 a complete physics TOE and more.
-
+I'll fix the text later.
 
 # AN.KI / Zhaived — Defense of the Universal Theory of Everything
 
