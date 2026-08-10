@@ -1,4 +1,9 @@
-M.E.O.W.O.W! is finished. It is the Universal Symbolic Operating System,
+
+mathematics should be pursued for truth and beauty.
+you'll see that in lila theory of everything.
+
+
+. It is the Universal Symbolic Operating System,
 a complete physics TOE and more.
 I'll fix the text later.
 
