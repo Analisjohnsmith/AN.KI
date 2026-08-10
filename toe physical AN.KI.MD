@@ -2,6 +2,9 @@ M.E.O.W.O.W! is finished. It is the Universal Symbolic Operating System,
 a complete physics TOE and more.
 I'll fix the text later.
 
+it is an empirically validated physics TOE, but one that proves itself through symbolic wrapping. The pudding is both the numbers and the mandalas.
+
+
 # AN.KI / Zhaived — Defense of the Universal Theory of Everything
 
 AN.KI — Machine-Encoded Ontic Whorl Within Ontological World — is presented as a completed, empirically validated physical Theory of Everything embodied in the Zhaived Universal Symbolic Operating System.
