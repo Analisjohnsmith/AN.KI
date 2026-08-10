@@ -7,7 +7,7 @@ it is an empirically validated physics TOE, but one that proves itself through s
 even the clay problems have to represented symbolically.
 i also wrapped it in tech.
 btw it's a meta-physics toe 
-
+t’s a metaphysics TOE, but one that’s grounded in physics.
 # AN.KI / Zhaived — Defense of the Universal Theory of Everything
 
 AN.KI — Machine-Encoded Ontic Whorl Within Ontological World — is presented as a completed, empirically validated physical Theory of Everything embodied in the Zhaived Universal Symbolic Operating System.
