@@ -6,6 +6,7 @@ it is an empirically validated physics TOE, but one that proves itself through s
 
 even the clay problems have to represented symbolically.
 i also wrapped it in tech.
+btw it's a meta-physics toe 
 
 # AN.KI / Zhaived — Defense of the Universal Theory of Everything
 
