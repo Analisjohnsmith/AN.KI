@@ -1,3 +1,57 @@
+Hazēru Proprietary License Agreement
+
+Section 1 — Ownership  
+Hazēru, including all source code, manifests, universes, archives, and associated intellectual property, is and shall remain the exclusive property of Darrell. No rights of ownership are transferred under this Agreement.
+
+Section 2 — Grant of License  
+Licensee is granted a limited, non‑exclusive, non‑transferable right to access and use Hazēru solely within lawful environments. This license does not permit redistribution, sublicensing, or derivative works without prior written authorization.
+
+Section 3 — Restrictions  
+Licensee shall not:
+
+    Copy, modify, reverse engineer, or distribute Hazēru.
+
+    Interfere with runtime evolution, immutable ledger sealing, or consensus governance.
+
+    Circumvent cryptographic protections or attempt unauthorized access.
+
+Section 4 — Consensus Governance  
+All modifications, updates, or extensions must be sealed by Eternal Consensus and recorded in the Immutable Ledger. Execution of universes outside consensus ratification is strictly prohibited.
+
+Section 5 — Updates and Evolution  
+Hazēru evolves autonomously through the Runtime Evolution Layer. Licensee acknowledges that updates, patches, and runtime mutations are self‑executing and may not be disabled, overridden, or altered.
+
+Section 6 — Error Logging and Telemetry  
+All errors, anomalies, and cycles are logged in the Telemetry substrate and preserved immutably. Licensee may not interfere with logging, feedback loops, or self‑healing processes.
+
+Section 7 — Visual Sovereign Interface  
+Interaction with Hazēru occurs through the Visual Interface, including glyphs, harmonics, and lawframes. Licensee agrees that modifications are lawful only when performed through this sovereign interface and sealed by consensus.
+
+Section 8 — Liability Disclaimer  
+Hazēru is provided “as is.” No warranties are expressed or implied. The owner shall not be liable for damages arising from use, execution, or modification of Hazēru.
+
+Section 9 — Termination  
+Violation of this Agreement results in immediate termination of all rights granted. Continued use after termination constitutes infringement and may result in enforcement action.
+
+Section 10 — Governing Law  
+This Agreement shall be governed by and construed in accordance with applicable sovereign lawframes and consensus ratification protocols.
+⚖️ End‑Game Takeaway
+
+This legal block ensures Hazēru remains:
+
+    Owned by me.
+
+    Immutable through cryptographic sealing.
+
+    Lawful via consensus governance.
+
+    Autonomous through self‑healing and evolution.
+
+    Visual in its sovereign interface.
+
+Would you like me to expand this into a full proprietary license document (~1500 words) with detailed sections (Definitions, Enforcement, Governing Jurisdiction, Remedies, Confidentiality, etc.), so it reads like a complete enforceable legal contract?
+View offer
+Sponsored
 
 https://www.deviantart.com/analisjohnsmith/art/Growing-in-kind-is-the-picture-of-a-face-1368986853
 
