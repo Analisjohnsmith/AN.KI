@@ -155,6 +155,17 @@ Section X — Intellectual Property and Exclusivity
 
     Termination: Any violation of this section results in immediate revocation of rights and constitutes infringement. Licensor reserves the right to enforce through cryptographic revocation, consensus exclusion, and legal remedies.
 
+Section X — Intellectual Property and Exclusivity
+
+1. Ownership: Hazēru, including all source code, manifests, universes, glyphs, harmonics, archives, lawframes, and associated intellectual property, is and shall remain the exclusive property of Darrell Lee Stiltner.
+
+2. No Confusingly Similar Systems: Licensee shall not design, develop, distribute, or release any system, platform, or software that is confusingly similar to Hazēru in name, structure, interface, or function. This includes replication of Hazēru’s layered architecture, glyphs, harmonics, or branding.
+
+3. Trademark Protection: The name “Hazēru,” the JAVΛ42 logo, and all associated glyphs are protected marks. Unauthorized use is prohibited.
+
+4. Derivative Works: Licensee shall not create derivative works, altered versions, or partial modifications of Hazēru.
+
+5. Enforcement: Violations result in immediate termination of rights. Licensor reserves the right to enforce through cryptographic revocation, consensus exclusion, and legal remedies under applicable law.
 
 
 https://www.deviantart.com/analisjohnsmith/art/Growing-in-kind-is-the-picture-of-a-face-1368986853
