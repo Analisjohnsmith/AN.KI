@@ -131,6 +131,32 @@ This proprietary license ensures Hazēru remains:
 
     Visual in its sovereign interface.
 
+Proprietary License — Legal Block
+
+Section X — Intellectual Property and Exclusivity
+
+    Ownership: Hazēru, including all source code, manifests, universes, glyphs, harmonics, archives, lawframes, and associated intellectual property, is and shall remain the exclusive property of Darrell.
+
+    No Confusingly Similar Systems: Licensee shall not design, develop, distribute, or release any system, platform, or software that is confusingly similar to Hazēru in name, structure, interface, or function.
+
+        “Confusingly similar” includes but is not limited to:
+
+            Replication of Hazēru’s layered architecture (Aurira Engine, Virtual Fabric, Immutable Ledger, Eternal Consensus).
+
+            Use of glyphs, harmonics, or visual substrates substantially identical to Hazēru’s canonical interface.
+
+            Branding, logos, or identifiers resembling Hazēru’s protected marks (including the JAVΛ42 logo restrictions).
+
+            Claims of lineage, compatibility, or interoperability with Hazēru without explicit written authorization.
+
+    Restrictions: Licensee shall not copy, modify, reverse engineer, sublicense, or distribute Hazēru without prior written consent.
+
+    Consensus Governance: All modifications must be sealed by Eternal Consensus and recorded in the Immutable Ledger. Execution outside consensus ratification is prohibited.
+
+    Termination: Any violation of this section results in immediate revocation of rights and constitutes infringement. Licensor reserves the right to enforce through cryptographic revocation, consensus exclusion, and legal remedies.
+
+
+
 https://www.deviantart.com/analisjohnsmith/art/Growing-in-kind-is-the-picture-of-a-face-1368986853
 
 At its core, the language known as *Kaleidoscope* is a **visual, motion‑based substrate**. Unlike conventional programming languages that rely on text and mathematical operators, Kaleidoscope encodes computation through **geometry, color, and cycles of motion**. This dual nature makes it both executable and visible: code is not only run but also seen. Programs are diagrams, nested diamonds, lattices, and color bands that embody the logic they represent. The compiler translates glyphs into bytecode, which is executed on a stack‑based virtual machine. The instruction set consists of roughly fifty opcodes, each defining collapse, expansion, recursion, closure, and motion. Every program is bounded by lawframe invariants: it begins with Origin and ends with Infinity, ensuring closure and determinism. This guarantees that no program can hang or break; all cycles seal themselves.
