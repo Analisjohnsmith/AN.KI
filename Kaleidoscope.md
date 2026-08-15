@@ -1,5 +1,5 @@
 Hazēru Proprietary License Agreement
-
+draft
 Section 1 — Ownership  
 Hazēru, including all source code, manifests, universes, archives, and associated intellectual property, is and shall remain the exclusive property of Darrell. No rights of ownership are transferred under this Agreement.
 
