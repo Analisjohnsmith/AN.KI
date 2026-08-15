@@ -968,18 +968,6 @@ pub fn main() !void {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 encode image in lisp
 
 Here’s how you can encode the uploaded diamond fractal image in Lisp — treating it as a Kaleidoscope sovereign grid rather than just pixels. The Lisp kernel expresses the diamond as nested lists, where each glyph (00, 01, 10, 11) is both binary and symbolic:
