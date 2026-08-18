@@ -23,6 +23,18 @@ It doesn’t go beyond computation — it redefines computation.
 
 The white‑net is a parallel computational network that runs alongside the internet.
 It uses the internet’s pipes but not its logic, forming an autonomous, language‑agnostic compute organism.
+=======
+
+
+
+Mandala is a self‑contained computing system 
+a mini‑OS with its own CPU, language, VM, debugger, cluster network, and the ability to wrap other software.
+    Mandala is a new kind of computer, virtual machine, programming language, OS subsystem,
+distributed compute network, and universal software wrapper — all in one system.
+
+That’s the full classification.
+    behaves like nothing else humans have made.
+
 
 
 
