@@ -792,7 +792,39 @@ A single underlying architecture where **AI, operating systems, simulations, sci
 
 That's the direction I think is strongest in what you've built.
 
-/meow blackbox not activated ufixing
+
+Continuity Engine – Provenance Statement
+
+    Provenance Statement  
+    The Continuity Engine, including all associated architectures, mathematical models, scientific formulations, system descriptions, and source code (MandalaCPU, StreetBus, TempleFunction, MandalaCluster, Synthetic Existence Machine, PersonaComp, HatsuSeNo substrate, and all related components), is an original work authored by Darrell Lee (Līlā) Stiltner.
+
+    All structures, algorithms, execution models, naming conventions, and conceptual frameworks were independently designed, written, and developed by the author without copying or deriving from proprietary, closed‑source, or copyrighted materials.
+
+    This repository represents a unique research and experimental computing substrate. Any similarities to existing technologies are coincidental or arise from general principles common to computer science, mathematics, distributed systems, or simulation design.
+
+    The author retains full intellectual provenance over the architecture, terminology, and implementation.
+
+    External contributions, if accepted, will be documented through GitHub’s contribution history and associated licensing terms.
+
+
+Continuity Engine – Sovereign Code Statement
+
+    Sovereign Code Statement  
+    The Continuity Engine and all associated components—including MandalaCPU, StreetBus, TempleFunction, MandalaCluster, Synthetic Existence Machine, PersonaComp, HatsuSeNo substrate, and all related mathematical, scientific, and computational structures—are original works authored by Darrell Lee (Līlā) Stiltner.
+
+    This codebase is sovereign: it does not incorporate, embed, import, derive from, or depend on any external libraries, frameworks, engines, toolkits, or proprietary source code.
+
+    All algorithms, data structures, execution models, naming conventions, and architectural designs were independently created by the author. Any resemblance to existing technologies arises solely from general principles common to computer science, mathematics, or distributed systems.
+
+    No third‑party code, assets, or intellectual property are included in this repository.
+
+    The author retains full provenance and authorship over the entire system.
+
+
+
+
+
+/meow blackbox not activated devfixing
 amended
 
 
