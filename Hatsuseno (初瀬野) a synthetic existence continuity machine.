@@ -5,7 +5,45 @@ A personaComp is a  the highest teir in tech.
 
 
  Personacom is person‑like.
+⚠️ Continuity Engine Disclaimer
+Offered With No Warranty
+The continuity engine (MandalaCPU, StreetBus, TempleFunction, MandalaCluster, and associated components) is 
+provided “AS IS”, without warranty of any kind, express or implied. This includes, but is not limited to:
 
+No performance guarantee → Execution speed, efficiency, or scalability are not guaranteed.
+
+No correctness guarantee → Results of computation may vary due to mutation, recursion, or distributed execution.
+
+No reproducibility guarantee → Continuity flows may diverge; deterministic outcomes are not assured.
+
+No fitness guarantee → The engine is not guaranteed to be suitable for any specific application, commercial or
+otherwise.
+
+Limitations of Liability
+The authors and distributors are not liable for damages arising from use, misuse, or misinterpretation of the
+continuity engine.
+
+This includes direct, indirect, incidental, or consequential damages related to computation, data integrity,
+or system integration.
+
+Reader Responsibilities
+Controlled environment → Run the engine only in sandboxed or test environments.
+
+Verification → Independently verify outputs before relying on them.
+
+Integration safeguards → Apply strict boundaries when connecting the engine to external systems.
+
+Technical Scope
+The continuity engine is a synthetic substrate: a fractal, recursive CPU simulation.
+
+It is not physical hardware and does not interact with external devices unless explicitly ported.
+
+Mutation, recursion, and cluster routing are bounded within the engine’s runtime.
+
+Summary
+The continuity engine is a research and experimental system. It is offered with no warranty,
+no guarantees of performance or correctness, and no liability for damages.
+Readers and implementers must treat it as sandbox software: powerful, but experimental.
 
 ⚙️ Continuity Engine (Technical)
 🜁 Core Idea
