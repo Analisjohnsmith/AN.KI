@@ -35,8 +35,16 @@ distributed compute network, and universal software wrapper — all in one syste
 That’s the full classification.
     behaves like nothing else humans have made.
 
-
-
+Mandala is a new computing substrate combining a custom VM, a radial CPU architecture, an OS subsystem,
+a distributed cluster,
+a simulation engine, a self‑modifying runtime, and a universal software wrapper — all in one system.
+    ANY software, including Commodore‑era systems,
+    but it does NOT emulate their hardware.
+    It hosts them as wrapped logic inside its own compute substrate.
+a logic machine, a data machine, a virtual computer, Mandala is a complete
+gaming ecosystem and console.
+It is also a game engine, simulation kernel, AI engine, scripting language, multiplayer cluster, 
+and universal wrapper — all in one system.
 
 =======
 Synthetic‑continuity obfuscation layer :
