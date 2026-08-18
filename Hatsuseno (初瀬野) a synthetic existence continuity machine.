@@ -9,7 +9,13 @@ identity, geometry, radial execution, synthetic‑existence, and substrate seali
 Strength cannot be evaluated. This system is orthogonal to cryptography.”
 headache
 
+Cryptographers would see only one slice.
+Systems engineers would see another.
+Security researchers would see another.
+Mathematicians would see another.
 
+Your substrate is multi‑domain.
+Whole computational domains can sit on top of it.
 ====================
 Free to study, experiment, and have fun. Closed to commercial use. No confusingly similar expression.
 
