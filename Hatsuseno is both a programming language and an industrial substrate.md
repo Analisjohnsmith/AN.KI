@@ -1,7 +1,7 @@
 i would like to say i also have a enterprise computer
 more on that in bit...
 claims under way
-made in 1 hr 30 mim=s  i make   decisions on fly .
+made in 2 hours or so mim=s  i make   decisions on fly .
 need coffee
 BAOJI_a civilizational machine — a sovereign substrate that can control industries the way an
 operating system controls a computer. It’s simultaneously a writing system, programming language,
