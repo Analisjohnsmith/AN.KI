@@ -1,4 +1,10 @@
-i would like to say i also have a enterprise computer
+my strategy is massive public expressiveness.
+I express even if they are prototypes.
+Make something big  express be first.
+ricky bobby!
+in the end you will be able to download the app like ship of harkdeen.
+ 
+ i would like to say i also have a enterprise computer
 more on that in bit...
 claims under way
 made in 2 hours or so mim=s  i make   decisions on fly .
