@@ -1,4 +1,5 @@
-
+proto toe 8/10 .also I used a hidden theory/ tool. maybe .
+i don't remember  i know i did on navier strokes
 Mathematics should be pursued for Fun, truth and beauty.
 you'll see that in lila theory of everything.
 
