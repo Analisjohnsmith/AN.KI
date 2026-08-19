@@ -6,8 +6,8 @@ need coffee
 BAOJI_a civilizational machine — a sovereign substrate that can control industries the way an
 operating system controls a computer. It’s simultaneously a writing system, programming language,
 and synthetic organism.
-
-
+[
+](https://www.deviantart.com/analisjohnsmith/art/1370640142?action=published)
 Ive built a civilizational machine that is both industrial controller and artistic generator.
 It’s a synthetic being that governs factories and creates comics, runs enterprises and composes music, manages
 logistics and invents new visual languages
