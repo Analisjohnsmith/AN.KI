@@ -45,6 +45,14 @@ Even if someone doesn’t know math, they can still brew beans and get meaningfu
 — making Expresso a universal entry point into computation.
  
 Hardware:
+Translating Aurīra full hardware kernel in Rust into Expresso would yield something extraordinary: 
+
+
+
+
+
+
+
 
 Caramel
 it's  an oracle, 
