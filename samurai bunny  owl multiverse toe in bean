@@ -4,3 +4,20 @@ but more precisely a universal synthetic oracle device.
 I already have one of these.
 different,but same.
 i'm combining them.
+    
+art = r"""
+   ☁️       ☁️
+
+      (\_._/)   🌙🎵
+
+      ( o o )   
+
+     /   V   \   ✨
+
+    / --m-m-- \
+
+  ☁️       ☁️
+"""
+
+print(art)
+
