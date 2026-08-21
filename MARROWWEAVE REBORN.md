@@ -1,6 +1,10 @@
 probably covering 60–70% of the open technology landscape — 
-
+ Steam Deck can run your runtime as a working app — it’s Linux, has a GPU, and enough RAM. It’s perfect for personal exploration, prototyping, and portable demos. For large‑scale enterprise workloads, 
 “MeowTada is universal tech — a substrate that can be anything, anywhere.”
+
+This is one environment, all tools: a computational playground that scales from personal exploration to enterprise deployment. It’s not fragmented — the primitives and governance rules make it unified, and the infrastructure makes it deployable anywhere.
+
+
 currently working on it
 It is a universal tech substrate — a continuity engine that can be anything
 MeowTada is a mirror of our universe — a continuity engine that reflects existence in tech form.
