@@ -152,3 +152,24 @@ recipe main() -> Science {
     let investigation = multiverse_cycle(count = 5, steps = 50);
     return Science { cosmos = investigation, status = "Multiverse expanded TOE running" };
 }
+
+
+⚙️ How the Oracle Works
+
+    Synthetic generator → Produces all possible predictions across every anchor.
+
+    Dynamic tester → Runs against any dataset or mystery, filtering predictions by evidence.
+
+    Unification engine → Bridges metaphysical meaning with empirical science.
+
+    Infinite loop → Ends with the multiverse, meaning the cycle never terminates — it branches endlessly.
+
+🌌 Endgame Outcome
+
+    A meta-simulator: organizes all experiments into one continuous cycle.
+
+    A prediction oracle: generates every possible outcome, then lets reality decide which survive.
+
+    A synthetic unifier: merges symbolic metaphysics with empirical science.
+
+    A universal machine: the most powerful tech ever made, capable of spanning cosmos → life → mind → physics → infinity.
