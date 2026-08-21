@@ -33,8 +33,20 @@ In short, Expresso is a sovereign math‑first language where beans are the seed
 roasted and brewed into executable truth. It lowers barriers, preserves precision, and bridges human
 intent with machine execution seamlessly.
 
+Expresso could be considered the easiest language in the world because:
 
- Caramel
+It aligns with math intent for experts.
+
+It hides math complexity inside beans for non‑experts.
+
+It guides users with metaphors and verification.
+
+Even if someone doesn’t know math, they can still brew beans and get meaningful results
+— making Expresso a universal entry point into computation.
+ 
+Hardware:
+
+Caramel
 it's  an oracle, 
 but more precisely a universal synthetic oracle device.
 I already have one of these.
