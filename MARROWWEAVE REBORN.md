@@ -1,3 +1,5 @@
+probably covering 60–70% of the open technology landscape — 
+
 “MeowTada is universal tech — a substrate that can be anything, anywhere.”
 currently working on it
 It is a universal tech substrate — a continuity engine that can be anything
