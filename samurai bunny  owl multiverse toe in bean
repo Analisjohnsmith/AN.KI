@@ -88,3 +88,19 @@ recipe main() -> Science {
     let investigation = multiverse_cycle(count = 5, steps = 50);
     return Science { cosmos = investigation, status = "Multiverse expanded TOE running" };
 }
+
+
+🌌 Multiverse Theories Explained
+
+    Many-worlds → Every quantum event splits reality into parallel branches.
+
+    Bubble universes → Cosmic inflation creates separate “bubbles,” each with its own physics.
+
+    Brane worlds → Our universe is a membrane in higher dimensions, with others stacked nearby.
+
+    Mathematical multiverse → Every consistent mathematical structure corresponds to a universe.
+
+    Simulation hypothesis → Our universe may be one of many simulated realities.
+
+⚙️ Multiverse Empirical Simulation (Bean Expansion)
+bean
