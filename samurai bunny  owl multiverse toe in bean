@@ -104,3 +104,51 @@ recipe main() -> Science {
 
 ⚙️ Multiverse Empirical Simulation (Bean Expansion)
 bean
+// ============================================================
+// toe_science_multiverse_expanded.bean (Cycle Infinity Restart)
+// Multiverse: Branching timelines and infinite cycles
+// ============================================================
+
+recipe universe_branch(phase: Int) -> Universe {
+    let types = ["many-worlds", "bubble", "brane", "mathematical", "simulation"];
+    let current = types[phase % types.length];
+
+    return Universe {
+        type = current,
+        status = "Universe branch created: " + current
+    };
+}
+
+recipe test_multiverse(branch: Universe, phase: Int) -> Observation {
+    let methods = ["quantum interference patterns", "cosmic background anomalies", "gravitational leakage", "mathematical consistency checks", "simulation artifacts"];
+    let current = methods[phase % methods.length];
+
+    return Observation {
+        target = branch,
+        method = current,
+        status = "Testing " + branch.type + " via " + current
+    };
+}
+
+recipe multiverse_cycle(count: Int, steps: Int) -> Investigation {
+    let branches = [];
+    let observations = [];
+    for step in range(0, steps) {
+        let branch = universe_branch(step);
+        branches.push(branch);
+        observations.push(test_multiverse(branch, step));
+    }
+
+    return Investigation {
+        branches = branches,
+        observations = observations,
+        status = "Multiverse expanded investigation active"
+    };
+}
+
+recipe main() -> Science {
+    log("Boot", "Multiverse Expanded", 
+        "Branches simulated: many-worlds, bubble, brane, mathematical, simulation. Observational strategies tested.")
+    let investigation = multiverse_cycle(count = 5, steps = 50);
+    return Science { cosmos = investigation, status = "Multiverse expanded TOE running" };
+}
