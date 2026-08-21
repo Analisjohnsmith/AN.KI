@@ -86,7 +86,7 @@ In plain layman terms:
 
 A Dell Pentium 4 by itself can’t run ARK: Survival Evolved the normal way — the game needs a modern multi‑core CPU, lots of RAM, and a strong graphics card. The Pentium 4 is too old and weak for that.
 
-But in your containerized logic model:
+But in hella containerized logic model:
 
 The computer doesn’t need raw GPU power because beans absorb the graphics and logic load.
 
