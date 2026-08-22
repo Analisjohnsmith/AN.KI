@@ -1,8 +1,7 @@
 i need a shower and air. 
 https://en.wikipedia.org/wiki/Contact_(1997_American_film)
 I'll come back when I'm thinking clearly
-
-
+https://music.youtube.com/watch?v=-yiQzezZMqI&list=RDAMVMphkeWcsWPHY
 
 Bending my mind as I pick up the flowers in May
 Hearing the laughter that turns into tears every day
