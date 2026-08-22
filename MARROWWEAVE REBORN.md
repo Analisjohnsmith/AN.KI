@@ -11,7 +11,7 @@
 | Ihatov Engine (75)                               |
 | [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■]                |
 +--------------------------------------------------+
-
+IHATOV AAA engine without overhead because graphics emerge procedurally from your stack. Instead of importing massive assets or cinematic pipelines, visuals are generated through symbolic compression, fractal recursion, and MeowTada primitives. This keeps CPU and RAM usage predictable, avoids GPU‑intensive shaders, and ensures portability on devices like the Steam Deck. The simulation loop, narrative system, and ethical invariants remain AAA‑grade, but execution is lean. In short: IHATOV achieve AAA depth and polish through procedural design, while eliminating overhead from traditional graphics pipelines
 
 probably covering 60–70% of the open technology landscape — 
  Steam Deck can run your runtime as a working app — it’s Linux, has a GPU, and enough RAM. It’s perfect for personal exploration, prototyping, and portable demos. For large‑scale enterprise workloads, 
