@@ -1418,3 +1418,4 @@ HSON-Lisp transforms your system into a universal research and development lab. 
 
 
 
+HSON‑Lisp is a lab in a language. It’s not meant to be booted like an operating system. Instead, it’s a programmable research environment where every experiment is expressed as code. That makes it universal, flexible, and usable across domains — a true research & development lab written in Lisp.
