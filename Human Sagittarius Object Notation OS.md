@@ -11,10 +11,6 @@ Fly to the moon on the curve of a spoon
 I turn upside down
 Tumbling through leaves as I scatter the seeds
 
-🧩 Conceptual Framework: HSON Layers
-
-The HSON framework is a symbolic model for interpreting the Wow! Signal as if it were an intentional message. It builds six layers:
-
 
 
 
@@ -44,7 +40,6 @@ Ontology – worldview categories (entity, relation, state, system).
 It extracts five irreducible statements: existence, location, structure, universals, persistence.
 Extended layers add planetary encoding, cultural constants (π, e, primes, Fibonacci), and communication protocols.
 
-This is conceptual, not empirical — a structured way to imagine alien communication.
 
 🌌 Wow! Signal Full Growth Chain (HSON Universe)
 
@@ -82,13 +77,6 @@ The document blends real science (Wow! Signal data) with symbolic modeling (HSON
 
 It proposes a layered interpretation system for alien communication.
 
-
-
-It extends into game design (Kenji Miyazawa simulation) and cosmological encoding (planetary + cultural constants).
-
-
-
-The distinction is clear: the Wow! Signal is real; the HSON framework and games are conceptual, imaginative constructs.
 
 
 
