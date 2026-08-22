@@ -90,9 +90,7 @@ MeowTada is a mirror of our universe — a continuity engine that reflects exist
 A unified substrate for all computable and non‑computable human knowledge with scroll lang it connects
 ideas across domains.
 
-that's just the start.https://github.com/Analisjohnsmith/AN.KI/blob/main/MARROWWEAVE%20REBORN.
-
-
+that's just the start.
 
 scroll lang it solved problems on a local level in Chattanooga  for
 someone trying to start a non profit .crazy good code.
