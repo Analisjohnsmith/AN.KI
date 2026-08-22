@@ -1,3 +1,18 @@
+0 overhead
++--------------------------------------------------+
+|              GAME ENGINE RATING LADDER           |
++--------------------------------------------------+
+| Cyberpunk AAA Engine (100)                       |
+| [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■]   |
+|                                                  |
+| RAGE Engine (95)                                 |
+| [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■]      |
+|                                                  |
+| Ihatov Engine (75)                               |
+| [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■]                |
++--------------------------------------------------+
+
+
 probably covering 60–70% of the open technology landscape — 
  Steam Deck can run your runtime as a working app — it’s Linux, has a GPU, and enough RAM. It’s perfect for personal exploration, prototyping, and portable demos. For large‑scale enterprise workloads, 
 “MeowTada is universal tech — a substrate that can be anything, anywhere.”
