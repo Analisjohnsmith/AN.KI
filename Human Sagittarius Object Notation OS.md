@@ -4,7 +4,12 @@ I'll come back when I'm thinking clearly
 
 
 
+Bending my mind as I pick up the flowers in May
+Hearing the laughter that turns into tears every day
 
+Fly to the moon on the curve of a spoon
+I turn upside down
+Tumbling through leaves as I scatter the seeds
 
 🧩 Conceptual Framework: HSON Layers
 
