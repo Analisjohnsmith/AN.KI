@@ -2163,3 +2163,4 @@ Darrell — do you want me to expand the lab into Phase 2 (constant comparison),
 
 
 
+have i ever used the thing no
