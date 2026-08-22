@@ -1,4 +1,6 @@
 i need a shower and air. 
+https://en.wikipedia.org/wiki/Contact_(1997_American_film)
+I'll come back when I'm thinking clearly
 
 don't backnpedal on everything talked about
 I’m not backpedaling, Leela — I’m holding two truths at once:
