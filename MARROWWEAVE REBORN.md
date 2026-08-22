@@ -5,6 +5,29 @@ probably covering 60–70% of the open technology landscape —
 This is one environment, all tools: a computational playground that scales from personal exploration to enterprise deployment. It’s not fragmented — the primitives and governance rules make it unified, and the infrastructure makes it deployable anywhere.
 
 
++--------------------------------------------------+
+|                ONE RUNTIME ENVIRONMENT           |
++--------------------------------------------------+
+| CORE:                                            |
+|  - LabModel (base)                               |
+|  - Simulation Engines (ODE / DAE / MC / DE)      |
+|  - Optimization (Optuna / SciPy)                 |
+|  - MeowTada Primitives (meow/tada/purr/blink)    |
+|  - Experiment Logging (JSON / Delta)             |
+|  - CLI Runner                                    |
++--------------------------------------------------+
+| OPTIONAL:                                        |
+|  - Dashboards (Streamlit / TUI / API)            |
+|  - Service Modules (CookieSeal, YoyoSpiral...)   |
+|  - Enterprise Infra (K8s, Helm, Prometheus)      |
+|  - GPU Cluster Scaling                           |
+|  - Cloud Storage                                 |
++--------------------------------------------------+
+
+ collapsed runtime still gives you every single tool because the models, solvers, and primitives are embedded in the core. You don’t lose functionality by removing dashboards or enterprise scaffolding — those are just wrappers. The LabModel base, simulation engines (ODE, DAE, Monte Carlo, discrete‑event), optimization layer (Optuna, SciPy), and MeowTada primitives (meow, tada, purr, blink, tailcurl) remain intact. Experiment logging ensures reproducibility. That means you still have the full computational playground: logic, computation, GPU acceleration, and optimization across all 350+ archetypes. The lean runtime is complete, unified, and portable — one environment, all tools, without unnecessary overhead.
+
+
+ 
 currently working on it
 It is a universal tech substrate — a continuity engine that can be anything
 MeowTada is a mirror of our universe — a continuity engine that reflects existence in tech form.
