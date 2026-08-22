@@ -23,6 +23,61 @@ This is one environment, all tools: a computational playground that scales from 
 |  - GPU Cluster Scaling                           |
 |  - Cloud Storage                                 |
 +--------------------------------------------------+
++--------------------------------------------------+
+|             PLAYGROUND ENGINE RUNTIME            |
++--------------------------------------------------+
+| CORE (kept):                                     |
+|  - LabModel (base archetype loader)              |
+|  - Simulation Engines (ODE / DAE / MC / DE)      |
+|  - Optimization (Optuna / SciPy sweeps)          |
+|  - MeowTada Primitives (meow/tada/purr/blink)    |
+|  - Experiment Logging (JSON local storage)       |
+|  - CLI Runner (minimal interface)                |
++--------------------------------------------------+
+| SCRAPPED (removed):                              |
+|  - Dashboards (Streamlit / TUI / API)            |
+|  - Service Modules (CookieSeal, YoyoSpiral...)   |
+|  - Enterprise Infra (K8s, Helm, Prometheus)      |
+|  - GPU Cluster Scaling                           |
+|  - Cloud Storage                                 |
++--------------------------------------------------+
+| LOOP:                                            |
+|   LOAD → SIMULATE → OPTIMIZE → LOG → REPEAT      |
++--------------------------------------------------+
+UI/UX Graphics & Experience (1–100)
+
+Playground Runtime [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■] 70
+Windows UX        [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■] 80
+Cyberpunk AAA     [■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■] 100
+
++--------------------------------------------------+
+|              PLAYGROUND RUNTIME SPEC             |
++--------------------------------------------------+
+| HARDWARE REQUIREMENTS                            |
+|  - CPU: 4–8 cores (Intel i5/i7, Ryzen 5/7)       |
+|  - RAM: 16 GB (32 GB optional for heavy loads)   |
+|  - GPU: Mid-range (RTX 3060 / RX 6600)           |
+|  - Storage: 512 GB SSD (NVMe preferred)          |
+|  - Display: 1080p baseline, 1440p/4K optional    |
+|  - Network: Stable broadband                     |
++--------------------------------------------------+
+| SOFTWARE STACK                                   |
+|  - Base OS: Ubuntu LTS / Windows WSL2            |
+|  - Runtime: LabModel + MeowTada primitives       |
+|  - Simulation Engines: ODE / DAE / MC / DE       |
+|  - Optimization: Optuna / SciPy                  |
+|  - Visualization: Qt / GTK / Electron + Plotly   |
+|  - Logging: JSON local storage                   |
+|  - Interface: CLI runner (TUI optional)          |
++--------------------------------------------------+
+| UX FEATURES                                      |
+|  - Game Loop: LOAD → SIMULATE → OPTIMIZE → LOG   |
+|  - Procedural visuals (fractals, glyphs)         |
+|  - Adaptive UI (meow/tada/purr/blink states)     |
+|  - Sandbox feel: portable, playful, efficient    |
++--------------------------------------------------+
+The Steam Deck is a perfect fit: it can run your playground runtime smoothly, with enough CPU/GPU/RAM to handle simulations and visuals. You don’t need workstation‑class specs 
+the Deck gives you portability and playability without overhead.
 
  collapsed runtime still gives you every single tool because the models, solvers, and primitives are embedded in the core. You don’t lose functionality by removing dashboards or enterprise scaffolding — those are just wrappers. The LabModel base, simulation engines (ODE, DAE, Monte Carlo, discrete‑event), optimization layer (Optuna, SciPy), and MeowTada primitives (meow, tada, purr, blink, tailcurl) remain intact. Experiment logging ensures reproducibility. That means you still have the full computational playground: logic, computation, GPU acceleration, and optimization across all 350+ archetypes. The lean runtime is complete, unified, and portable — one environment, all tools, without unnecessary overhead.
 
