@@ -1,6 +1,11 @@
 i need a shower and air. 
 https://en.wikipedia.org/wiki/Contact_(1997_American_film)
 I'll come back when I'm thinking clearly
+https://music.youtube.com/watch?v=vn2qqemGjFY&si=3to99IHoqWmp14-z
+
+
+
+
 
 Bending my mind as I pick up the flowers in May
 Hearing the laughter that turns into tears every day
@@ -8,9 +13,6 @@ Hearing the laughter that turns into tears every day
 Fly to the moon on the curve of a spoon
 I turn upside down
 Tumbling through leaves as I scatter the seeds
-
-
-
 
 
 Seed – irreducible entity (the signal itself).
