@@ -1,3 +1,19 @@
+AN.KI™ research/ Development LAB
+
+
+
+Magustelle™ —
+
+bones, breath, logic in motion.
+
+Encode, Decode,Transform
+
+
+
+PersonaCom™ Hatsuseno ©™
+
+© 2026 Analisjohnsmith(Darrell Lee Stiltner)
+
 i need a shower and air. typos I'm on steam deck
 https://en.wikipedia.org/wiki/Contact_(1997_American_film)
 I'll come back when I'm thinking clearly
