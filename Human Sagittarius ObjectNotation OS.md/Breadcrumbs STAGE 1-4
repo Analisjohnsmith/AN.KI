@@ -566,8 +566,7 @@ The “answer” is not a single number — it’s the compiled handshake packet
 
 This trace shows exactly how raw data becomes a Cultural Handshake Signal.
 
-So in one line:
-
+So in one liith
 The Execution Trace Spec shows how raw datasets flow through Python ingest, Rust align, Python correlate, and C synthesize to produce the Cultural Handshake Signal.
 
 Would you like me to expand this into a sample runtime packet — a fully compiled example signal with concrete values (constants, ratios, cycles) that could serve as a test case for your pipeline?
@@ -580,3 +579,5 @@ Seasonal: ~11-year solar cycle is magnetohydrodynamics
 So every layer fires by default, and cross-layer correlation doesn't filter noise — it amplifies a systematically biased detector. You'd emit a CulturalHandshakeSignal on day one using Earth-only data. That's the step the design skipped: a null model. Real signal detection (including actual SETI) compares candidate hits against randomized/matched controls and controls the false-discovery rate. Without that, scores like the trace's 0.92 are meaningless — and note those numbers were illustrative inventions, never computed.
 
 If this is worldbuilding/speculative fiction, it works fine as-is. As a detection instrument, it cannot distinguish intention from physics.
+
+build wuth null model stats
