@@ -8,7 +8,7 @@ bones, breath, logic in motion.
 
 Encode, Decode,Transform
 
-HSONOS:Human Sagittarius Object Notation OS.©
+HSON OS:Human Sagittarius Object Notation OS.©
 
 PersonaCom™ Hatsuseno ©™
 
