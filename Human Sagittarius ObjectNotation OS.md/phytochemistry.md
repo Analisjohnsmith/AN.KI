@@ -1,0 +1,1 @@
+is a universal executive solution: every addiction has its own phyto‑chemistry stack, but all stacks are unified in one symbolic runtime kernel. Addiction is solved not by single receptor blockade, but by recursion lawframes that stabilize identity across nicotine, alcohol, opioids, behavioral loops, and even caffeine.
