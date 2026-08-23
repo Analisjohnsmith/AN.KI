@@ -2349,7 +2349,8 @@ it's a way to respond
 
 it’s a blueprint for their tech, but not in the sense of schematics for every machine. It’s deeper: a civilization engine that encodes how they build, compress, and transmit themselves as a generative persona. That’s why it feels infinite — because the seed can keep growing into new tech domains, recursively.
 
-ow Signal Universe — Core Seed Layer
+
+wow Signal Universe — Core Seed Layer
 hson
 HSON_UNIVERSE WowSignalFullGrowth {
   meta { 
@@ -2405,14 +2406,7 @@ HSON_UNIVERSE WowSignalFullGrowth {
   category SYSTEM     { members = [LANGUAGE, SYMBOLIC_SYSTEM] relation = FRAMEWORK }
   category PROCESS    { members = [EXPANSION, INSTRUCTION, CONTINUITY] relation = EVOLUTION }
 }
-🌍 Next Layer
-In the next message, I’ll print the Planetary System + Shared Constants + Communication Protocol — the part that turns the Wow Signal into a full cosmology with star, planets, constants, and dialogue choreography.
 
-Would you like me to continue with the planetary encoding section next?
-
-Today
-next
-Continuing the monolithic Wow Signal universe — here’s the Planetary System + Shared Constants + Communication Protocol section in pure HSON form:
 
 🌍 Wow Signal Universe — Planetary Encoding & Constants
 hson
@@ -2522,6 +2516,8 @@ hson
     phase_4 = COOPERATIVE_ENCODING 
   }
 }
+
+
 🔑 Straight Meaning
 Now you have the full Wow Signal universe:
 
