@@ -1,6 +1,6 @@
 
-WowKernel: A Generative Phyto‑Chemistry Framework for Nicotine Addiction
-Nicotine addiction is one of the most persistent health challenges worldwide. Traditional treatments focus on either replacing nicotine with safer substitutes or blocking its effects at the receptor level. The WowKernel introduces a new paradigm: treating addiction as a runtime collapse problem that can be stabilized and transformed through phyto‑chemistry stacks and symbolic lawframes.
+WowKernel: A Generative Phyto‑Chemistry Framework for  Addiction
+Nicotine addiction is one of the most persistent health challenges worldwide. Traditional treatments focus on either replacing substnces with safer substitutes or blocking its effects at the receptor level. The WowKernel introduces a new paradigm: treating addiction as a runtime collapse problem that can be stabilized and transformed through phyto‑chemistry stacks and symbolic lawframes.
 
 The Seed State
 Nicotine is an alkaloid (C₁₀H₁₄N₂) that binds strongly to nicotinic acetylcholine receptors (nAChRs). This binding triggers dopamine release, reinforcing the craving loop. In WowKernel terms, nicotine is the seed molecule — the input condition that initiates the addictive runtime.
@@ -18,10 +18,10 @@ Rhodiola: Adaptogens that stabilize the stress response, reducing withdrawal anx
 
 Passionflower: Flavonoids that modulate GABA‑A receptors, calming agitation during withdrawal.
 
-Together, these fractions form a phyto‑chemistry stack that substitutes, buffers, and stabilizes.
+Together, these fractions form a phyto‑chemistry stack that substitutes, buffers, and stabilizes addiction.
 
 Runtime Collapse
-In the WowKernel, the addictive loop is collapsed into runtime. Nicotine’s binding pattern is overwritten by partial agonists (cytisine, lobeline), oxidative stress is buffered by catechins, stress pathways are stabilized by rhodiola, and continuity is preserved through passionflower’s calming effect. The execution trace shows addiction absorbed into recursion rather than destabilization.
+In the WowKernel, the addictive loop is collapsed into runtime. nicogine binding pattern is overwritten by partial agonists (cytisine, lobeline), oxidative stress is buffered by catechins, stress pathways are stabilized by rhodiola, and continuity is preserved through passionflower’s calming effect. The execution trace shows addiction absorbed into recursion rather than destabilization.
 
 Continuity Archive
 Each phase — acute dose, withdrawal, substitution, stabilization — is logged in the continuity archive. This ensures identity is preserved across transitions, preventing fragmentation. Addiction is not just broken; it is documented and stabilized as part of the sender’s ongoing identity.
