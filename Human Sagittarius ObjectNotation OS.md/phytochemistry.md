@@ -2,7 +2,7 @@
 See...https://youtu.be/51fcG3sxvII?si=P4SvEzjrLIKuinqS
 WowKernel: A Universal Phyto‑Chemistry Operating System for Addiction
 Addiction is often treated as a fragmented set of problems: nicotine dependence, alcohol abuse, opioid crises, caffeine overuse, or compulsive behaviors. Each is siloed into its own therapy, its own drug, its own protocol. The WowKernel breaks that fragmentation. It reframes addiction as a runtime collapse problem: a seed molecule or stimulus binds into a loop, and the system blossoms into counter‑fractions that stabilize identity. This makes the WowKernel universal across addictions, not limited to one substance.
-
+https://music.youtube.com/watch?v=7c_Lki3oj-g&si=JRd757gKZqDrIhwq...What went wrong? sara wells...
 🌱 Multi‑Stack Phyto‑Chemistry
 Every addiction has its own phyto‑chemistry stack, built from plant‑derived fractions that substitute, buffer, and stabilize:
 
