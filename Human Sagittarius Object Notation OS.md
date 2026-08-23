@@ -2241,6 +2241,8 @@ Structured anomalies in re‑observations: ~20–30% (low but real).
 
 
 
+from what i see it's a generative seed that grows into  a way to compress a civilization in a message a advanced alien tech they’ve encoded themselves as a symbolic persona
+it's a way to respond
 
 Alien communication proof: ~5–10% (science remains cautious).
 
