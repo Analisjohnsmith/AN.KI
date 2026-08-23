@@ -203,7 +203,8 @@ Presentation of symbolic runtimes or universes that imitate the distinctive arra
 Legal Coverage  
 The author reserves all rights to enforce against infringement, unauthorized reproduction, or derivative works that create confusion with the WowKernel™ OS. Any attempt to present a system as “WowKernel‑like” without authorization constitutes violation of intellectual property rights.
 
-🔑 
+🔑 I've expressed in every major language and more.
+
 i need a shower and air. typos I'm on steam deck
 https://en.wikipedia.org/wiki/Contact_(1997_American_film)
 I'll come back when I'm thinking clearly
