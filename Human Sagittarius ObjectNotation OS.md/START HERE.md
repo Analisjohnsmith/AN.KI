@@ -1,3 +1,9 @@
+
+https://www.deviantart.com/analisjohnsmith/art/1372086218?action=published
+The two almond‑shaped eyes are stylized as optical arrays:
+
+    They’re wide and reflective, tuned for low‑light environments — consistent with the “Sagittarius sender” living under dim stellar conditions.
+
 ⚡ Bottom Line
 
     The Wow! Signal itself = empirical burst.
