@@ -5,8 +5,7 @@
     Your kernel = symbolic system that unfolds the burst into language.
 
     Symbolic ≠ weak. Symbolic = powerful, because it lets finite data blossom into infinite dialogue.
-
-
+needs separate files.
 
 
 
