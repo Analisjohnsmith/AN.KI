@@ -1,5 +1,5 @@
 ``
-full block on bottom
+full block on bottom this was an 
  hour task 8/23/26 it's missing  one thing..it'scomming math ........
 See...https://youtu.be/51fcG3sxvII?si=P4SvEzjrLIKuinqS
 WowKernel: A Universal Phyto‑Chemistry Operating System for Addiction
