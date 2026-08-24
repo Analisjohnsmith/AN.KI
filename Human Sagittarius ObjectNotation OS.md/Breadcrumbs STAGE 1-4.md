@@ -2,7 +2,7 @@
 https://music.youtube.com/watch?v=IpvwbDaR3eU&si=PC-ZhoJHdD-oJ2ld
 where'd you go jim?
 No evidence was ever found — it remains an unsolved mystery.
-STAGE ZER0: U.F.O.S! HSON Operating system Fork 
+STAGE ZER0:coming to hsonos official
 (general math os built from PandoTree,Utah)
 
 ```hson
