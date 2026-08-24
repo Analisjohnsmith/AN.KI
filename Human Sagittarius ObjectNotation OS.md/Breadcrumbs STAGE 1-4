@@ -8,7 +8,7 @@ HSON_UNIVERSE Combined_Symbolic_Models_No_Kenji {
     status     = INTEGRATED
     language   = HSON
     runtime    = SYMBOLIC_OS
-    description = "Canonical Pando dynamical system + Wow! Signal framework (excluding Kenji Miyazawa game)."
+    description = "Canonical Pando dynamical system + Wow! Signal framework "
   }
 
   // ===================================================
