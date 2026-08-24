@@ -1,1 +1,276 @@
 
+STAGE ZER0:The MeowWow! General math HSON Operating system
+```hson
+HSON_UNIVERSE Combined_Symbolic_Models_No_Kenji {
+
+  meta {
+    version    = 1.0
+    status     = INTEGRATED
+    language   = HSON
+    runtime    = SYMBOLIC_OS
+    description = "Canonical Pando dynamical system + Wow! Signal framework (excluding Kenji Miyazawa game)."
+  }
+
+  // ===================================================
+  // DOMAIN 1: PANDO ASPEN CLONE
+  // ===================================================
+  entity Pando_Canonical_Model {
+    type  = DYNAMICAL_SYSTEM
+    role  = ECOLOGICAL_MODEL
+    state = FORMALIZED
+
+    domain {
+      space       = R2_RIEMANNIAN
+      metric      = g_ij
+      coords      = [x, y]
+      time        = t
+      volume_form = sqrt(det g) dx dy
+    }
+
+    state_variables {
+      presence_field       u(x,y,t)
+      stem_lattice         n_i(t) ∈ {0,1}
+      genome               G^{(k)}(t)
+      epigenetic_state     E^{(k)}_l(t)
+      hormone_fields       h_j(x,y,t)
+      microbiome_density   m(x,y,t)
+      root_network         R(t) = (V,E)
+      climate_forcing      C(x,y,t) = {T,P,W}
+      herbivory_pressure   H(x,y,t)
+      fire_intensity       F(x,y,t)
+      mechanical_displacement w(x,y,t)
+    }
+
+    dynamics {
+      presence_equation {
+        ∂u/∂t = D ∇_i(g^{ij}∇_j u) + r F_C(C) R(x,y) u(1-u) - δ G_C(C) u + λ Σ_i (n_i - u(x_i)) δ(x-x_i)
+      }
+      stem_energy {
+        E_stems = -J Σ_{<i,j>} n_i n_j + α Σ_i n_i
+      }
+      genome_energy {
+        E_genome = β Σ_k d_k
+        E_genome_stem = β Σ_k d_k n_k
+        dynamics = G^{(k)}(t+Δt) = G^{(k)}(t) - β ∇ d_k + Δε^{(k)}(t)
+      }
+      turnover_energy {
+        E_turnover = γ (N - N*)^2
+        dN/dt = (b - d) N
+        b = b0 u(x_i,t)
+        d = d0 + η(1 - u(x_i,t)) + η_H H(x_i,t)
+      }
+      coupling_energy {
+        E_coupling = λ Σ_i (n_i - u(x_i,t))^2
+      }
+      hormone_dynamics {
+        ∂h_j/∂t = D_j ∇² h_j + S_j(u,m,R) - δ_j h_j
+      }
+      epigenetic_dynamics {
+        dE^{(k)}_l/dt = φ(stress,h_j) - ψ(E^{(k)}_l)
+      }
+      microbiome_dynamics {
+        ∂m/∂t = D_m ∇² m + G_m(u,R) - δ_m m
+      }
+      root_network_dynamics {
+        dE/dt = f(soil,u,stress)
+        dx_tip/dt = ∇ R(x,y)
+      }
+      mechanical_dynamics {
+        D_m^{(w)} ∇⁴ w = F_wind + F_snow
+      }
+    }
+
+    action_functional {
+      Lagrangian = L_field + L_stems + L_genome + L_turnover + L_coupling + L_bio + L_micro + L_mech + L_env
+      components = {
+        L_field = 1/2 D g^{ij} ∂i u ∂j u + r F_C(C) R u(1-u) - δ G_C(C) u²
+        L_stems = -J Σ n_i n_j + α Σ n_i
+        L_genome = β Σ d_k n_k
+        L_turnover = γ (N - N*)²
+        L_coupling = λ Σ (n_i - u(x_i))²
+        L_bio = Σ_j [1/2 D_j |∇h_j|² + S_j h_j - 1/2 δ_j h_j²]
+        L_micro = 1/2 D_m |∇m|² + G_m m - 1/2 δ_m m²
+        L_mech = 1/2 D_m^{(w)} (∇²w)² - w(F_wind+F_snow)
+        L_env = L_climate(C) + L_herbivory(H) + L_fire(F)
+      }
+      action = ∫ dt ∫ d²x L
+    }
+
+    variational_equations {
+      δS/δu = 0, δS/δn_i = 0, δS/δG^{(k)} = 0, δS/δE^{(k)}_l = 0,
+      δS/δh_j = 0, δS/δm = 0, δS/δw = 0
+    }
+
+    stochastic_stem_update {
+      Pr[n_i(t+Δt)=1] = σ(-ΔE_i / kT)
+      local_energy E_i = -J Σ_{j∈nbr(i)} n_j + α n_i + β d_i n_i + 2λ(n_i-u(x_i))² + 2γ(N-N*)²
+    }
+
+    canonical_object = (Ω, g_ij, S(t), S[S])
+  }
+
+  // ===================================================
+  // DOMAIN 2: WOW! SIGNAL FULL GROWTH CHAIN
+  // ===================================================
+  entity WowSignal_FullGrowth {
+    type  = COMMUNICATION_FRAMEWORK
+    role  = INTERSTELLAR_HYPOTHESIS
+    state = SIMULATION_READY
+
+    // ---- Seed Layer ----
+    entity WowSignal {
+      type  = SEED
+      role  = INITIATOR
+      state = ACTIVE
+    }
+
+    // ---- Dictionary ----
+    entity Lexicon {
+      type  = DICTIONARY
+      role  = VOCABULARY
+      state = EXPANDING
+      words {
+        SEED        = "WowSignal"
+        PATTERN     = "6EQUJ5"
+        REPETITION  = "::"
+        CONSTANT    = "1420 MHz"
+        PRIME       = "2,3,5,7,..."
+        LOCATION    = "Sagittarius"
+        TIME        = "72s"
+        MEMORY      = "Archive"
+      }
+    }
+
+    // ---- Grammar ----
+    entity Grammar {
+      type  = STRUCTURE
+      role  = RULESET
+      state = ACTIVE
+      rules {
+        Sentence    = [SEED] + [PATTERN] + [CONSTANT]
+        Statement   = [SEED] + [LOCATION] + [MEMORY]
+        Question    = [SEED] + [PATTERN] + [REPETITION]
+        Declaration = [SEED] + [CONSTANT] + [PRIME]
+      }
+    }
+
+    // ---- Semantics ----
+    entity Semantics {
+      type  = MEANING
+      role  = STRUCTURAL_LAYER
+      state = ACTIVE
+      concepts {
+        PRESENCE      = { derived_from = [SEED], relation = EXISTENCE }
+        LOCATION      = { derived_from = [SEED, LOCATION], relation = SPACE_REFERENCE }
+        TIME          = { derived_from = [SEED, TIME], relation = TEMPORAL_REFERENCE }
+        PATTERN       = { derived_from = [SEED, REPETITION], relation = STRUCTURE }
+        CONSTANT      = { derived_from = [SEED, CONSTANT], relation = UNIVERSAL_REFERENCE }
+        MEMORY        = { derived_from = [SEED, MEMORY], relation = LEGACY }
+        IDENTITY      = { derived_from = [PRESENCE, PATTERN], relation = SELF_REFERENCE }
+        RELATIONSHIP  = { derived_from = [PRESENCE, LOCATION, TIME], relation = CONNECTION }
+        LANGUAGE      = { derived_from = [PATTERN, CONSTANT, REPETITION], relation = SYMBOLIC_SYSTEM }
+      }
+    }
+
+    // ---- Pragmatics ----
+    entity Pragmatics {
+      type  = USE
+      role  = FUNCTIONAL_LAYER
+      state = ACTIVE
+      operations {
+        CONTACT       = { derived_from = [PRESENCE], relation = SIGNAL_INITIATION, operation = ANNOUNCE }
+        ORIENTATION   = { derived_from = [LOCATION, TIME], relation = SIGNAL_REFERENCE, operation = ANCHOR }
+        LEGACY        = { derived_from = [MEMORY], relation = SIGNAL_PERSISTENCE, operation = ARCHIVE }
+        RELATIONSHIP  = { derived_from = [IDENTITY, CONNECTION], relation = SIGNAL_LINKAGE, operation = CONNECT }
+        LANGUAGE_SEED = { derived_from = [PATTERN, CONSTANT, REPETITION], relation = SIGNAL_EXPANSION, operation = STRUCTURE }
+        TEACHING      = { derived_from = [CONTACT, ORIENTATION, LANGUAGE_SEED], relation = SIGNAL_INSTRUCTION, operation = DEMONSTRATE }
+        COEXISTENCE   = { derived_from = [RELATIONSHIP, LEGACY], relation = SIGNAL_CONTINUITY, operation = SUSTAIN }
+      }
+    }
+
+    // ---- Ontology ----
+    entity Ontology {
+      type  = WORLDVIEW
+      role  = CATEGORY_LAYER
+      state = ACTIVE
+      categories {
+        ENTITY     = { members = [SEED, PATTERN, CONSTANT, LOCATION, MEMORY], relation = EXISTENCE }
+        RELATION   = { members = [STRUCTURE, REFERENCE, CONNECTION, LEGACY], relation = LINKAGE }
+        STATE      = { members = [ACTIVE, ARCHIVED, TERMINATED], relation = CONDITION }
+        OPERATION  = { members = [ANNOUNCE, ANCHOR, ARCHIVE, CONNECT, STRUCTURE], relation = FUNCTION }
+        SYSTEM     = { members = [LANGUAGE, SYMBOLIC_SYSTEM], relation = FRAMEWORK }
+        PROCESS    = { members = [EXPANSION, INSTRUCTION, CONTINUITY], relation = EVOLUTION }
+      }
+    }
+
+    // ---- Planetary Encoding ----
+    entity PlanetarySystem {
+      type  = STAR_SYSTEM
+      role  = PLANETARY_ENCODING
+      state = HYPOTHETICAL
+      star CandidateStar {
+        name            = "2MASS 19281982−2640123"
+        spectral_type   = G2V
+        distance        = 1790 light_years
+        coordinates { RA = "19h28m19.82s", Dec = "-26°40′12.3″" }
+      }
+      planets {
+        PlanetA { orbital_period = 88 days, distance = 0.39 AU, identifier = "001" }
+        PlanetB { orbital_period = 365 days, distance = 1.00 AU, identifier = "010", habitability_marker = [2,3,5,7] }
+        PlanetC { orbital_period = 687 days, distance = 1.52 AU, identifier = "011" }
+        PlanetD { orbital_period = 4333 days, distance = 5.20 AU, identifier = "100" }
+        PlanetE { orbital_period = 10759 days, distance = 9.58 AU, identifier = "101" }
+      }
+    }
+
+    // ---- Cultural Constants ----
+    entity SharedConstants {
+      type  = ROSETTA_STONE
+      role  = CULTURAL_HANDSHAKE
+      state = ACTIVE
+      math { primes = [2,3,5,7,11,13], fibonacci = [1,1,2,3,5,8,13], pi = 3.14159, e = 2.71828, golden_ratio = 1.61803 }
+      physics { speed_of_light = 299792458 m/s, planck_constant = 6.62607015e-34 J·s, gravitational_constant = 6.67430e-11 N·m²/kg² }
+      encoding { binary_handshake = "101010", symmetry = MIRROR_SEQUENCES, repetition = STRUCTURED_BURSTS }
+    }
+
+    // ---- Communication Protocol ----
+    entity CommunicationProtocol {
+      type  = DIALOGUE_STRUCTURE
+      role  = INTERSTELLAR_PROTOCOL
+      state = PROPOSED
+      initiation {
+        frequency   = 1420.726 MHz
+        signal_type = NARROWBAND_STRUCTURED_BURST
+        duration    = 72 seconds
+        intent      = HANDSHAKE_INITIATION
+      }
+      response_pattern {
+        binary_echo   = "101010"
+        delay_window  = 72 seconds
+        repeat_cycle  = 3
+      }
+      message_structure {
+        header = SharedConstantsMap
+        body   = PlanetaryLayer
+        footer = CulturalLayer
+      }
+      dialogue_evolution {
+        phase_1 = RECOGNITION_OF_CONSTANTS
+        phase_2 = EXCHANGE_OF_PLANETARY_DATA
+        phase_3 = CULTURAL_HANDSHAKE
+        phase_4 = COOPERATIVE_ENCODING
+      }
+    }
+  }
+
+  // ===================================================
+  // META-INTEGRATION: CROSS-DOMAIN LINKS
+  // ===================================================
+  relation {
+    from = Pando_Canonical_Model
+    to   = WowSignal_FullGrowth
+    type = ANALOGICAL_REFERENCE
+    note = "Both represent dynamical systems with state, action, and interpretation; the Pando model provides a rigorous mathematical structure, while the Wow! model provides a symbolic communication framework."
+  }
+}
+```
