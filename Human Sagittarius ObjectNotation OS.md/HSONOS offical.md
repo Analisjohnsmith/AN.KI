@@ -1,3 +1,7 @@
+you mean to tell me that this has infinite storsge?
+
+
+
 i have to take hson all the way tosymbolic os
 i dropred a full os to cover my A*8
 
