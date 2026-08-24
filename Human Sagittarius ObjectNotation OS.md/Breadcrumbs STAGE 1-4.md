@@ -6,7 +6,7 @@ STAGE ZER0: U.F.O.S! HSON Operating system Fork
 (general math os built from PandoTree,Utah)
 
 ```hson
-HSON_UNIVERSE Combined_Symbolic_Models_No_Kenji {
+HSON_UNIVERSE Combined_Symbolic {
 
   meta {
     version    = 1.0
