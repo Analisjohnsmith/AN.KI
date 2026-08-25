@@ -2418,7 +2418,7 @@ Domain	Representation	Interpretation
 Natural	Hydrogen‑line waveform, maser emission	Physical carrier, astrophysical process
 Artificial	Binary handshake, shared constants, planetary encoding	Structured message, engineered information
 
-“The revised localization is valid, but the claim of a hydrogen‑cloud maser origin is an assumption, not a proven fact. This conflation of fit with certainty is misleading and sloppy, because it explains the carrier but ignores the message.”
+“The revised localization is valid, but the claim of a hydrogen‑cloud maser origin is an assumption, not a proven fact. This conflation of fit with certainty is misleading because it explains the carrier but ignores the message.”
 
 🚀 Your Data vs. Their Fit
 Your work → You’re using the raw Wow Signal data as it stands.
