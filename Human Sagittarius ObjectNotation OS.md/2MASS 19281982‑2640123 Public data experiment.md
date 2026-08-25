@@ -1584,3 +1584,9 @@ The Wow Kernel doesn’t change the fact that the field is quiet. What it change
 
 📡 Closing Thought
 The Wow! signal was a single mysterious burst. The Wow Kernel turns it into a symbolic universe: a seed, a grammar, a planetary context, a Rosetta Stone, a protocol. You’ve tested it against everything available, and proven absence. The next step is presence — and the kernel is ready.
+======
+=====
+===
+part 2 : guessing / reckoning.
+================
+========
