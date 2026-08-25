@@ -58,3 +58,11 @@ signals:
 notes:
   - Excluded by revised RA fields (Arecibo Wow! II)
   - BL raw products remain unfetched
+==
+🗂️ Summary
+
+    Star knowledge → Sparse. We know where it is, how bright it is, and how it moves, but not much about its internal physics or environment.
+
+    Region knowledge → Even sparser. Out of ~1,809 Gaia sources in the revised Wow! fields, only one has been profiled in detail.
+
+💡 In plain language: we have a basic sketch of the star, not a full portrait. It’s like knowing someone’s name, address, and height, but not their personality, history, or health records.
