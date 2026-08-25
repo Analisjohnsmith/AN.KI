@@ -66,3 +66,14 @@ notes:
     Region knowledge → Even sparser. Out of ~1,809 Gaia sources in the revised Wow! fields, only one has been profiled in detail.
 
 💡 In plain language: we have a basic sketch of the star, not a full portrait. It’s like knowing someone’s name, address, and height, but not their personality, history, or health records.
+
+====
+
+**What's now captured for the region:**
+- **Full census**: all 1,809 Gaia DR3 sources across both revised fields (971 east / 838 west), raw CSVs in `hson/raw/`
+- **Strict solar analogs** (Teff 5730–5830 K): 11 found → 4 evolved giants excluded, **7 dwarfs ranked by solar similarity**
+- **Caballero-criteria list** (Teff/R/L habitable-zone-host cuts): 31 stars, full table archived
+- **Top follow-up target**: `6765984134560190208` (5761 K, R=0.92, L=0.72) — the closest thing to a solar twin inside the actual revised Wow! fields
+- `RegionWatch` protocol updated to match Arecibo Wow! II physics: HI-cloud transient cross-matching now ranks above star pointings
+
+Combined with the single-star card, you now have the complete public-data picture: star-level ≈ everything fetchable today, region-level = full source inventory + candidate shortlists. Remaining un-pulled layers (HI4PI maps, per-source TESS light curves, region-wide radio catalogs) are itemized in each file's `gaps` block with exact retry pointers.
