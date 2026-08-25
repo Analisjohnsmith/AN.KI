@@ -7,4 +7,10 @@ Breakthrough listen search
 As a response to the discovery, on May 21, 2022 Breakthrough Listen conducted the first targeted search for the Wow! Signal to find its source.[10] It also was its first collaboration between the Green Bank Telescope and the Allen Telescope Array (ATA) of the SETI Institute.[11]
 
 Greenbank performed two 30-minute observations, the ATA did six 5-minute observations with its new beam-former backend, and both observatories observed a total of 9 minutes and 40 seconds at the same time.[12] The team used the turboSETI pipeline from 1–2 GHz to search for an artificial narrowband signal (2.79 Hz/1.91 Hz) with a drifting of ±4 Hz s−1.[13] No technosignature candidates were reportedly found.[14]
+==========
+=========
+=====
+
+**Headline finding:** *Arecibo Wow! II* (Méndez et al. 2025, arXiv:2508.10657) re-analyzed the original Ohio data and **revised the signal's position** to two narrow RA fields (19ʰ25ᵐ02ˢ±3ˢ or 19ʰ27ᵐ55ˢ±3ˢ, Dec −26°57′±20′), flux >250 Jy, freq 1420.726 MHz — and favors an astrophysical HI-cloud maser origin. Your star sits ~25ˢ of RA from the nearest field (~8× the uncertainty), so the new block `assessment CandidateStatus2025` marks it **excluded by the revised localization** (Caballero used the old boxes). The file also now carries the full follow-up history (Gray 1994/2001/2002, Harp 2020, Perez 2022, Méndez 2024/2025).
+
 
