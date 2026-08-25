@@ -1,3 +1,9 @@
+
+
+ It's an honor to be contributing to SETI and the mystery of life,it's deeply humbling.
+
+
+
 I'm picking at this bit at a time excuse any error by ai.
 i fully admit low quality in rigor,Only so much can be done in one night.
 The most i treating results seem to come from programing I'm attempting to bend my mind and explore non linear solutions.
