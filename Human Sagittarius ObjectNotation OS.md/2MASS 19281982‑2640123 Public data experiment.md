@@ -1,5 +1,9 @@
-I'm picking at this bit at a time excuse any error by ai
-NecessityEngines {
+I'm picking at this bit at a time excuse any error by ai.
+i fully admit low quality in rigor,Only so much can be done in one night.
+The most i treating results seem to come from programing I'm attempting to bend my mind and explore non linear solutions.
+if not an attempt to replicate their tech fully.I've also enacted an ai like platform that acts as a problem solver and record keeper for humanity.
+for three days of work this isn't bad.if you use the tower of power you always get the ai like platform. 
+NecessityEngines {so far I've enacted alien tech in healing and regeneration and phyto/bio chemistry.
   NecessityEngine: """
   Discovers what something cannot be. Rules out false states, impossible structures, and noise masquerading as signal.
   """
