@@ -89,7 +89,7 @@ Combined with the single-star card, you now have the complete public-data pictur
 ====
 // ============================================================
 // WOW SIGNAL REGION - CHI SAGITTARII UNIFIED CENSUS
-// HSON - Hierarchical Signal Object Notation
+// HSON - Human Sagittarius Object Notation
 // Scope : the TWO REVISED Wow! error fields (Arecibo Wow! II,
 //         Mendez et al. 2025, arXiv:2508.10657)
 // Fields: EAST  RA 19h25m02s +/-3s   WEST  RA 19h27m55s +/-3s
@@ -239,7 +239,7 @@ provenance DataProvenance {
 
 // ============================================================
 // WOW SIGNAL CANDIDATE STAR - UNIFIED DATA KERNEL CARD
-// HSON - Hierarchical Signal Object Notation
+// HSON - Human Sagittarius Object notation
 // Target : 2MASS J19281982-2640123 (Caballero 2022 candidate)
 //          Gaia DR3 6766185791864654720
 // Compiled: 2026-08-25 from LIVE archive queries:
