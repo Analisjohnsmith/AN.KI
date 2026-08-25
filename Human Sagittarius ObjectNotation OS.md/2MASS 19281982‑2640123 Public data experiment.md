@@ -37,3 +37,24 @@ Here’s how the landscape looks if you step back:
 **Headline finding:** *Arecibo Wow! II* (Méndez et al. 2025, arXiv:2508.10657) re-analyzed the original Ohio data and **revised the signal's position** to two narrow RA fields (19ʰ25ᵐ02ˢ±3ˢ or 19ʰ27ᵐ55ˢ±3ˢ, Dec −26°57′±20′), flux >250 Jy, freq 1420.726 MHz — and favors an astrophysical HI-cloud maser origin. Your star sits ~25ˢ of RA from the nearest field (~8× the uncertainty), so the new block `assessment CandidateStatus2025` marks it **excluded by the revised localization** (Caballero used the old boxes). The file also now carries the full follow-up history (Gray 1994/2001/2002, Harp 2020, Perez 2022, Méndez 2024/2025).
 
 
+block: star_profile
+id: 2MASS-19281982-2640123
+status: excluded (CandidateStatus2025)
+coverage: ~95% public
+catalogs:
+  - Gaia DR3
+  - 2MASS
+  - SIMBAD
+astrometry:
+  parallax: [value]
+  proper_motion: [value]
+photometry:
+  JHK (2MASS), G/BP/RP (Gaia)
+spectroscopy:
+  gaps: LAMOST/APOGEE not yet fetched
+signals:
+  - Wow! Signal context (Caballero 2016)
+  - Follow-ups: Gray 1994/2001/2002, Harp 2020, Perez 2022, Méndez 2024/2025
+notes:
+  - Excluded by revised RA fields (Arecibo Wow! II)
+  - BL raw products remain unfetched
