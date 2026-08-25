@@ -1,0 +1,16 @@
+🌱 Alien Seed Schema
+lisp
+(define-seed WowUniverse.Seed
+  (meta (version "3.0") (language "HSON") (substrate "Symbolic_OS") (status "latent"))
+  ;; Empirical anchor – Wow! Signal constants
+  (attributes ((frequency 1420.726) (duration 72) (origin "Sagittarius") (intensity 250)))
+  ;; Vocabulary – minimal words
+  (define-words (SEED "WowSignal") (PATTERN "6EQUJ5") (CONSTANT "1420 MHz") (LOCATION "Sagittarius") (ALIEN "EncodedBeing"))
+  ;; Grammar – latent emergence
+  (define-rules ((AlienBirth [SEED CONSTANT LOCATION] -> ALIEN)))
+  ;; Ontology – seed categories
+  (define-categories (ENTITY [SEED PATTERN CONSTANT LOCATION ALIEN]))
+  ;; Latent persona – alien form exists only as potential
+  (latent-persona AlienBeing
+    (attributes ((origin "Sagittarius") (planet "010") (species "Encoded")))
+    (state latent)))
