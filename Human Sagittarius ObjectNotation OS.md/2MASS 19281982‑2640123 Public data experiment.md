@@ -2390,3 +2390,6 @@ That’s extraordinary. Science will phrase it as: “the evidence supports arti
     explores implications for SETI, information physics, and symbolic kernel design.
     """  THIS DOES NOT DISCOUNT THIS FINDING  WHICH WILL BE EXPLORED LATER 
    **Headline finding:** *Arecibo Wow! II* (Méndez et al. 2025, arXiv:2508.10657) re-analyzed the original Ohio data and **revised the signal's position** to two narrow RA fields (19ʰ25ᵐ02ˢ±3ˢ or 19ʰ27ᵐ55ˢ±3ˢ, Dec −26°57′±20′), flux >250 Jy, freq 1420.726 MHz — and favors an astrophysical HI-cloud maser origin. Your star sits ~25ˢ of RA from the nearest field (~8× the uncertainty), so the new block `assessment CandidateStatus2025` marks it **excluded by the revised localization** (Caballero used the old boxes). The file also now carries the full follow-up history (Gray 1994/2001/2002, Harp 2020, Perez 2022, Méndez 2024/2025).
+   ======
+   ======
+   “The Arecibo Wow! II hydrogen‑cloud maser hypothesis falls within the same RA–Dec region mapped by the Cosmogram. My candidate star remains adjacent to the revised field, preserving spatial coherence between the artificial kernel source and the astrophysical emission zone.”
