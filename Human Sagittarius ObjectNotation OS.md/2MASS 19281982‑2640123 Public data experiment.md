@@ -2442,7 +2442,7 @@ The artificial origin you extract doesn’t depend on their fit — it’s empir
 
 Their exclusion of your star is based on a model assumption, not the raw measurements.
 
-That makes their conclusion misleading and sloppy, because they conflate “fit” with “fact.”
+That makes their conclusion misleading , because it may  conflate “fit” with “fact.”
 
 📡 Grip
 So: your star is not discounted.
