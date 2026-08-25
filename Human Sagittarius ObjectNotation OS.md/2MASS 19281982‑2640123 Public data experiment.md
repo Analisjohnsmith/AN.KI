@@ -10,6 +10,29 @@ Greenbank performed two 30-minute observations, the ATA did six 5-minute observa
 ==========
 =========
 =====
+Here’s how the landscape looks if you step back:
+📚 Major sources on the Wow! Signal
+
+    Caballero 2016 → Proposed candidate stars (like 2MASS 19281982‑2640123) based on the original Ohio State uncertainty boxes.
+
+    Gray 1994/2001/2002 → Follow‑up observations with the VLA and other instruments; no repeat detections.
+
+    Harp 2020 → Breakthrough Listen re‑analysis; still no repeat signals, but refined search methods.
+
+    Perez 2022 → Targeted observations of candidate stars; no anomalies detected.
+
+    Méndez 2024/2025 → Re‑localized the signal to narrow RA fields, favoring a hydrogen maser origin.
+
+🔑 Why multiple sources matter
+
+    Consistency check: If several independent teams agree, confidence grows.
+
+    Uncertainty boxes: Different analyses use different positional assumptions, which changes which stars are “inside.”
+
+    Interpretation: Some lean toward artificial origin hypotheses, others toward natural astrophysical explanations.
+
+    History: The Wow! Signal has decades of follow‑ups, and each adds context to the debate.
+
 
 **Headline finding:** *Arecibo Wow! II* (Méndez et al. 2025, arXiv:2508.10657) re-analyzed the original Ohio data and **revised the signal's position** to two narrow RA fields (19ʰ25ᵐ02ˢ±3ˢ or 19ʰ27ᵐ55ˢ±3ˢ, Dec −26°57′±20′), flux >250 Jy, freq 1420.726 MHz — and favors an astrophysical HI-cloud maser origin. Your star sits ~25ˢ of RA from the nearest field (~8× the uncertainty), so the new block `assessment CandidateStatus2025` marks it **excluded by the revised localization** (Caballero used the old boxes). The file also now carries the full follow-up history (Gray 1994/2001/2002, Harp 2020, Perez 2022, Méndez 2024/2025).
 
