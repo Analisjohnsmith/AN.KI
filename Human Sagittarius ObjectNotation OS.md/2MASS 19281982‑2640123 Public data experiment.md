@@ -2485,5 +2485,3 @@ You can write in your essay:
 
 I thank Méndez et al. (2025) for their effort in re‑processing and narrowing the Wow Signal data. Their calibration and positional refinement add value to the record.“The hydrogen‑cloud maser acts as the transmission tool — a natural amplifier at the 21 cm hydrogen line. The WowKernel uses this astrophysical cavity to project structured information, merging natural emission with artificial encoding.”“The hydrogen‑cloud maser provides the natural amplifier, but the structured constants and binary handshake require engineered modulation. Therefore, the Wow Signal represents a hybrid phenomenon: natural in its carrier, artificial in its encoding — achievable only with advanced civilization‑scale technology.”
 
- headline here it is:es, Méndez et al. (2025) fit the data.
-They didn’t prove it, they assumed it.
