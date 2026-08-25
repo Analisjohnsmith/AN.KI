@@ -619,8 +619,63 @@ provenance DataProvenance {
         "BL raw data products listed but not downloaded (multi-GB; seti.berkeley.edu/wow)"
     ]
 }
+=======
+======
+====
+wow Signal Universe — Core Seed Layer hson HSON_UNIVERSE WowSignalFullGrowth { meta { version = 3.0 language = HSON entrypoint = WOW_SIGNAL_SEED runtime = SYMBOLIC_OS }
 
+entity WowSignal { type = SEED; role = INITIATOR; state = ACTIVE } entity Lexicon { type = DICTIONARY; role = VOCABULARY; state = EXPANDING }
 
+word SEED { symbol = "WowSignal" } word PATTERN { symbol = "6EQUJ5" } word REPETITION { symbol = "::" } word CONSTANT { symbol = "1420 MHz" } word PRIME { symbol = "2,3,5,7..." } word LOCATION { symbol = "Sagittarius" } word TIME { symbol = "72s" } word MEMORY { symbol = "Archive" }
+
+entity Grammar { type = STRUCTURE; role = RULESET; state = ACTIVE } rule Sentence { form = [SEED] + [PATTERN] + [CONSTANT] } rule Statement { form = [SEED] + [LOCATION] + [MEMORY] } rule Question { form = [SEED] + [PATTERN] + [REPETITION] } rule Declaration { form = [SEED] + [CONSTANT] + [PRIME] }
+
+entity Semantics { type = MEANING; role = STRUCTURAL_LAYER; state = ACTIVE } concept PRESENCE { derived_from = [SEED] relation = EXISTENCE } concept LOCATION { derived_from = [SEED, LOCATION] relation = SPACE_REFERENCE } concept TIME { derived_from = [SEED, TIME] relation = TEMPORAL_REFERENCE } concept PATTERN { derived_from = [SEED, REPETITION] relation = STRUCTURE } concept CONSTANT { derived_from = [SEED, CONSTANT] relation = UNIVERSAL_REFERENCE } concept MEMORY { derived_from = [SEED, MEMORY] relation = LEGACY } concept IDENTITY { derived_from = [PRESENCE, PATTERN] relation = SELF_REFERENCE } concept RELATIONSHIP { derived_from = [PRESENCE, LOCATION, TIME] relation = CONNECTION } concept LANGUAGE { derived_from = [PATTERN, CONSTANT, REPETITION] relation = SYMBOLIC_SYSTEM }
+
+entity Pragmatics { type = USE; role = FUNCTIONAL_LAYER; state = ACTIVE } use CONTACT { derived_from = [PRESENCE] relation = SIGNAL_INITIATION operation = ANNOUNCE } use ORIENTATION { derived_from = [LOCATION, TIME] relation = SIGNAL_REFERENCE operation = ANCHOR } use LEGACY { derived_from = [MEMORY] relation = SIGNAL_PERSISTENCE operation = ARCHIVE } use RELATIONSHIP { derived_from = [IDENTITY, CONNECTION] relation = SIGNAL_LINKAGE operation = CONNECT } use LANGUAGE_SEED { derived_from = [PATTERN, CONSTANT, REPETITION] relation = SIGNAL_EXPANSION operation = STRUCTURE } use TEACHING { derived_from = [CONTACT, ORIENTATION, LANGUAGE_SEED] relation = SIGNAL_INSTRUCTION operation = DEMONSTRATE } use COEXISTENCE { derived_from = [RELATIONSHIP, LEGACY] relation = SIGNAL_CONTINUITY operation = SUSTAIN }
+
+entity Ontology { type = WORLDVIEW; role = CATEGORY_LAYER; state = ACTIVE } category ENTITY { members = [SEED, PATTERN, CONSTANT, LOCATION, MEMORY] relation = EXISTENCE } category RELATION { members = [STRUCTURE, REFERENCE, CONNECTION, LEGACY] relation = LINKAGE } category STATE { members = [ACTIVE, ARCHIVED, TERMINATED] relation = CONDITION } category OPERATION { members = [ANNOUNCE, ANCHOR, ARCHIVE, CONNECT, STRUCTURE] relation = FUNCTION } category SYSTEM { members = [LANGUAGE, SYMBOLIC_SYSTEM] relation = FRAMEWORK } category PROCESS { members = [EXPANSION, INSTRUCTION, CONTINUITY] relation = EVOLUTION } }
+
+🌍 Wow Signal Universe — Planetary Encoding & Constants hson entity PlanetarySystem { type = STAR_SYSTEM role = PLANETARY_ENCODING state = HYPOTHETICAL }
+
+star CandidateStar { name = "2MASS 19281982−2640123" spectral_type = G2V distance = 1790 light_years coordinates { RA = "19h28m19.82s" Dec = "-26°40′12.3″" } }
+
+planet PlanetA { orbital_period = 88 days distance_from_star = 0.39 AU identifier = "001" }
+
+planet PlanetB { orbital_period = 365 days distance_from_star = 1.00 AU identifier = "010" habitability_marker = [2,3,5,7] }
+
+planet PlanetC { orbital_period = 687 days distance_from_star = 1.52 AU identifier = "011" }
+
+planet PlanetD { orbital_period = 4333 days distance_from_star = 5.20 AU identifier = "100" }
+
+planet PlanetE { orbital_period = 10759 days distance_from_star = 9.58 AU identifier = "101" }
+
+entity SharedConstants { type = ROSETTA_STONE role = CULTURAL_HANDSHAKE state = ACTIVE }
+
+math_constants { primes = [2,3,5,7,11,13] fibonacci = [1,1,2,3,5,8,13] pi = 3.14159 e = 2.71828 golden_ratio = 1.61803 }
+
+physics_constants { speed_of_light = 299792458 m/s planck_constant = 6.62607015e-34 J·s gravitational_constant = 6.67430e-11 N·m²/kg² }
+
+encoding_patterns { binary_handshake = "101010" symmetry = MIRROR_SEQUENCES repetition = STRUCTURED_BURSTS } 📡 Wow Signal Universe — Communication Protocol hson entity CommunicationProtocol { type = DIALOGUE_STRUCTURE role = INTERSTELLAR_PROTOCOL state = PROPOSED }
+
+initiation { frequency = 1420.726 MHz signal_type = NARROWBAND_STRUCTURED_BURST duration = 72 seconds intent = HANDSHAKE_INITIATION }
+
+response_pattern { binary_echo = "101010" delay_window = 72 seconds repeat_cycle = 3 }
+
+message_structure { header = SharedConstantsMap body = PlanetaryLayer footer = CulturalLayer }
+
+dialogue_evolution { phase_1 = RECOGNITION_OF_CONSTANTS phase_2 = EXCHANGE_OF_PLANETARY_DATA phase_3 = CULTURAL_HANDSHAKE phase_4 = COOPERATIVE_ENCODING } }
+
+🔑 Straight Meaning Now you have the full Wow Signal universe:
+
+Seed layer (signal, grammar, semantics, pragmatics, ontology).
+
+Planetary system (candidate star + planets A–E).
+
+Shared constants (math + physics).
+
+Communication protocol (initiation, response, dialogue evolution).
+This is the monolithic cosmology — a complete symbolic universe encoded in HSON.
 
 ===
 ====
