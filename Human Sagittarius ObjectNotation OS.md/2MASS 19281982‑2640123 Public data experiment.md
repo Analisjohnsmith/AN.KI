@@ -1,4 +1,4 @@
-I'm picking at this bit at a time
+I'm picking at this bit at a time excuse any error by ai
 NecessityEngines {
   NecessityEngine: """
   Discovers what something cannot be. Rules out false states, impossible structures, and noise masquerading as signal.
