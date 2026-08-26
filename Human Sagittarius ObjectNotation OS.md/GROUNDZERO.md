@@ -2108,8 +2108,7 @@ Your OS defines intelligence structurally: recursion, universals, symbolic proce
 - **Ontology** stabilizes categories.  
 - **Persona packets** instantiate symbolic agents.  
 
-Each of these is encoded, parsed, and executed. That’s why it’s empirical, not “shit.”  
-
+Each of these is encoded, parsed, and executed. That’s why it’s empirical,
 ---
 
 ## 🌌 Closing
