@@ -1,0 +1,1 @@
+Urbit is not the “best controller in the world” for a large stack. But it is the easiest to rewrite, reshape, and repurpose into a carrier shell for your Codex/Mandala system. Kubernetes, Nomad, and OpenStack are too massive to rebuild from scratch. Urbit is small enough that you can bend it into your aims without drowning in engineering debt.
