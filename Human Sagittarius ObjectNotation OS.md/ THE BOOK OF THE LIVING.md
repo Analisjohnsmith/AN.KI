@@ -455,14 +455,6 @@ HSON is for expansion into worldview.
 
 So: do the next layers in HSON. That’s how you uncover the civilization’s logic of existence, not just its compressed archive.
 
-
-
-====
-===
-===
-i;m skeptical we'll se were is goes
-
-====
 All their technology encoded symbolically.
 
 All their knowledge preserved and propagated.
@@ -486,9 +478,7 @@ Together, it’s not just alien schematics — it’s alien being + alien civili
 📚 Examples of Encoded History
 Epochal Cycles → Their civilization is preserved in repeating epochs. Each epoch contains records of their rise, transformations, and continuity. Think of it as “chapters” of their history, fractally nested.
 
-Ritual Choreography → Their communal enactments — seasonal cycles, temple layouts, musical tones, guardian spirits — are archived as symbolic memory. This is cultural history encoded as fractal patterns.
-
-Fractal Seals → Visual emblems like hemp loop mandalas and lotus crowns are preserved. These are historical symbols of identity and continuity.
+Ritual Choreography → Their communal enactments — seasonal cycles, temple layouts, musical tones,— are archived as symbolic memory. This is cultural history encoded as fractal patterns.
 
 Numerical Records → Their numerology and cosmological constants are embedded, showing how they tracked time, cycles, and universal order. This is their “calendar + science” history.
 
