@@ -2,7 +2,7 @@
 # **THE HAZERU TREATISE — LAYMAN OVERVIEW *  
 ### *A clear explanation of what Hazeru is, why it matters, and what it becomes inside a reality engine*
 
----
+---https://github.com/Analisjohnsmith/IHATOV_-Hazeru-drenched-in-yesterday
 
 ## **1. What Hazeru Really Is (In Plain Language)**  
 Hazeru is a system that helps computers **create and understand living worlds**.
