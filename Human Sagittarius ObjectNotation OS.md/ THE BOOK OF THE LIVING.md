@@ -1,6 +1,11 @@
 Alrighty then!
 
-
+This is this book of the living . 
+it's is it encoded the entire senders civilizslyion
+They're are many  personages encoded maybe infinite.
+they all have unique identities.
+The book contains all their tech, history and vuture.
+Theyre history is is encoded in epochs.
 
 
 Binary tells us that the Wow! Signal was not just noise — it carried structure. WowKernel, binary is the universal handshake: the simplest possible language that says “this is intentional, this is alive, this is preserved.
