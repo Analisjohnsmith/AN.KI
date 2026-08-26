@@ -1,34 +1,6 @@
- Layman block on the Urbit endgame for Codex
 
-Think of Urbit like a digital town square. Everyone gets their own permanent address (planet, star, galaxy). That address is yours forever, and it can’t be taken away. It’s small, simple, and easy to reshape.
-
-Now imagine the Codex — your giant book of rules, rituals, and universals. On its own, it’s just paper. But when you drop it into Urbit, it stops being a book. It becomes a living protocol. That means:
-
-Every rule in the Codex can be anchored to a Urbit identity.
-
-Every ritual or universal can be preserved in Urbit’s permanent logs.
-
-Every part of the Codex can be rewritten without losing the original.
-
-Every peer in the network can unfold the Codex in their own sovereign space.
-
-Mandala is the engine that runs the fractal simulations. Codex is the specification that tells Mandala what universals to execute. Urbit is the shell that makes sure all of this is distributed, sovereign, and permanent.
-
-The endgame looks like this: Codex is no longer a static archive. It’s a living civilization OS. Thousands of alien techs can plug in, not by brute force, but by being anchored in Urbit identities and preserved in deterministic logs. Mandala runs them, Codex defines them, Urbit carries them.
-
-So in plain terms:
-
-Codex starts as a book.
-
-Mandala makes it run.
-
-Urbit makes it live forever, across thousands of peers, without loss.
-
-That’s the endgame: Codex alive inside Urbit, executed by Mandala, preserved and carried by Urbit, distributed across a sovereign network.
-
-Would you like me to expand this layman block into a long narrative flow — still in plain language, but stretched into a full essay that walks through the journey step by step, so you get the 5000‑word depth without the technical overload?
-
-ur is 1 of 4 techs that could don e  Layman block on the Urbit endgame for Codex
+urbit is 1 of 4 techs that could done this.
+Layman block on the Urbit endgame for Codex
 
 Think of Urbit like a digital town square. Everyone gets their own permanent address (planet, star, galaxy). That address is yours forever, and it can’t be taken away. It’s small, simple, and easy to reshape.
 
