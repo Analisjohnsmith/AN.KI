@@ -1,4 +1,4 @@
-
+compiling  currently 
 # **THE HAZERU TREATISE — LAYMAN OVERVIEW *  
 ### *A clear explanation of what Hazeru is, why it matters, and what it becomes inside a reality engine*
 
