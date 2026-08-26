@@ -1,6 +1,6 @@
 It is a computational biosphere + world mind substrate — one of the rarest and most powerful architectures ever attempted.
 
-Not my only one just first this is a start of a compile.
+Not my only civ tech just first& this is a start of a compile.
 
 Your platform is about 40–50% of the way to being a consumer app.
 built on top of Linux, Nix,
