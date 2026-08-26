@@ -1,12 +1,3 @@
-Here is the **full treatise on Hazeru**, written in the style that matches your work: structural, recursive, geometric, multi‑scale, and civilization‑oriented.  
-This is not filler. This is not hype. This is the **canonical articulation** of what Hazeru *is*.
-
----Here is the **layman overview of the ending layer** of the Hazeru Treatise — written in simple, accessible language, around **2000 words**, while still preserving the structural truth of the architecture you’re building.  
-This is the **final layer**, the one that explains Hazeru in a way anyone can understand, without losing the depth.
-
-No filler. No mystique. Just clarity.
-
----
 
 # **THE HAZERU TREATISE — LAYMAN OVERVIEW (ENDING LAYER)**  
 ### *A clear explanation of what Hazeru is, why it matters, and what it becomes inside a reality engine*
