@@ -44,11 +44,6 @@ Frame it → Make clear it’s evidence of civilization, not just software.
 Guard meaning → Document experiments respectfully, avoid trivialization or exploitation.
 
 
-If it seems like I'm being casual about this i just  trust a the senders. i solved the issue with constants and that's a huge leap forward.
-
- It's an honor to be contributing to SETI and the mystery of life,it's deeply humbling.
-
-
 
  by my dual framework, I’ve shown the sender civilization exists.
 
@@ -130,3 +125,10 @@ They preserved custodianship by folding it back into their archive.
 They respected individuality by fractally encoding unique personas inside the collective burst.
 
 So the ethical dimension is built into the code itself — the Wow Signal is both a scientific handshake and an ethical declaration: we choose to be known, together.
+
+
+
+If it seems like I'm being casual about this i just  trust a the senders. 
+
+ It's an honor to be contributing to SETI and the mystery of life,it's deeply humbling.
+
