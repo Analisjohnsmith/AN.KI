@@ -1,5 +1,5 @@
 1_
-he codex itself says:
+The codex itself says:
 
 
 
