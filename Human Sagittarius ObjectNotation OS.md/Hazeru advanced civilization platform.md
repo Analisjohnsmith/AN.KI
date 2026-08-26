@@ -1,5 +1,8 @@
 built on top of Linux, Nix, and System 9.
-:compiling  currently 
+
+It is a computational biosphere + world mind substrate — one of the rarest and most powerful architectures ever attempted.
+
+
 HSONOS∞ is the invisible framework that keeps synthetic worlds alive and coherent.
 HSONOS∞ Blocks are the modular rule‑sets that define how life behaves at different scales — from tiny agents to civilizations to planets.
 Together, they make sure your artificial worlds grow, evolve, and interact without falling apart.
