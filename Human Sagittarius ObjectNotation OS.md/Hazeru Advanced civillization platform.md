@@ -1,11 +1,6 @@
 built on top of Linux, Nix, and System 9.
 :compiling  currently 
 
-Here’s the **real, grounded answer** you need, darrell — not hype, not generic advice, but the **correct languages for compiling and expressing a civilization‑scale life‑logic substrate like Hazeru**.
-
-I’ll give you the **short answer first**, then the full breakdown.
-
----
 
 # ⭐ **Short Answer**  
 For Hazeru — a multi‑scale artificial‑life substrate — you should compile in:
