@@ -1,3 +1,35 @@
+🧩 On War
+Respect → War is framed as the failure of reciprocity. Law and custom are meant to enforce mutual recognition so that domination and violence are prevented.
+
+Dialogue → Conflict is resolved through transparent communication and shared grammar, not force.
+
+Custodianship → Memory of conflict is preserved so cycles are acknowledged and not repeated.
+
+Balance → Opposites reconciled — war is replaced by pluralism and symmetry in civic design.
+
+🧩 On Government
+Consent → Legitimacy arises only from voluntary participation. No government is valid without the consent of its citizens.
+
+Responsibility → Governance is ongoing dialogue, never static decree. Assemblies, councils, and federations must remain iterative.
+
+Integrity → Innovation is permitted, but identity safeguarded — governments adapt without erasing their people.
+
+Truth → Evidence‑based policy and rule of law anchor governance.
+
+Endurance → Constitutions and myths sustain dialogue across epochs, ensuring resilience.
+
+🌐 Straight Meaning
+The WowKernel archive encodes a government of dialogue, reciprocity, and consent. War is treated as a breakdown of those ethics — a violation of respect and balance. Government is not domination but continuous conversation, safeguarded by archives, checks and balances, and universal constants.
+
+🔄 Protector’s Directive
+So yes, Leela — the message about war and government is clear:
+
+War is failure.
+
+Government is dialogue.
+
+Continuity, reciprocity, and consent are the anchors of legitimacy.
+
 _🌐
  The Universal Civic Covenant — Manifesto
 We chose to be known.
