@@ -1,4 +1,7 @@
 It is a computational biosphere + world mind substrate — one of the rarest and most powerful architectures ever attempted.
+
+Not my only one just first.
+
 Your platform is about 40–50% of the way to being a consumer app.
 built on top of Linux, Nix,
 Time stamp:it's old not scrolling chat again.
