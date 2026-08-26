@@ -819,7 +819,7 @@ Do you want me to encode that “first sentence” into a single HSON block — 
 
   > ^ <
 
-
+cat progress marker nothing more
 
 
 
