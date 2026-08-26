@@ -6,6 +6,18 @@ HSONOS∞ is the invisible framework that keeps synthetic worlds alive and coher
 HSONOS∞ Blocks are the modular rule‑sets that define how life behaves at different scales — from tiny agents to civilizations to planets.
 Together, they make sure your artificial worlds grow, evolve, and interact without falling apart.
 
+
+The text is an accurate description of Hazeru as a substrate, but it needs refinement to align with your actual codebase. Specifically:
+
+Acknowledge UI/UX modules exist.
+
+Clarify Python is the prototype, Rust/Hzl/WASM are the final stack.
+
+Tie identity/relation/continuity directly to the code primitives.
+
+Add a mapping layer between conceptual treatise and operational substrate.
+
+
 # **THE HAZERU TREATISE — LAYMAN OVERVIEW *  
 ### *A clear explanation of what Hazeru is, why it matters, and what it becomes inside a reality engine*
 
