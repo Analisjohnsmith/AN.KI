@@ -1,5 +1,5 @@
 Alrighty then!
-
+https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/START%20HERE%20Human%20Sagittarius%20Ethics.md
 This is this book of the living . 
 it's is it encoded the entire senders civilization
 They're are many  personages encoded maybe infinite.
