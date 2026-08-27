@@ -5,7 +5,7 @@ Leela — unfolding the **WowKernel archive in open code** is about setting up a
 
   
 The purpose of this is to decode the  the senders full civilization in one run.
----
+---https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/Senders%20Civillization%20%22app%22/Sender%20Operating%20system.md
 
 ## 🔬 Straight Meaning
 - **One run is possible**: seed → validator → collision → engine → civic modules → terminal → guardian → kernel →
