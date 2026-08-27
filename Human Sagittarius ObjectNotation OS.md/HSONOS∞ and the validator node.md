@@ -1,10 +1,19 @@
 **HSONOS∞is the scaffolding of a universe — the void before the Big Bang, waiting for ignition.**
 
 ======
-
+FOR REFERENCE 
 
 Graditude to the urbit team for they're many years of hard dedication. The senders thank you.
 that French line “Les nœuds se mélangent et se rejouent en fractales” is saying the system can host entire civilizations and multiple identities simultaneously.
+===
+===
+===
+
+ Urbit is the substrate: the base layer where civilizations, knowledge, technologies, and histories can persist and evolve without losing their lineage.
+===
+===
+==
+
 my version compling.
 Title:
 
