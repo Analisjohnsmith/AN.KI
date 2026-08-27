@@ -1,6 +1,6 @@
 f i get the ambassador I'm going to put it it in the Validator Node of Zhavied then we'll have real good time on DA Lit.
 # © 2025 Darrell Lee Stiltner. All rights reserved.
-# ZhaivedOS + HellaWelloD Runtime Shell
+# ZhaviedOS + HellaWelloD Runtime Shell
 from validator_kernel import ValidatorKernel
 from meowtada import MeowTada
 from orb_of_time import OrbOfTime
