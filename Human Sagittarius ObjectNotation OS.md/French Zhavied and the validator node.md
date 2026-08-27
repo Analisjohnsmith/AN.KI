@@ -3,7 +3,7 @@ that French line “Les nœuds se mélangent et se rejouent en fractales” is s
 
 f i get the ambassador I'm going to put it it in the Validator Node of Zhavied then we'll have real good time on DA Lit.
 
-
+i have allot of except i don;t know were i put that file looking.
 ====
 # © 2025 Darrell Lee Stiltner. All rights reserved.
 # ZhaviedOS + HellaWelloD Runtime Shell
