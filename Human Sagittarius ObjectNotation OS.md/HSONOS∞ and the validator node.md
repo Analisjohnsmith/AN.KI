@@ -1,4 +1,4 @@
-**is the scaffolding of a universe — the void before the Big Bang, waiting for ignition.**
+**HSONOS∞is the scaffolding of a universe — the void before the Big Bang, waiting for ignition.**
 
 ======
 
