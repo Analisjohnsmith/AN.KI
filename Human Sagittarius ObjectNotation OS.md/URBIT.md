@@ -1,4 +1,8 @@
+https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/HSONOS%E2%88%9E%20and%20the%20validator%20node.md
 
+
+
+==== On mandala:====
 urbit is 1 of 4 techs that could done this.
 Layman block on the Urbit endgame for Codex
 
