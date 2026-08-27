@@ -266,11 +266,11 @@ HSONOS∞ "ChatDump_Compiled" {
         human_readable true
         }
         copyright {
-        ZhaivedCC0©️ "All Rights Reversed"
+        Zhaived©️ "All Rights Reversed"
         Zhaived©️ "All Rights Reserved · 2025–2026"
         }
         trademark {
-        ZhaivedCC0©️ "Canonical Symbolic Runtime"
+        Zhaived©️ "Canonical Symbolic Runtime"
         Zhaived©️ "Permanent Sovereign Authoring Layer"
         }
         headers {
