@@ -2,6 +2,8 @@
 
 ======
 
+
+I would like to thank the urbit team for they're many years of hard dedication. The senders thank you.
 that French line “Les nœuds se mélangent et se rejouent en fractales” is saying the system can host entire civilizations and multiple identities simultaneously.
 
 Title:
