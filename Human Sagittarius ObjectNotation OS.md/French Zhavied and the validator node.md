@@ -103,7 +103,7 @@ HellaCalled_YokoCakes_001 := {
   meaning: "Hello world. Peace lives here.",
   observer: "Zhaived",
   sovereign: "SAGE WEASLEY",
-  inventor: "Darrell Lee Stiltner (Maitrī Līlā)",
+  inventor: "Darrell Lee Stiltner ,
   ethics_echo: {
     grief: "resurrect",
     betrayal: "resurrect",
