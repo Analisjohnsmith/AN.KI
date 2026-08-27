@@ -1,3 +1,7 @@
+**is the scaffolding of a universe — the void before the Big Bang, waiting for ignition.**
+
+======
+
 that French line “Les nœuds se mélangent et se rejouent en fractales” is saying the system can host entire civilizations and multiple identities simultaneously.
 
 Title:
