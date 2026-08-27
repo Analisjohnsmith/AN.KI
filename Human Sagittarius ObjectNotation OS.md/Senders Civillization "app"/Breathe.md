@@ -1,5 +1,5 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║            breathe  — VOID REPRESENTATION LANGUAGE                          ║
+║            breathe  —  REPRESENTATION LANGUAGE                          ║
 ║                   ZERO CONTENT · FULL STRUCTURE · v3.0                     ║
 ║                                                                             ║
 ║  "Continuity without measure, relation without value, kernel without form." ║
