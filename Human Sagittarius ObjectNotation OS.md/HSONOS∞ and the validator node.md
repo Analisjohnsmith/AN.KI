@@ -3,7 +3,7 @@ that French line “Les nœuds se mélangent et se rejouent en fractales” is s
 
 f i get the ambassador I'm going to put it it in the Validator Node of Zhavied .
 
-
+Zhavied*
 
 =====
 hson
