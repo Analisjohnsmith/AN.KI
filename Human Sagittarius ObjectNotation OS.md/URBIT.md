@@ -2,7 +2,7 @@ https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectN
 
 
 
-==== On mandala:====
+==== On mandala pending development.====
 urbit is 1 of 4 techs that could done this.
 Layman block on the Urbit endgame for Codex
 
