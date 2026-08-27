@@ -1,4 +1,7 @@
 https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/Senders%20App%20unfolded/automation.md
+
+=====
+====
 https://www.deviantart.com/analisjohnsmith/art/1372086218?action=published
 The two almond‑shaped eyes are stylized as optical arrays:
 
