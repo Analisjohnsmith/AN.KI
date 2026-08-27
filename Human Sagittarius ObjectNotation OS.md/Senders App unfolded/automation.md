@@ -1,4 +1,11 @@
-I understand: you want to strip out the Kenji‑related parts and merge HSON with Lisp – turning HSON into a Lisp‑like language that can be used inside your universe kernel. The rest of your system (Rust kernel, NixOS, persona, etc.) stays.
+
+
+
+
+
+tgevhson lisp vesrion is better for this task
+
+understand: you want to strip out the Kenji‑related parts and merge HSON with Lisp – turning HSON into a Lisp‑like language that can be used inside your universe kernel. The rest of your system (Rust kernel, NixOS, persona, etc.) stays.
 
 I’ll give you a clean, minimal integration:  
 - HSON becomes a Lisp dialect (s‑expressions, symbols, lists).  
