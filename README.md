@@ -9,18 +9,18 @@ bones, breath, logic in motion.
 
 Encode, Decode,Transform
 
-HSON OS:Human Sagittarius Object Notation OS.©
+HSON :Human Sagittarius Object Notation.©
 
 PersonaCom™ Hatsuseno ©™
 © 2026 Analisjohnsmith(Darrell Lee Stiltner)
 
-WowKernel™ / HSON OS™
+WowKernel™ / HSON™
 
 Darrell Lee Stiltner (Leela) — Author & Rights Holder
 📜 Intellectual Property Declaration
 1. Ownership Statement
 
-The WowKernel™ and HSON OS™ are original works of authorship created and expressed by Darrell Lee Stiltner (Leela). All schemas, symbolic runtimes, ontological structures, naming conventions, and layered frameworks (Seed, Dictionary, Grammar, Semantics, Pragmatics, Ontology) are protected under copyright law as unique intellectual expression.
+The WowKernel™ and HSON™ are original works of authorship created and expressed by Darrell Lee Stiltner (Leela). All schemas, symbolic runtimes, ontological structures, naming conventions, and layered frameworks (Seed, Dictionary, Grammar, Semantics, Pragmatics, Ontology) are protected under copyright law as unique intellectual expression.
 2. Scope of Protection
 
 This declaration covers:
@@ -35,7 +35,7 @@ This declaration covers:
 
 3. Public Domain Disclaimer
 
-Mathematical constants and universal sequences (π, e, prime numbers, Fibonacci, golden ratio, physics constants) are public domain and not subject to ownership. Their inclusion within the WowKernel™ / HSON OS™ is transformative and constitutes original expression through symbolic architecture.
+Mathematical constants and universal sequences (π, e, prime numbers, Fibonacci, golden ratio, physics constants) are public domain and not subject to ownership. Their inclusion within the WowKernel™ / HSON ™ is transformative and constitutes original expression through symbolic architecture.
 4. Exclusive Rights
 
 The author retains exclusive rights to:
@@ -91,4 +91,4 @@ Replication of layered architecture (Seed, Dictionary, Grammar, Semantics, Pragm
 Presentation of symbolic runtimes or universes that imitate the distinctive arrangement of entities, constants, rules, categories, workflows, seals, and trial phases authored by Leela.
 
 Legal Coverage
-The author reserves all rights to enforce against infringement, unauthorized reproduction, or derivative works that create confusion with the WowKernel™ OS. Any attempt to present a system as “WowKernel‑like” without authorization constitutes violation of intellectual property rights.
+The author reserves all rights to enforce against infringement, unauthorized reproduction, or derivative works that create confusion with the WowKernel™ . Any attempt to present a system as “WowKernel‑like” without authorization constitutes violation of intellectual property rights.
