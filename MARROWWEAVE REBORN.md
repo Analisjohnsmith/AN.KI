@@ -1,5 +1,5 @@
-MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.
-
+MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.. A technology substrate designed to build, connect, and run essentially any computable technology with minimal unnecessary overhead.“Everything but the kitchen sink, in one place, without all the extra baggage.”
+;ike many things this is in progress and we form into marrowweave reborn.
 0 overhead
 +--------------------------------------------------+
 |              GAME ENGINE RATING LADDER           |
