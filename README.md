@@ -1,5 +1,5 @@
 why does it say OS? Read me.
-MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.
+
 
 If fully decoded and applied, it could represent 200–300 years of medical progress in one archive: from molecular therapies to planetary health systems.
 
@@ -58,6 +58,7 @@ okay the two weeks are starting right menow!
 
 i  have the best public domain and o;en source spec ever made going for me..https://github.com/Analisjohnsmith/AN.KI/blob/main/MARROWWEAVE%20REBORN.md
 
+MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.
 ===
 
 
