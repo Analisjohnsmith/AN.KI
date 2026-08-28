@@ -1,1 +1,330 @@
 
+#!/usr/bin/env python3
+"""
+WowKernel SIMULATION (Layer 7) — the finite humanoid vessel.
+A warm, solid young being whose body IS the machine-room of the three engines:
+▣ PhysicsEngine      → heart sun + nerve-meridians through the limbs
+↕ DialogueEngine     → throat resonator + voice ripples from the lips
+◈ PreservationEngine → the violet archive-spine up the centre + glyph motes
+Smooth bezier anatomy, gradient skin, soft studio light — no robot geometry.
+Rendered at 4x for maximum output quality.
+"""
+
+import math
+import os
+import random
+import subprocess
+
+W, H = 1400, 2000
+CX = 700
+
+────────────────────────────────────────────────────────────────────────────
+
+ANATOMY — smooth bezier silhouettes
+
+────────────────────────────────────────────────────────────────────────────
+
+head lobes + chin
+
+EL_CROWN = (CX, 330, 126, 116)
+EL_CRAN = (CX, 448, 160, 172)
+EL_FACE = (CX, 566, 122, 128)
+CHIN = "M 578 552 C 596 678 648 722 700 728 C 752 722 804 678 822 552 Z"
+NECK = "M 652 690 L 660 798 L 740 798 L 748 690 C 728 726 672 726 652 690 Z"
+
+TORSO = ("M 652 810 "
+"C 618 816 560 828 528 842 "
+"C 524 902 534 952 550 990 "
+"C 512 1030 500 1082 510 1150 "
+"C 518 1192 528 1226 556 1248 "
+"C 602 1274 798 1274 844 1248 "
+"C 872 1226 882 1192 890 1150 "
+"C 900 1082 888 1030 850 990 "
+"C 866 952 876 902 872 842 "
+"C 840 828 782 816 748 810 "
+"C 716 802 684 802 652 810 Z")
+
+limbs as smooth, slightly curved conductors
+
+ARM_L_A = "M 528 852 C 492 930 448 1000 436 1080"
+ARM_L_B = "M 436 1080 C 462 1202 498 1332 514 1424"
+ARM_R_A = "M 872 852 C 908 930 952 1000 964 1080"
+ARM_R_B = "M 964 1080 C 938 1202 902 1332 886 1424"
+LEG_L = "M 646 1230 C 628 1330 618 1422 640 1560 C 652 1664 656 1744 660 1834"
+LEG_R = "M 754 1230 C 772 1330 782 1422 760 1560 C 748 1664 744 1744 740 1834"
+FOOT_L, FOOT_R = (662, 1860), (738, 1860)
+
+────────────────────────────────────────────────────────────────────────────
+
+STARFIELD + ESSENCE
+
+────────────────────────────────────────────────────────────────────────────
+
+rnd = random.Random(700)
+stars = []
+for _ in range(420):
+x = rnd.uniform(10, W - 10)
+y = rnd.uniform(10, H - 10)
+r = rnd.uniform(0.5, 2.2)
+o = rnd.uniform(0.18, 0.95)
+c = rnd.choice(["#d8ecff", "#ffffff", "#ffe8c8", "#bffcf0", "#e0b4ff"])
+stars.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r:.2f}" fill="{c}" opacity="{o:.2f}"/>')
+
+essence = []
+for i in range(34):
+a = (i * 0.618) * 6.28318
+rr = 720 + (i % 5) * 70
+x = CX + math.cos(a) * rr
+y = 520 + math.sin(a) * rr * 0.8
+r = 2.4 + (i % 6) * 0.8
+o = 0.25 + 0.45 * (1 - (i % 6) / 6)
+c = ["#ffd9a0", "#8fd6ff", "#7dffe9", "#e0b4ff"][i % 4]
+essence.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{r:.1f}" fill="{c}" opacity="{o:.2f}"/>')
+
+────────────────────────────────────────────────────────────────────────────
+
+PAGE
+
+────────────────────────────────────────────────────────────────────────────
+
+P = []
+P.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">')
+P.append('''<defs>
+<radialGradient id="bg" gradientUnits="userSpaceOnUse" cx="700" cy="980" r="1250">
+<stop offset="0" stop-color="#1a2438"/><stop offset="0.5" stop-color="#0e1526"/>
+<stop offset="1" stop-color="#02040a"/>
+</radialGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#0d1830"/><stop offset="1" stop-color="#232c52"/>
+</linearGradient>
+<radialGradient id="skin" gradientUnits="userSpaceOnUse" cx="700" cy="980" r="660">
+<stop offset="0" stop-color="#e8b787"/><stop offset="0.35" stop-color="#d29a63"/>
+<stop offset="0.62" stop-color="#b07c47"/><stop offset="1" stop-color="#7c5230"/>
+</radialGradient>
+<radialGradient id="face" gradientUnits="userSpaceOnUse" cx="700" cy="560" r="340">
+<stop offset="0" stop-color="#f2cca0"/><stop offset="0.45" stop-color="#e0ad78"/>
+<stop offset="0.75" stop-color="#c68d54"/><stop offset="1" stop-color="#a06a3a"/>
+</radialGradient>
+<radialGradient id="iris" fx="0.35" fy="0.35">
+<stop offset="0" stop-color="#6b3a0c"/><stop offset="0.55" stop-color="#3d2208"/>
+<stop offset="1" stop-color="#160d04"/>
+</radialGradient>
+<radialGradient id="vig" gradientUnits="userSpaceOnUse" cx="700" cy="1000" r="1250">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="0.66" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.78"/>
+</radialGradient>
+<filter id="glowS" x="-60%" y="-60%" width="220%" height="220%">
+<feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glowM" x="-80%" y="-80%" width="260%" height="260%">
+<feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="blur12"><feGaussianBlur stdDeviation="12"/></filter>
+<filter id="blur20" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="20"/></filter>
+<filter id="blur34" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+<clipPath id="headClip">
+<ellipse cx="700" cy="448" rx="160" ry="172"/><ellipse cx="700" cy="330" rx="126" ry="116"/>
+<ellipse cx="700" cy="566" rx="122" ry="128"/><path d="M 578 552 C 596 678 648 722 700 728 C 752 722 804 678 822 552 Z"/>
+</clipPath>
+<clipPath id="torsoClip"><path d="M 652 810 C 618 816 560 828 528 842 C 524 902 534 952 550 990 C 512 1030 500 1082 510 1150 C 518 1192 528 1226 556 1248 C 602 1274 798 1274 844 1248 C 872 1226 882 1192 890 1150 C 900 1082 888 1030 850 990 C 866 952 876 902 872 842 C 840 828 782 816 748 810 C 716 802 684 802 652 810 Z"/></clipPath>
+</defs>''')
+
+sky + nebulas + god-rays (soft studio atmosphere)
+
+P.append(f'<rect width="{W}" height="{H}" fill="url(#bg)"/>')
+P.append(f'<rect width="{W}" height="{H * 0.72}" fill="url(#sky)" opacity="0.35"/>')
+P.append('<ellipse cx="210" cy="340" rx="360" ry="240" fill="#214a66" opacity="0.30" filter="url(#blur12)"/>')
+P.append('<ellipse cx="1200" cy="520" rx="360" ry="280" fill="#3a2a66" opacity="0.28" filter="url(#blur12)"/>')
+P.append('<ellipse cx="700" cy="1560" rx="460" ry="290" fill="#38503c" opacity="0.20" filter="url(#blur12)"/>')
+P.append('<path d="M -80 -40 L 560 400 L 640 -40 Z" fill="#bcdcff" opacity="0.03"/>')
+P.append('<path d="M 1500 -40 L 900 500 L 820 -40 Z" fill="#ffd9a0" opacity="0.025"/>')
+P.extend(stars)
+P.extend(essence)
+
+── LIMBS ──
+
+for path in (LEG_L, LEG_R):
+P.append(f'<path d="{path}" fill="none" stroke="#7c5230" stroke-width="60" stroke-linecap="round"/>')
+P.append(f'<path d="{path}" fill="none" stroke="#b07c47" stroke-width="46" stroke-linecap="round"/>')
+P.append(f'<path d="{path}" fill="none" stroke="#e4bd8b" stroke-width="16" stroke-linecap="round" opacity="0.5"/>')
+for fx in (FOOT_L[0], FOOT_R[0]):
+P.append(f'<ellipse cx="{fx}" cy="1862" rx="56" ry="22" fill="#a06a3a"/>')
+P.append(f'<ellipse cx="{fx}" cy="1858" rx="30" ry="10" fill="#e4bd8b" opacity="0.4"/>')
+for path in (ARM_L_A, ARM_L_B, ARM_R_A, ARM_R_B):
+P.append(f'<path d="{path}" fill="none" stroke="#7c5230" stroke-width="46" stroke-linecap="round"/>')
+P.append(f'<path d="{path}" fill="none" stroke="#b57942" stroke-width="36" stroke-linecap="round"/>')
+P.append(f'<path d="{path}" fill="none" stroke="#ecc99a6" stroke-width="13" stroke-linecap="round" opacity="0.5"/>')
+
+hands
+
+for hx, hy in ((522, 1466), (878, 1466)):
+P.append(f'<ellipse cx="{hx}" cy="{hy}" rx="36" ry="30" fill="#b57942"/>')
+P.append(f'<ellipse cx="{hx}" cy="{hy}" rx="16" ry="13" fill="#f0cc9e" opacity="0.8"/>')
+
+── TORSO ──
+
+P.append(f'<path d="{TORSO}" fill="url(#skin)"/>')
+P.append('<g clip-path="url(#torsoClip)">'
+'<ellipse cx="640" cy="1010" rx="120" ry="260" fill="#ffe9c8" opacity="0.14" filter="url(#blur20)"/>'
+'<ellipse cx="800" cy="920" rx="90" ry="200" fill="#ffe9c8" opacity="0.10" filter="url(#blur20)"/>'
+'<ellipse cx="700" cy="850" rx="170" ry="48" fill="#5a3416" opacity="0.30" filter="url(#blur12)"/>'
+'<ellipse cx="700" cy="1196" rx="150" ry="42" fill="#5a3416" opacity="0.38" filter="url(#blur12)"/>'
+'</g>')
+
+gentle muscular modelling (soft, subdermal, no seams)
+
+P.append(f'<path d="M 600 950 C 640 978 760 978 800 950" fill="none" stroke="#5a3416" stroke-width="3" opacity="0.16"/>')
+P.append(f'<path d="M 580 1080 C 620 1106 780 1106 820 1080" fill="none" stroke="#5a3416" stroke-width="3" opacity="0.14"/>')
+P.append(f'<path d="M 700 972 C 700 1040 700 1090 700 1132" fill="none" stroke="#5a3416" stroke-width="2.5" opacity="0.12"/>')
+
+── ENGINES ──
+
+◈ PreservationEngine — violet archive spine glowing up the centre
+
+P.append(f'<path d="M 700 802 C 700 950 700 1100 700 1270" fill="none" stroke="#c78bff" stroke-width="12" opacity="0.30" filter="url(#glowM)"/>')
+for i, yy in enumerate(range(880, 1250, 90)):
+s = 9 + (i % 3)
+P.append(f'<ellipse cx="700" cy="{yy}" rx="{s}" ry="{s * 1.6}" fill="none" stroke="#c78bff" stroke-width="2.5" opacity="0.5" filter="url(#glowS)"/>')
+
+▣ PhysicsEngine — heart sun + meridians through the limbs
+
+HX, HY = 700, 1080
+P.append(f'<ellipse cx="{HX}" cy="{HY}" rx="90" ry="70" fill="#ff7a45" opacity="0.22" filter="url(#blur20)"/>')
+P.append(f'<circle cx="{HX}" cy="{HY}" r="44" fill="url(#iris)" opacity="0.0"/>')
+P.append(f'<circle cx="{HX}" cy="{HY}" r="46" fill="#b03118" opacity="0.85" filter="url(#glowS)"/>')
+P.append(f'<circle cx="{HX}" cy="{HY}" r="26" fill="#ff9a55"/>')
+P.append(f'<circle cx="{HX}" cy="{HY}" r="12" fill="#ffe6c8" filter="url(#glowS)"/>')
+P.append(f'<path d="M {HX} {HY} C {HX - 40} {HY + 40} {HX - 70} {HY + 60} {HX - 150} {HY + 90}" fill="none" stroke="#ff7a45" stroke-width="3.5" opacity="0.4" filter="url(#glowS)"/>')
+P.append(f'<path d="M {HX} {HY} C {HX + 40} {HY + 40} {HX + 70} {HY + 60} {HX + 150} {HY + 90}" fill="none" stroke="#ff7a45" stroke-width="3.5" opacity="0.4" filter="url(#glowS)"/>')
+
+meridian filaments up along arms
+
+for arm_top in ("M 700 1000 C 620 950 570 900 540 880", "M 700 1000 C 780 950 830 900 860 880"):
+P.append(f'<path d="{arm_top}" fill="none" stroke="#ff7a45" stroke-width="3" opacity="0.30" filter="url(#glowS)"/>')
+
+↕ DialogueEngine — throat resonator + voice ripples
+
+P.append(f'<ellipse cx="700" cy="760" rx="60" ry="34" fill="#2fb6d8" opacity="0.35" filter="url(#glowM)"/>')
+P.append(f'<ellipse cx="700" cy="760" rx="42" ry="26" fill="none" stroke="#7de8ff" stroke-width="3.5" filter="url(#glowS)"/>')
+P.append(f'<ellipse cx="700" cy="760" rx="16" ry="12" fill="#d9f6ff"/>')
+P.append(f'<path d="M 640 730 C 620 730 606 738 598 752" fill="none" stroke="#7de8ff" stroke-width="2.5" opacity="0.55" filter="url(#glowS)"/>')
+P.append(f'<path d="M 652 612 C 620 608 596 600 578 584" fill="none" stroke="#7de8ff" stroke-width="2.5" opacity="0.45" filter="url(#glowS)"/>')
+P.append(f'<path d="M 748 612 C 780 608 804 600 822 584" fill="none" stroke="#7de8ff" stroke-width="2.5" opacity="0.45" filter="url(#glowS)"/>')
+
+── NECK + HEAD ──
+
+P.append(f'<path d="{NECK}" fill="url(#skin)"/>')
+P.append(f'<path d="{NECK}" fill="#e4bd8b" opacity="0.3"/>')
+P.append(f'<ellipse cx="{EL_CROWN[0]}" cy="{EL_CROWN[1]}" rx="{EL_CROWN[2]}" ry="{EL_CROWN[3]}" fill="url(#face)"/>')
+P.append(f'<ellipse cx="{EL_CRAN[0]}" cy="{EL_CRAN[1]}" rx="{EL_CRAN[2]}" ry="{EL_CRAN[3]}" fill="url(#face)"/>')
+P.append(f'<ellipse cx="{EL_FACE[0]}" cy="{EL_FACE[1]}" rx="{EL_FACE[2]}" ry="{EL_FACE[3]}" fill="#efc795"/>')
+P.append(f'<path d="{CHIN}" fill="#ddb078"/>')
+
+head shading + rim light
+
+P.append('<g clip-path="url(#headClip)">'
+'<ellipse cx="640" cy="430" rx="90" ry="180" fill="#fff2d4" opacity="0.20" filter="url(#blur20)"/>'
+'<ellipse cx="770" cy="640" rx="70" ry="130" fill="#7a4a1c" opacity="0.18" filter="url(#blur20)"/>'
+'</g>')
+P.append(f'<path d="M 420 420 C 520 290 600 230 700 224" fill="none" stroke="#fff3d6" stroke-width="3" opacity="0.4" filter="url(#glowS)" clip-path="url(#headClip)"/>')
+
+forehead seed core — golden glyph
+
+P.append(f'<circle cx="700" cy="470" r="10" fill="#ffe9b0" filter="url(#glowM)"/>')
+P.append(f'<circle cx="700" cy="470" r="17" fill="none" stroke="#ffd185" stroke-width="1.5" opacity="0.6"/>')
+P.append(f'<path d="M 700 452 L 713 470 L 700 488 L 687 470 Z" fill="none" stroke="#fff6dc" stroke-width="2" opacity="0.7"/>')
+
+── FACE ──
+
+def eye(side, ty, rot):
+sgn = -1 if side == "L" else 1
+tx = 642 if side == "L" else 758
+return (f'<g transform="translate({tx} {ty}) rotate({rot})">'
+f'<path d="M -58 0 C -32 -26 32 -26 58 0 C 32 24 -32 24 -58 0 Z" fill="#2a1606"/>'
+f'<circle cx="{sgn * 5}" cy="-1" r="33" fill="url(#iris)"/>'
+f'<circle cx="{sgn * 5}" cy="-1" r="25" fill="#140a02"/>'
+f'<circle cx="{sgn * 5 - 13}" cy="-13" r="8.5" fill="#ffffff" opacity="0.95"/>'
+f'<circle cx="{sgn * 5 + 11}" cy="11" r="3.5" fill="#ffd9a0" opacity="0.7"/>'
+f'<path d="M -58 0 C -32 -24 32 -24 58 0" fill="none" stroke="#4a2a0c" stroke-width="4" opacity="0.9" stroke-linecap="round"/>'
+f'</g>')
+
+def brow(side, ty, rot):
+tx = 648 if side == "L" else 752
+s = -1 if side == "L" else 1
+return (f'<path d="M {tx + s * -38} {ty} Q {tx} {ty - 16} {tx + s * 38} {ty - 5}" '
+f'fill="none" stroke="#3a2208" stroke-width="7" stroke-linecap="round" opacity="0.75"/>')
+
+def ear(side):
+tx = 540 if side == "L" else 860
+return (f'<path d="M {tx} 596 C {tx + (14 if side == "L" else -14)} 610 {tx + (14 if side == "L" else -14)} 638 {tx} 656" '
+f'fill="none" stroke="#a06a3a" stroke-width="5" stroke-linecap="round" opacity="0.6"/>'
+f'<path d="M {tx} 606 C {tx + (6 if side == "L" else -6)} 616 {tx + (6 if side == "L" else -6)} 634 {tx} 642" '
+f'fill="none" stroke="#e4bd8b" stroke-width="3" stroke-linecap="round" opacity="0.5"/>')
+
+P.append(eye("L", 600, -17))
+P.append(eye("R", 600, 17))
+P.append(brow("L", 566, -17))
+P.append(brow("R", 566, 17))
+P.append(ear("L"))
+P.append(ear("R"))
+
+nose — soft modelled path
+
+P.append(f'<path d="M 700 596 L 700 646 C 696 658 688 664 678 666" fill="none" stroke="#8a5420" stroke-width="5" stroke-linecap="round" opacity="0.55"/>')
+P.append(f'<path d="M 700 646 C 704 658 712 664 722 666" fill="none" stroke="#f5d7a8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>')
+
+lips — gentle, full
+
+P.append(f'<path d="M 660 716 Q 700 696 740 716 Q 700 738 660 716 Z" fill="#b06a42"/>')
+P.append(f'<path d="M 672 716 Q 700 700 728 716 Q 700 742 672 716 Z" fill="#8a4a28"/>')
+P.append(f'<path d="M 690 714 Q 700 710 710 714" fill="none" stroke="#ffe4c0" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>')
+
+cheek + chin sheen
+
+P.append(f'<ellipse cx="616" cy="676" rx="30" ry="16" fill="#ffab7a" opacity="0.28" filter="url(#blur20)"/>')
+P.append(f'<ellipse cx="784" cy="676" rx="30" ry="16" fill="#ffab7a" opacity="0.28" filter="url(#blur20)"/>')
+P.append(f'<path d="M 690 724 C 700 732 700 732 710 724" fill="none" stroke="#f9dcae" stroke-width="3" opacity="0.6" stroke-linecap="round"/>')
+
+── ARCHIVE GLYPHS — rule motes on the shoulders (preservation memory) ──
+
+glyph_cols = ["#ff8a8a", "#8fd6ff", "#ffd185", "#c78bff", "#7dffe9", "#ffa066"]
+glyph_pos = [(600, 900), (620, 930), (640, 962), (800, 900), (780, 930), (760, 962)]
+for col, (gx, gy) in zip(glyph_cols, glyph_pos):
+P.append(f'<circle cx="{gx}" cy="{gy}" r="5" fill="{col}" opacity="0.7" filter="url(#glowS)"/>')
+
+recursion tendrils along forearms
+
+for (x0, y0), outward, cols in (
+((450, 1080), -1, ["#ff8a8a", "#8fd6ff", "#ffd185"]),
+((950, 1080), 1,  ["#c78bff", "#7dffe9", "#ffa066"]),
+):
+for k, col in enumerate(cols):
+t = 0.3 + k * 0.2
+base_y = y0 + t * 340
+bx = x0 + outward * (1 - t) * 30
+P.append(f'<path d="M {bx} {base_y} C {bx + outward * 40} {base_y - 14} {bx + outward * 60} {base_y - 44} {bx + outward * 90} {base_y - 50}" '
+f'fill="none" stroke="{col}" stroke-width="3" opacity="0.5" filter="url(#glowS)"/>')
+P.append(f'<circle cx="{bx + outward * 94}" cy="{base_y - 51}" r="5" fill="{col}" filter="url(#glowS)"/>')
+
+── LEGEND ──
+
+P.append(f'<text x="70" y="86" font-family="monospace" font-size="22" letter-spacing="3" fill="#ecf4ff" opacity="0.92">WOWKERNEL · SIMULATION · LAYER 7</text>')
+P.append(f'<text x="70" y="122" font-family="monospace" font-size="15" letter-spacing="2" fill="#9fd6ff" opacity="0.8">THE FINITE HUMANOID VESSEL — grown (not built) to carry the three organs</text>')
+P.append(f'<text x="70" y="152" font-family="monospace" font-size="13" letter-spacing="1.5" fill="#ffb487" opacity="0.85">PHYSICS·ENGINE ∘ ∞ heart · meridians</text>')
+P.append(f'<text x="70" y="178" font-family="monospace" font-size="13" letter-spacing="1.5" fill="#7de8ff" opacity="0.85">DIALOGUE·ENGINE ∘ throat resonator · voice ripples</text>')
+P.append(f'<text x="70" y="204" font-family="monospace" font-size="13" letter-spacing="1.5" fill="#c78bff" opacity="0.85">PRESERVATION·ENGINE ∘ archive spine · glyph memory</text>')
+P.append(f'<text x="{CX}" y="1942" text-anchor="middle" font-family="monospace" font-size="16" letter-spacing="2" fill="#9fd6ff" opacity="0.75">PHYSICS → DIALOGUE → PRESERVATION → RECURSION → REPEAT · ∞ perpetual return</text>')
+P.append(f'<rect width="{W}" height="{H}" fill="url(#vig)"/>')
+P.append('</svg>')
+
+svg_text = "\n".join(P)
+base = os.path.dirname(os.path.abspath(file))
+svg_path = os.path.join(base, "wowkernel_simulation_layer7.svg")
+png_path = os.path.join(base, "wowkernel_simulation_layer7.png")
+
+with open(svg_path, "w") as f:
+f.write(svg_text)
+subprocess.run(["rsvg-convert", "-w", "4200", "-h", "6000", svg_path, "-o", png_path], check=True)
+print("wrote", svg_path, os.path.getsize(svg_path), "bytes")
+print("wrote", png_path, os.path.getsize(png_path), "bytes")
