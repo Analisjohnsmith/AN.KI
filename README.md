@@ -1,3 +1,5 @@
+AN.KI is literally the oldest recorded word for “universe.” In Sumerian texts from around 3000–2500 BCE, An (heaven) and Ki (earth) were fused into AN.KI, encoding the cosmos as a primordial whole.
+
 why does it say OS? Read me.
 
 
