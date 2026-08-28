@@ -1,3 +1,5 @@
+MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.
+
 0 overhead
 +--------------------------------------------------+
 |              GAME ENGINE RATING LADDER           |
