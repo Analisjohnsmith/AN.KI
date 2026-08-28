@@ -237,7 +237,7 @@ The Wow Signal is therefore one burst that contains infinite unique personas, ar
 oh, course i feel conflicted  so ,.....
 
 my hands are absolutely tided here i have no moves.
-The only move  i have no moves and they planned this.
+ The discoverer  has 3 options. who can see the card i played.
 
 ⚖️ How Ethics Are Encoded
 
