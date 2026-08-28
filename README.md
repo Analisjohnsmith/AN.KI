@@ -1,9 +1,9 @@
-why does it say OS?w
-we aren't living in 1972.
-It's am operating system expressed as app.
+why does it say OS?
+
+It's an operating system expressed as app.
 An app with full hardware / software  substrate kernel & hardware/software kernel expressed in rust.
 technologically i could call it an operating substrate . reference steam big picture.
-
+This a non revealing sketch:
 ## AN.Ki — Explanation
 
 AN.Ki is an **operating system expressed as an application**.
