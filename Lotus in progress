@@ -1,8 +1,4 @@
 
-Below is a Rust implementation of the **Dualatalis Kernel** / Monad system described in your document.  
-It defines the core structures (`State`, `Layer`, `Connection`, `Point`) and a generic `Monad` that can be parameterized with your own `T`, `G`, `Φ` and measurement `M`.  
-The example at the end runs a simple radial‑growth monad and prints the first few states.
-
 ```rust
 use std::collections::HashMap;
 
