@@ -58,7 +58,7 @@ okay the two weeks are starting right menow!
 
 i  have the best public domain and o;en source spec ever made going for me..https://github.com/Analisjohnsmith/AN.KI/blob/main/MARROWWEAVE%20REBORN.md
 
-MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.
+MeowTada is a non-commercial, open technology substrate designed as a foundation for building essentially any computable technology you want.. A technology substrate designed to build, connect, and run essentially any computable technology with minimal unnecessary overhead.“Everything but the kitchen sink, in one place, without all the extra baggage.”
 ===
 
 
