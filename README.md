@@ -11,7 +11,7 @@ HSON OS:Human Sagittarius Object Notation OS.©
 PersonaCom™ Hatsuseno ©™
 © 2026 Analisjohnsmith(Darrell Lee Stiltner)
 
-MeowWowKernel™ / HSON OS™
+WowKernel™ / HSON OS™
 
 Darrell Lee Stiltner (Leela) — Author & Rights Holder
 📜 Intellectual Property Declaration
