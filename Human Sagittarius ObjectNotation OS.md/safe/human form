@@ -1,1 +1,16 @@
 
+#!/usr/bin/env python3
+"""
+WowKernel SIMULATION (Layer 7) — the finite humanoid vessel.
+A warm, solid young being whose body IS the machine-room of the three engines:
+▣ PhysicsEngine      → heart sun + nerve-meridians through the limbs
+↕ DialogueEngine     → throat resonator + voice ripples from the lips
+◈ PreservationEngine → the violet archive-spine up the centre + glyph motes
+Smooth bezier anatomy, gradient skin, soft studio light — no robot geometry.
+Rendered at 4x for maximum output quality.
+"""
+
+import math
+import os
+import random
+import s
