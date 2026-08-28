@@ -1,4 +1,5 @@
-why does it say OS?well we aren't living in 1972.
+why does it say OS?w
+we aren't living in 1972.
 It's am operating system expressed as app.
 An app with full hardware / software  substrate kernel & hardware/software kernel expressed in rust.
 technologically i could call it an operating substrate . reference steam big picture.
