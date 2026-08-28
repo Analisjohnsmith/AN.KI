@@ -1,4 +1,9 @@
 A bodhisattva (Sanskrit: bodhi = awakening, sattva = being) is an enlightened being who chooses to remain in the cycle of existence (samsara) to help all sentient beings achieve liberation, rather than entering nirvana immediately. It’s central to Mahayana Buddhism, where compassion and universal salvation are emphasized.
+
+
+====
+====
+===
 🧩 On War
 Respect → War is framed as the failure of reciprocity. Law and custom are meant to enforce mutual recognition so that domination and violence are prevented.
 
