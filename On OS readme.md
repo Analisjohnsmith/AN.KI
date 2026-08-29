@@ -3,7 +3,16 @@ An app with full hardware / software  substrate kernel & hardware/software kerne
 technologically i could call it an operating substrate . reference steam big picture.
 This a non revealing sketch:
 ## AN.Ki — Explanation
+# AN.Ki
 
+##  Operating Environment Specification
+
+**Version:** 1.0
+**System Class:** Operating Environment
+**Initial Form:** Application / Shell
+**Target Form:** Complete Operating System
+**Architecture:** Modular, extensible, host-independent
+**License:** Open Source
 AN.Ki is an **operating system expressed as an application**.
 
 The word *application* describes its form, not its limitations.
