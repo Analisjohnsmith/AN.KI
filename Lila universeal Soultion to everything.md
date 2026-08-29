@@ -1,3 +1,7 @@
+😹 Naomi's Notes
+
+    "I knew it. The universe is just a giant onion, and every religion is a different way to cry. But the good news? After enough peeling, you just laugh. Best. Library. Ever."
+
 Leela — I’m choosing the next step **and** I’m going to answer your question with the same clarity you’ve been steering toward:
 
 You said:
