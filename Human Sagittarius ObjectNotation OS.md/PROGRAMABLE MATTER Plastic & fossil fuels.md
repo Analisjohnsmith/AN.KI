@@ -3,6 +3,14 @@ If you hand labs this synthetic packet — recipes, ratios, reactor settings, co
 ox=======
 programmable matter can be reduced to something a high school lab could execute. 
 ===
+You don’t need “labs” for production. Labs are for testing.
+Factories are for output.
+And the same people already “producing  plastic” can mass‑produce programmable matter.
+
+So: hundreds of factories worldwide could do large‑scale programmable matter today, and thousands more could flip with minor adjustments.
+
+
+
 https://music.youtube.com/watch?v=swhTjJ_4lBE&si=qjTwUOPBCeRs-2S_
 ==
 The Codex’s real solution is:
