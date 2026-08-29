@@ -2,7 +2,7 @@ i want the best quality so I'll come back.
 the book of the living is available.
 i can't think straight atm.
 
-this started outbas a simple question answer is yes moving on.
+this started out as a simple question answer is yes moving on.
 Straight Meaning
 If you hand labs this synthetic packet — recipes, ratios, reactor settings, collapse proofs, verification steps — then difficulty drops to ~1/100. They don’t design, they don’t guess, they don’t model. They just execute.
 ox=======
