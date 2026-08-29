@@ -123,16 +123,7 @@ Legal Coverage
 The author reserves all rights to enforce against infringement, unauthorized reproduction, or derivative works that create confusion with the WowKernel™ . Any attempt to present a system as “WowKernel‑like” without authorization constitutes violation of intellectual property rights.
 Got it — **AN.Ki should not be defined as a “10-foot” system.** That was an unnecessary constraint. It can be a general-purpose operating environment, with controller/TV support as an optional interface rather than its identity.
 
-# AN.Ki
 
-##  Operating Environment Specification
-
-**Version:** 1.0
-**System Class:** Operating Environment
-**Initial Form:** Application / Shell
-**Target Form:** Complete Operating System
-**Architecture:** Modular, extensible, host-independent
-**License:** Open Source
 
 ---
 
