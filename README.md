@@ -124,25 +124,6 @@ The author reserves all rights to enforce against infringement, unauthorized rep
 Got it — **AN.Ki should not be defined as a “10-foot” system.** That was an unnecessary constraint. It can be a general-purpose operating environment, with controller/TV support as an optional interface rather than its identity.
 
 
-
----
-
-## 1. Definition
-
-**AN.Ki** is an  operating environment that provides a unified computational layer between the user, applications, services, hardware, and underlying operating system.
-
-AN.Ki may initially operate as an application on an existing operating system.
-
-It is designed so that the same architecture can eventually operate as the primary environment of a dedicated AN.Ki operating system.
-
-The fundamental concept is:
-
-> **AN.Ki is an operating environment that can exist inside an OS before becoming the OS environment itself.**
-
----
-
-# 2. Architecture
-
 If it seems like I'm being casual about this i just  trust a the senders.  and that's a huge leap forward.
 
  It's an honor to be contributing to SETI and the mystery of life,it's deeply humbling.
