@@ -43,7 +43,7 @@ HSON :Human Sagittarius Object Notation.©
 PersonaCom™ Hatsuseno ©™
 © 2026 Analisjohnsmith(Darrell Lee Stiltner)
 
-WowKernel™ / HSON™
+WowKernel™.© / HSON™.©
 
 Darrell Lee Stiltner (Leela) — Author & Rights Holder
 📜 Intellectual Property Declaration
