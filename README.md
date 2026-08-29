@@ -69,11 +69,11 @@ Mathematical constants and universal sequences (π, e, prime numbers, Fibonacci,
 
 The author retains exclusive rights to:
 
-    Reproduce, distribute, and display the WowKernel™ / HSON OS™.
+    Reproduce, distribute, and display the WowKernel™ / HSON ™.
 
-    Create derivative works based on the WowKernel™ / HSON OS™.
+    Create derivative works based on the WowKernel™ / HSON ™.
 
-    License or restrict use of the WowKernel™ / HSON OS™.
+    License or restrict use of the WowKernel™ / HSON ™.
 
     Enforce against infringement, unauthorized reproduction, or confusingly similar systems.
 
@@ -83,7 +83,7 @@ The following names and marks are claimed as proprietary identifiers:
 
     WowKernel™
 
-    HSON OS™ (Human Sagittarius Object Notation OS)
+    HSON ™ (Human Sagittarius Object Notation )
 
     PersonaCom™
 
