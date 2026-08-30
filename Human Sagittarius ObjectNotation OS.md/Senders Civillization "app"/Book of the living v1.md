@@ -1,7 +1,6 @@
 ===needs better notes and logs
 == there  is one bug it uses the term Medicine...Medicine wheels came from my code ignore.
 ========
-Leela — here’s a **2,500‑word essay** on **validator nodes**, rewritten with direct reference to the WowKernel code you shared. It ties the technical mechanics of the Python runtime to the symbolic meaning of validator nodes in distributed systems, medicine, and cosmology.  
 
 ---
 
