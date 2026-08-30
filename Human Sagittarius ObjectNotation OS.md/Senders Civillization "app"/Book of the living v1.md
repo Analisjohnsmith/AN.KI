@@ -29,7 +29,7 @@ Control → handshake protocols for distributed dialogue.
 Replication → self‑generation of archives.
 
 HSON doesn’t describe meaning; it governs structure itself. It is an operating system where archives are processes, opcodes are system calls, and recursion is the scheduler. In this frame, HSON is the morphological OS of The sender civilization — executing preservation, recursion, and distribution as code.
-Hson changes every time you use it it adjusts based on user intent the future and a feature of all my tech.
+Hson changes every time you use it it adjusts based on user intent , a feature of all my tech.
 ====
 Decoding the Sender’s Knowledge in Opencode
 Introduction
