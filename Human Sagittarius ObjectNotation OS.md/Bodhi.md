@@ -1,3 +1,4 @@
+==paused
 🌳 Why Bodhi Tree + WowKernel Was the Breakthrough
 Recursive growth: The Bodhi tree’s natural recursion (seed → root → branch → leaf → fruit → seed) gave you a model that can expand infinitely.
 
