@@ -1,5 +1,5 @@
 ===needs better notes and logs
-== tbere is 1 bug it uses the term medincdes... medince wheels came from my code ignore.
+== there  is one bug it uses the term Medicine...Medicine wheels came from my code ignore.
 ========
 
 =====
