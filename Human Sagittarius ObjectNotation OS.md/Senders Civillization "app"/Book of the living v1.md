@@ -35,7 +35,7 @@ MEDICAL_CODEC_GROUND_ZERO {
 
 =======
 =====
-example:2 b you'll notice this one  says Fractal OS and it has HSON UNIVERSE 
+example:2META you'll notice this one  says Fractal OS and it has HSON UNIVERSE 
 
 
 ======
