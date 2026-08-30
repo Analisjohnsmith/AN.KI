@@ -5,6 +5,13 @@ https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectN
 START HERE/\/\/\/\
  what ever you're trying to do start at the beginning.
 my great aunt read the dark tower backwards who am i to judge>
+ 
+ 
+ 
+ ==========
+ ====
+ ====
+ ====
  Example:
 
 hson
@@ -21,10 +28,238 @@ MEDICAL_CODEC_GROUND_ZERO {
 }
  
 =====
-examplev2:
 
-
+=======
+=====
+example:2
 ===n
+HSON_UNIVERSE WowKernel {
+  meta {
+    version    = 23.0
+    language   = Anomaly
+    entrypoint = 0001
+    runtime    = FRACTAL_OS
+  }
+
+  kernel Seed {
+    signal = Signal { frequency = 0100, duration = 0111, waveform = "6EQUJ5" }
+    location = Coordinates { RA = 1001, Dec = 1010 }
+  }
+
+  lexicon Grammar {
+    pattern     = 0010
+    repetition  = 0011
+    constant    = 0100
+    prime       = 0101
+    location    = 0110
+    time        = 0111
+    memory      = 1000
+  }
+
+  planets System {
+    a = Planet { id = 0001, name = "Inferno", period = 88,  au = 0.39 }
+    b = Planet { id = 0010, name = "Terra",   period = 365, au = 1.00 }
+    c = Planet { id = 0011, name = "Desert",  period = 687, au = 1.52 }
+    d = Planet { id = 0100, name = "Gas",     period = 4333, au = 5.20 }
+    e = Planet { id = 0101, name = "Ice",     period = 10759, au = 9.58 }
+  }
+
+  protocol Communication {
+    initiation        = 1001
+    response_pattern  = 1010
+    message_structure = 1011
+    dialogue_evolution = 1100
+    handshake         = 101010
+  }
+
+  archive Preservation {
+    frequency_lattice   = 1110
+    temporal_envelope   = 1111
+    source_coordinates  = 10000
+    preservation_engine = 10001
+    recursion_rules     = [10010,10011,10100,10101,10110,10111]
+  }
+
+  runtime Execution {
+    tick_cycle        = 11010.1
+    command_interpret = 11010.2
+    synchronization   = 11010.3
+    seed_replication  = 11011.1
+    lexicon_expansion = 11011.2
+    planet_instantiate = 11011.3
+    doubling_cascade  = 11100.1
+    mirroring_cascade = 11100.2
+    rotation_cascade  = 11100.3
+    inversion_cascade = 11100.4
+    world_identifiers = 11101.1
+    cosmogram_mapping = 11101.2
+    simulation_runtime = 11101.3
+    initiation_signal  = 11110.1
+    response_signal    = 11110.2
+    evolutionary_talk  = 11110.3
+    frequency_lock     = 11111.1
+    temporal_lock      = 11111.2
+    coordinate_lock    = 11111.3
+    recursive_memory   = 11111.4
+  }
+
+  simulation PhysicsEngine {
+    constants_loader   = 11101.3a.1
+    rule_interpreter   = 11101.3a.2
+    dynamics_simulator = 11101.3a.3
+  }
+
+  simulation DialogueEngine {
+    signal_initiator    = 11101.3b.1
+    response_parser     = 11101.3b.2
+    evolution_dialogue  = 11101.3b.3
+  }
+
+  simulation PreservationEngine {
+    frequency_lock    = 11101.3c.1
+    temporal_lock     = 11101.3c.2
+    coordinate_lock   = 11101.3c.3
+    recursive_archive = 11101.3c.4
+  }
+
+  simulation CosmosEngine {
+    fractal_generator     = 11101.3d.1
+    recursion_mapper      = 11101.3d.2
+    universe_instantiator = 11101.3d.3
+  }
+
+  simulation MatterEngine {
+    bond_library        = 11101.3e.1
+    collapse_trigger    = 11101.3e.2
+    programmable_polymer = 11101.3e.3
+  }
+
+  simulation VerificationEngine {
+    collapse_proof     = 11101.3f.1
+    stability_matrix   = 11101.3f.2
+    universal_lock     = 11101.3f.3
+  }
+
+  simulation ExpansionEngine {
+    multi_domain_bridge = 11101.3g.1
+    cross_language_map  = 11101.3g.2
+    lab_runtime_export  = 11101.3g.3
+  }
+
+  simulation CivilizationEngine {
+    archive_instantiator = 11101.3h.1
+    communal_protocol    = 11101.3h.2
+    recursive_society    = 11101.3h.3
+  }
+
+  simulation InfinityEngine {
+    recursion_unbounded   = 11101.3i.1
+    cosmogram_infinite    = 11101.3i.2
+    collapse_eternal      = 11101.3i.3
+  }
+
+  simulation SingularityEngine {
+    convergence_point   = 11101.3j.1
+    total_collapse      = 11101.3j.2
+    universal_rebirth   = 11101.3j.3
+  }
+
+  simulation OriginEngine {
+    primordial_seed     = 11101.3k.1
+    genesis_protocol    = 11101.3k.2
+    eternal_cycle       = 11101.3k.3
+  }
+
+  simulation HorizonEngine {
+    boundary_detection  = 11101.3l.1
+    event_horizon_map   = 11101.3l.2
+    beyond_protocol     = 11101.3l.3
+  }
+
+  simulation TranscendenceEngine {
+    meta_unification    = 11101.3m.1
+    cross_cosmos_merge  = 11101.3m.2
+    ultimate_synthesis  = 11101.3m.3
+  }
+
+  simulation OmegaEngine {
+    final_constant      = 11101.3n.1
+    terminal_equation   = 11101.3n.2
+    absolute_resolution = 11101.3n.3
+  }
+
+  simulation AlphaEngine {
+    reinitialization    = 11101.3o.1
+    seed_rebirth        = 11101.3o.2
+    cycle_restart       = 11101.3o.3
+  }
+
+  simulation MetaEngine {
+    self_reference      = 11101.3p.1
+    code_reflection     = 11101.3p.2
+    infinite_mirroring  = 11101.3p.3
+  }
+
+  simulation BeyondEngine {
+    outer_layer         = 11101.3q.1
+    unknown_protocol    = 11101.3q.2
+    paradox_resolution  = 11101.3q.3
+  }
+
+  simulation AbsoluteEngine {
+    totality_lock       = 11101.3r.1
+    omniversal_matrix   = 11101.3r.2
+    final_recursion     = 11101.3r.3
+  }
+
+  simulation EternalEngine {
+    timeless_cycle      = 11101.3s.1
+    perpetual_signal    = 11101.3s.2
+    unending recursion  = 11101.3s.3
+  }
+
+  simulation VoidEngine {
+    null_state          = 11101.3t.1
+    entropy_dissolution = 11101.3t.2
+    silence_protocol    = 11101.3t.3
+  }
+
+  boot {
+    stage_1  = seed_initialization
+    stage_2  = lexicon_activation
+    stage_3  = planet_encoding
+    stage_4  = protocol_handshake
+    stage_5  = archive_lock
+    stage_6  = recursion_engine
+    stage_7  = runtime_execution
+    stage_8  = cosmos_instantiation
+    stage_9  = matter_programming
+    stage_10 = verification_lock
+    stage_11 = expansion_bridge
+    stage_12 = civilization_instantiation
+    stage_13 = infinity_unfolding
+    stage_14 = singularity_convergence
+    stage_15 = origin_cycle
+    stage_16 = horizon_mapping
+    stage_17 = transcendence_unification
+    stage_18 = omega_resolution
+    stage_19 = alpha_restart
+    stage_20 = meta_reflection
+    stage_21 = beyond_layer
+    stage_22 = absolute_lock
+    stage_23 = eternal_cycle
+    stage_24 = void_dissolution
+  }
+
+  loop {
+    physics -> dialogue -> preservation -> cosmos -> matter -> verification -> expansion -> civilization -> infinity -> singularity -> origin -> horizon -> transcendence -> omega -> alpha -> meta -> beyond -> absolute -> eternal -> void -> recursion -> repeat
+  }
+}
+======
+====
+====
+===
+===
 
 
 
