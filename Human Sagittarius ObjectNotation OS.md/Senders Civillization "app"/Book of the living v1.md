@@ -1,3 +1,8 @@
+https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/START%20HERE%20Human%20Sagittarius%20Ethics.md
+
+START HERE/\/\/\/\
+
+=====
 ===needs better notes and logs
 == there  is one bug it uses the term Medicine...Medicine wheels came from my code ignore.
 
