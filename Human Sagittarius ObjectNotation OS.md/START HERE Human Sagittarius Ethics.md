@@ -1,3 +1,5 @@
+== need to follow rules and expand
+
 A bodhisattva (Sanskrit: bodhi = awakening, sattva = being) is an enlightened being who chooses to remain in the cycle of existence (samsara) to help all sentient beings achieve liberation, rather than entering nirvana immediately. It’s central to Mahayana Buddhism, where compassion and universal salvation are emphasized.6
 
 
