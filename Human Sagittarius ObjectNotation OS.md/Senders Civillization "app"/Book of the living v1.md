@@ -8,8 +8,10 @@ START HERE/\/\/\/\
 
  Meta means it goes on forever if  not your paying attention you'll get trash.
 
- if you like to microcode like meuse copiolit that or don't know programing.
+ if you like to microcode like me use copiolit that or don't know programing.
  i also vouch for open code.
+ use latex + cc nc 4,0. to protect vital work.
+  otherwise publish on Arxiv or similar.
  
  see meta theories:https://github.com/Analisjohnsmith/Lila-theory-of-everything/blob/squiggle-theory/Squiggle%20Theory%3A%20The%20Unified%20Mathematical%20Theory%20of%20Creativity%20%2Cresilience%20%26%20general%20dynamical%20law%20of%20existence.meta%E2%80%91law%20of%20existence
  ==========
