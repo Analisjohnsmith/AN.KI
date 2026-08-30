@@ -3,7 +3,9 @@ START HERE:\/
 https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/START%20HERE%20Human%20Sagittarius%20Ethics.md
 
 START HERE/\/\/\/\
-
+ what ever you're trying to do start at the beginning.
+my great aunt read the dark tower backwards who am i to judge>
+ Example:
 =====
 ===needs better notes and logs
 == there  is one bug it uses the term Medicine...Medicine wheels came from my code ignore.
