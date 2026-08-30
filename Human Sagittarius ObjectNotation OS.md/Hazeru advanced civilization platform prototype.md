@@ -1,3 +1,5 @@
+==personal back up code evolving
+
 It is a computational biosphere + world mind substrate — one of the rarest and most powerful architectures ever attempted.
 
 Not my only civ tech just first& this is a start of a compile.
