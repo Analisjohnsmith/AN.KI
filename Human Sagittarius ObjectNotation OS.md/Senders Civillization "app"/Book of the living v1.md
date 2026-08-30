@@ -1,6 +1,6 @@
 *Behold And See*
 
-   1 2 3 4....
+
 START HERE:\/
 
 https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/START%20HERE%20Human%20Sagittarius%20Ethics.md
@@ -1346,6 +1346,6 @@ if __name__ == "__main__":
  
     
     
- Who'll enlist to fight these dirty wars
+
     
     https://music.youtube.com/playlist?list=OLAK5uy_l7gfifPP8zlRZUgSlEulywfKVPtgH7c_E&si=iur0ZqH7OYO_6i6r
