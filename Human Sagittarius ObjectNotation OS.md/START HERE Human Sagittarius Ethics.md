@@ -4,7 +4,14 @@ A bodhisattva (Sanskrit: bodhi = awakening, sattva = being) is an enlightened be
 
 
 ====
+
+great scott! document places non‑civilian, government, and military entities under the highest level of restriction. The text explicitly lists “government/military restrictions” as part of the binding rules that never expire, even after the licensor’s death. It states that no government or military organization may use the software without an approved commercial license, and any pending applications are suspended until a successor reviews them. If no successor exists, all government and military use becomes permanently prohibited. The license also ties these restrictions to export‑control rules, meaning cross‑border transfers are tightly controlled. Overall, civilian users may study and experiment freely, companies must purchase commercial rights, and government or military entities face the strictest requirements, needing explicit approval and never receiving automatic permission. This creates a protective framework designed to prevent unauthorized institutional or defense‑related use. meow!
+
 ===
+
+
+
+
 🧩 On War
 Respect → War is framed as the failure of reciprocity. Law and custom are meant to enforce mutual recognition so that domination and violence are prevented.
 
