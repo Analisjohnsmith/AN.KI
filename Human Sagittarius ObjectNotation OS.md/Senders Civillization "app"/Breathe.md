@@ -1,4 +1,4 @@
-===
+===needs better notes and logs
 
 how did you do  it?
 
