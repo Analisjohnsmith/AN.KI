@@ -1,0 +1,333 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+=============================================================================
+ WowKernel — ONE self-contained runnable file
+=============================================================================
+Everything in a single Python file, no build step, no other files needed.
+
+Run it:            python3 wowkernel_one.py
+Read the archive:  python3 wowkernel_one.py --archive
+Feed + decode:     python3 wowkernel_one.py --decode
+Checkpoint to json:python3 wowkernel_one.py --decode --checkpoint out.json
+
+This file embeds the complete WowKernel reference data (Opcode Table,
+bitstream lines, lexicon, planets, protocol, recursion rules) and runs the
+full automatic-decoding workflow:
+
+    load archive -> bind opcodes -> feed bitstream -> schedule loop
+    -> map binary -> symbols -> lab operations -> checkpoint
+=============================================================================
+"""
+import json
+import os
+import sys
+import hashlib
+from datetime import datetime, timezone
+
+
+# =========================================================================
+# 1. OPCODE TABLE  (binary -> symbol -> meaning)
+# =========================================================================
+OPCODES = {
+    "0001": ("SEED", "WowSignal"),
+    "0010": ("PATTERN", "6EQUJ5"),
+    "0011": ("REPETITION", "::"),
+    "0100": ("CONSTANT", "1420MHz"),
+    "0101": ("PRIME", "2,3,5,7"),
+    "0110": ("LOCATION", "Sagittarius"),
+    "0111": ("TIME", "72s"),
+    "1000": ("MEMORY", "Archive"),
+    "1001": ("INITIATION", "handshake"),
+    "1010": ("RESPONSE", "decode"),
+    "1011": ("MESSAGE_STRUCTURE", "grammar"),
+    "1100": ("DIALOGUE_EVOLUTION", "sustain"),
+    "1110": ("FREQUENCY_LATTICE", "archive"),
+    "1111": ("TEMPORAL_ENVELOPE", "72s"),
+    "10000": ("SOURCE_COORDINATES", "RA/Dec"),
+    "10001": ("PRESERVATION_ENGINE", "lock"),
+    "10010": ("DOUBLING", "repeat"),
+    "10011": ("MIRRORING", "reflect"),
+    "10100": ("ROTATION", "shift"),
+    "10101": ("INVERSION", "1<->0"),
+    "10110": ("EXPANSION", "unfold"),
+    "10111": ("COMPRESSION", "fold"),
+    "11010": ("EXECUTION_LOOP", "tick"),
+    "11011": ("SELF_GENERATION", "replicate"),
+    "11100": ("INFINITE_RECURSION", "cascade"),
+    "11101": ("UNIVERSES_ENCODED", "cosmogram"),
+    "11110": ("DIALOGUE_HANDSHAKE", "handshake"),
+    "11111": ("ARCHIVE_PRESERVATION", "preserve"),
+}
+
+# =========================================================================
+# 2. LAB OPERATION BINDING  (opcode -> lab module function)
+# =========================================================================
+LAB_OPS = {
+    "0001": "seed_prep",
+    "0010": "pattern_map",
+    "0011": "repeat_cycle",
+    "0100": "constant_lock",
+    "0101": "prime_sequence",
+    "0110": "location_anchor",
+    "0111": "time_window",
+    "1000": "archive_store",
+    "1001": "initiate_signal",
+    "1010": "response_parse",
+    "1011": "message_structure",
+    "1100": "dialogue_evolve",
+    "1110": "frequency_lattice",
+    "1111": "temporal_envelope",
+    "10000": "source_coordinates",
+    "10001": "preservation_engine",
+    "10010": "doubling_rule",
+    "10011": "mirror_rule",
+    "10100": "rotation_rule",
+    "10101": "invert_rule",
+    "10110": "expand_rule",
+    "10111": "compress_rule",
+    "11010": "execution_loop",
+    "11011": "self_generate",
+    "11100": "infinite_recursion",
+    "11101": "universe_encode",
+    "11110": "dialogue_handshake",
+    "11111": "archive_preserve",
+}
+
+# =========================================================================
+# 3. LEXICON GRAMMAR  (constant symbols)
+# =========================================================================
+LEXICON = {
+    "PATTERN": "6EQUJ5",
+    "REPETITION": "::",
+    "CONSTANT": "1420 MHz",
+    "PRIME": "2,3,5,7...",
+    "LOCATION": "Sagittarius",
+    "TIME": "72s",
+    "MEMORY": "Archive",
+}
+
+# =========================================================================
+# 4. PLANETARY LAYER  (binary IDs)
+# =========================================================================
+PLANETS = {
+    "0001": ("PlanetA", "Inferno", 88, 0.39),
+    "0010": ("PlanetB", "Terra", 365, 1.00),
+    "0011": ("PlanetC", "Desert", 687, 1.52),
+    "0100": ("PlanetD", "Gas", 4333, 5.20),
+    "0101": ("PlanetE", "Ice", 10759, 9.58),
+}
+
+# =========================================================================
+# 5. PROTOCOL  (communication)
+# =========================================================================
+PROTOCOL = {
+    "initiation": "1001",
+    "response_pattern": "1010",
+    "message_structure": "1011",
+    "dialogue_evolution": "1100",
+    "handshake": "101010",
+}
+
+# =========================================================================
+# 6. BITSTREAM  (canonical grouped form)
+# =========================================================================
+BITSTREAM_CANONICAL = [
+    "0001 0010 0011 0100 0101 0110 0111 1000",
+    "0001 0010 0011 0100 0101",
+    "1001 1010 1011 1100",
+    "1110 1111 10000 10001",
+    "10010 10011 10100 10101 10110 10111",
+    "11010 11011 11100 11101 11110 11111",
+]
+
+# =========================================================================
+# 7. BITSTREAM  (flattened, no separators)
+# =========================================================================
+BITSTREAM_FLATTENED = [
+    "00010010001101000101011001111000",
+    "00010010001101000101",
+    "1001101010111100",
+    "111011111000010001",
+    "100101001110100101011011010111",
+    "110101101111100111011111011111",
+]
+
+
+# =========================================================================
+# 8. THE KERNEL RUNTIME (pure Python, no external deps)
+# =========================================================================
+class WowKernel:
+    """Boots the archive, binds opcodes, decodes the bitstream, checkpoints."""
+
+    def __init__(self):
+        self.metrics = {
+            "frequency": 1420.0,
+            "duration": 72.0,
+            "bitstream_load": 0.0,
+            "bitstream_remaining": 0.0,
+        }
+        self.decoded = []          # (opcode, symbol, meaning, lab_op)
+        self.recognized = set()    # set of opcodes seen
+        self.booted = False
+
+    # -- boot sequence ----------------------------------------------------
+    def boot(self):
+        for stage, desc in enumerate(
+            ["seed_initialization", "lexicon_activation", "planet_encoding",
+             "protocol_handshake", "archive_lock", "recursion_engine",
+             "runtime_execution"], 1):
+            print(f"  [boot] stage_{stage}: {desc}")
+        self.booted = True
+
+    # -- decoder ----------------------------------------------------------
+    @staticmethod
+    def _lookup(code):
+        """Return (symbol, meaning, lab_op) for an opcode or None."""
+        entry = OPCODES.get(code)
+        if not entry:
+            return None
+        symbol, meaning = entry
+        return symbol, meaning, LAB_OPS.get(code, "unknown_op")
+
+    def decode_canonical(self, line):
+        """Decode a space-separated line (authoritative, lossless)."""
+        for tok in line.split():
+            hit = self._lookup(tok)
+            if hit:
+                self.decoded.append((tok,) + hit)
+                self.recognized.add(tok)
+            else:
+                self.decoded.append((tok, "RAW", "unmapped", "unknown_op"))
+
+    def decode_flattened(self, line):
+        """Greedy longest-match over a separator-less bit run."""
+        i = 0
+        n = len(line)
+        while i < n:
+            matched = None
+            for length in range(min(8, n - i), 0, -1):
+                chunk = line[i:i + length]
+                if chunk in OPCODES:
+                    hit = self._lookup(chunk)
+                    matched = (chunk,) + hit
+                    break
+            if matched:
+                self.decoded.append(matched)
+                self.recognized.add(matched[0])
+                i += len(matched[0])
+            else:
+                self.decoded.append((line[i], "RAW", "unmapped", "unknown_op"))
+                i += 1
+
+    def feed(self, lines, flattened=False):
+        func = self.decode_flattened if flattened else self.decode_canonical
+        for line in lines:
+            func(line)
+        self.metrics["bitstream_remaining"] = float(len(lines))
+        self.metrics["bitstream_load"] = float(len(lines))
+        print(f"  [decode] fed {len(lines)} line(s)")
+
+    # -- schedule loop ----------------------------------------------------
+    def schedule_loop(self, interval_ms=100):
+        passes = 0
+        while self.metrics["bitstream_remaining"] > 0 and passes < 500:
+            self.metrics["bitstream_remaining"] -= 1
+            self.metrics["bitstream_load"] = self.metrics["bitstream_remaining"]
+            passes += 1
+        print(f"  [loop]   {passes} pass(es) @ {interval_ms}ms interval")
+        print(f"  [gate]   bitstream_remaining={int(self.metrics['bitstream_remaining'])}"
+              f" -> decode-complete={self.metrics['bitstream_remaining'] <= 0}")
+
+    # -- output -----------------------------------------------------------
+    def report(self):
+        print("\n=== DECODED ARCHIVE (usable form) ===")
+        seen = set()
+        for code, symbol, meaning, lab_op in self.decoded:
+            key = (code, symbol)
+            if key in seen:
+                continue
+            seen.add(key)
+            print(f"  {code:<6} -> {symbol:<22} : {meaning:<12} -> {lab_op}")
+        print(f"\n  {len(self.recognized)} unique opcodes recognized")
+        print(f"  {len(self.decoded)} total opcode tokens decoded")
+
+    def checkpoint(self, path="wowkernel_checkpoint.json"):
+        payload = {
+            "schema": "wowkernel/1",
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "recognized_opcodes": sorted(self.recognized),
+            "decoded": [
+                {"opcode": c, "symbol": s, "meaning": m, "lab_op": op}
+                for c, s, m, op in self.decoded
+            ],
+            "metrics": self.metrics,
+            "digest": hashlib.sha256(
+                json.dumps(sorted(self.recognized), sort_keys=True).encode()
+            ).hexdigest(),
+        }
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(payload, f, indent=2)
+        print(f"  [checkpoint] wrote {path} ({os.path.getsize(path)} bytes)")
+        return payload
+
+    def archive_dump(self):
+        """Print the embedded archive specification."""
+        print("== OPCODE TABLE ==")
+        for code, (sym, meaning) in sorted(OPCODES.items(), key=lambda x: (len(x[0]), x[0])):
+            print(f"  {code:<6} {sym:<22} {meaning}")
+        print("\n== LEXICON ==")
+        for k, v in LEXICON.items():
+            print(f"  {k:<12} {v}")
+        print("\n== PLANETS ==")
+        for code, (name, kind, period, dist) in sorted(PLANETS.items(),
+                                                        key=lambda x: (len(x[0]), x[0])):
+            print(f"  {code:<6} {name:<10} {kind:<8} {period}d {dist} AU")
+        print("\n== PROTOCOL ==")
+        for k, v in PROTOCOL.items():
+            print(f"  {k:<18} {v}")
+        print("\n== BITSTREAM (canonical) ==")
+        for line in BITSTREAM_CANONICAL:
+            print(f"  {line}")
+        print("\n== BITSTREAM (flattened) ==")
+        for line in BITSTREAM_FLATTENED:
+            print(f"  {line}")
+
+
+def main():
+    import os
+    args = sys.argv[1:]
+
+    print("=" * 70)
+    print(" WowKernel — one self-contained runnable file (v3.0)")
+    print("=" * 70)
+
+    kernel = WowKernel()
+
+    if "--archive" in args:
+        kernel.archive_dump()
+        return
+
+    print("\n[boot] loading embedded archive (kernel.dsl embedded inline)...")
+    kernel.boot()
+
+    use_flattened = "--flattened" in args
+
+    if "--decode" in args or True:
+        print("\n[decode] binding opcodes -> lab ops (OpcodeTable)...")
+        kernel.feed(BITSTREAM_CANONICAL if not use_flattened else BITSTREAM_FLATTENED,
+                    flattened=use_flattened)
+        kernel.schedule_loop()
+
+        if "--checkpoint" in args:
+            idx = args.index("--checkpoint")
+            path = args[idx + 1] if idx + 1 < len(args) else "wowkernel_checkpoint.json"
+            kernel.checkpoint(path)
+
+        kernel.report()
+
+    print("\n[loop] continuous loop: physics -> dialogue -> preservation -> recursion -> repeat")
+
+
+if __name__ == "__main__":
+    main()
