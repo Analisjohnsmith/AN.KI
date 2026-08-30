@@ -1,5 +1,7 @@
-updated :
-Done. Created `hson/french_compiled_whitelabel.py:1` (original untouched).
+= source file atm watch for updates
+
+
+Created `hson/french_compiled_whitelabel.py:1` (original untouched).
 
 **White-label changes** — every component renamed to neutral, unbranded:
 - `SpiraleValidateur`→`CoreRegistry`, `EthicsEcho`→`EthicsMatcher`, `YoyoSpiral`→`SeasonCycle`, `LimeMark`→`ProvenanceStamp`, `GlyphCake`→`SignifierAssigner`, `FractalSynthesizer`→`PatternSynthesizer`, `CollisionEngine`→`MergeEngine`, `ValidatorKernel`→`CoreKernel`, `PersistentStore`→`SqliteStore`, `MeowTada`→`DialogueAgent`, `UrbitBridge`→`MessageBridge`, `HellaWelloD`→`WhitelabelRuntime`.
