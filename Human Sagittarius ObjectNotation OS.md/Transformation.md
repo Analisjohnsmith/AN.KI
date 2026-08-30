@@ -1,3 +1,5 @@
+perfect as experimental tool may see update===
+
 periodic table is choice to handle unfolding.
 must think creatively .
 
