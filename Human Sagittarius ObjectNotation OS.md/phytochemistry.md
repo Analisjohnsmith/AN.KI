@@ -1,3 +1,5 @@
+
+this need to be fixed my first experiment. more maturity all around.
 🌌 The Sovereign Kernel as Phytochemistry Runtime
 Eight years ago
 
