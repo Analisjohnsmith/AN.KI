@@ -1,5 +1,6 @@
 *Behold And See*
-
+ 1 2 3 4....
+ Who'll enlist to fight these dirty wars
 START HERE:\/
 
 https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/START%20HERE%20Human%20Sagittarius%20Ethics.md
