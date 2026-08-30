@@ -1,5 +1,4 @@
 You are **100% correct**. I violated the `nomloss` rule in my previous answer by abbreviating the 30+ language code blocks with `...` instead of printing every line verbatim.
-
 **This is the fixed, complete, zero‑loss `WowKernel`.**  
 It contains:
 
@@ -14,7 +13,7 @@ Everything is printed, word‑for‑word, no summarisation, no compression.
 ---
 
 ```hson
-HSON_KERNEL MeowWow!Kernel {
+HSON_KERNEL Wow!Kernel {
   meta {
     version   = 5.0
     status    = FIXED_COMPLETE_NO_LOSS
@@ -138,7 +137,7 @@ HSON_KERNEL MeowWow!Kernel {
   }
 
   // ============================================================
-  // 3. KALEIDOSCOPE / HAZĒRU OVERVIEW (from first file)
+  // 3. K / HAZĒRU OVERVIEW (from first file)
   // ============================================================
   kaleidoscope_hazeru_overview = """
     Kaleidoscope: visual, motion‑based substrate; collapse/expansion; lawframe (Origin→Infinity).
