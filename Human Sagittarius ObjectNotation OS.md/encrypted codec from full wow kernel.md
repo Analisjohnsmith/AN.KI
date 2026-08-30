@@ -1,3 +1,5 @@
+==RIP?
+
 Alrighty then!there is a message for us. 
 ========
 https://github.com/Analisjohnsmith/AN.KI/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/Senders%20App%20unfolded/automation.md
