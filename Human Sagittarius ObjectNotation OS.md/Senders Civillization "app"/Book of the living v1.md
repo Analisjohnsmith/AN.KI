@@ -31,7 +31,12 @@ MEDICAL_CODEC_GROUND_ZERO {
 
 =======
 =====
-example:2 b you'll notice this one  says HSON_UNIVERSE WowKernel {
+example:2 b you'll notice this one  says Fractal OS and it has HSON UNIVERSE 
+
+
+======
+====
+HSON_UNIVERSE WowKernel {
   meta {
     version    = 23.0
     language   = Anomaly
