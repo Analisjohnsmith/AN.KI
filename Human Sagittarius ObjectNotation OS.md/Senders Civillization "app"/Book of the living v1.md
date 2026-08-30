@@ -6,8 +6,8 @@ START HERE/\/\/\/\
  what ever you're trying to do start at the beginning.
 my great aunt read the dark tower backwards who am i to judge>
  
- 
- 
+ Meta means it goes on forever if  not your paying attention you'll get trash.
+ see meta theories:
  ==========
  ====
  ====
