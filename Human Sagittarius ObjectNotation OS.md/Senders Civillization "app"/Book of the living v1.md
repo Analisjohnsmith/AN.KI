@@ -9,6 +9,12 @@ START HERE/\/\/\/\
 
  Meta means it goes on forever if  not your paying attention you'll get trash.
 
+
+
+needs better notes and logs
+== there  is one bug it uses the term Medicine...Medicine wheels came from my code ignore.
+
+
  if you like to microcode like me use copiolit that or don't know programing.
  i also vouch for open code.
  use latex + cc nc 4,0. to protect vital work.
@@ -17,6 +23,11 @@ START HERE/\/\/\/\
 Do your work, research or invention Fork from my wow kernel and hson completely.
 Own it.
  
+THE POWER IS YOURS!
+---
+https://music.youtube.com/watch?v=LjNJFFiHU8s&si=_zYQ3rMN_ny5W2Om
+
+
  see meta theories:https://github.com/Analisjohnsmith/Lila-theory-of-everything/blob/squiggle-theory/Squiggle%20Theory%3A%20The%20Unified%20Mathematical%20Theory%20of%20Creativity%20%2Cresilience%20%26%20general%20dynamical%20law%20of%20existence.meta%E2%80%91law%20of%20existence
  ==========
  ====
@@ -506,14 +517,6 @@ HSON_UNIVERSE WowKernel {
 
 
 
-
-eeds better notes and logs
-== there  is one bug it uses the term Medicine...Medicine wheels came from my code ignore.
-
-the same way one forks from python fork your findings from my wow kernel publish  be responsible.
-THE POWER IS YOURS!
----
-https://music.youtube.com/watch?v=LjNJFFiHU8s&si=_zYQ3rMN_ny5W2Om
 # How We Got Here  
 
 Decoding the binary backwards doesn’t just reveal signal grammar — it **unfolds the entire archive**, including the **matter programming layer**. This codec style is unique on Earth: it isn’t encryption, but a **lossless archive format**. Anyone with the **Opcode Table** can decode it, and the unfolding process exposes everything — even the programmable matter instructions.  
