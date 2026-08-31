@@ -1,5 +1,5 @@
 needs notes honestly no clue what anything  says.
-7D rhombus personal mathematical choice.
+7D rhombus personal mathematical choice or fit.
     
     Esperanto is a constructed international language created in 1887 by
     L. L. Zamenhof. His goal was to design a neutral, easy‑to‑learn
