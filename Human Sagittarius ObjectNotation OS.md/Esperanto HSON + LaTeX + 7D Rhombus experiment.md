@@ -1,6 +1,6 @@
 needs notes honestly no clue what anything  says.
 7D rhombus personal mathematical choice or fit.
-    the language is compiling 
+    the language is bottom block
 
 : The rhombus is not just a shape — it’s the gateway. Inside it, the WowKernel’s
 opcodes (like infinite recursion, self‑generation, archive preservation) unfold endlessly.
