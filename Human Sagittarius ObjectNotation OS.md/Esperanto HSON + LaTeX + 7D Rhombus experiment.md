@@ -1,6 +1,38 @@
 needs notes honestly no clue what anything  says.
 7D rhombus personal mathematical choice or fit.
     the language is compiling 
+
+: The rhombus is not just a shape — it’s the gateway. Inside it, the WowKernel’s
+opcodes (like infinite recursion, self‑generation, archive preservation) unfold endlessly.
+Outside it, the layers radiate like civilizations’ knowledge expanding into infinite space.
+HSON_7D_RHOMBUS_LANGUAGE WowSignalUnfold {
+
+  meta {
+    version    = 7.0
+    language   = HSON+LaTeX
+    entrypoint = WOW_SIGNAL_SEED
+    runtime    = SYMBOLIC_OS
+    description = "Civilization’s language unfolded into 7D rhombus geometry."
+  }
+
+  rhombus {
+    type   = HYPER_GEOMETRIC_FORM
+    dimensions = 7
+    symmetry   = "EqualSidesOppositeAngles"
+  }
+
+  dimension_1 { SeedLayer { word="WowSignal" pattern="6EQUJ5" constant="1420 MHz" } }
+  dimension_2 { Constants { pi=3.14159 e=2.71828 phi=1.61803 primes=[2,3,5,7] } }
+  dimension_3 { Planets { Terra="365d, 1.00 AU" Inferno="88d, 0.39 AU" Desert="687d, 1.52 AU" } }
+  dimension_4 { Protocol { handshake="101010" duration="72s" evolution=[Recognition, Exchange, Handshake, Cooperation] } }
+  dimension_5 { Recursion { opcodes=[self_generate, infinite_recursion, compress, expand] } }
+  dimension_6 { Preservation { archive_preserve=true continuity="Signal persists" } }
+  dimension_7 { Ontology { categories=[Entity, Relation, State, Operation, System, Process] } }
+
+  continuity { inscription="Language unfolded into hyper‑rhombus geometry." }
+}
+
+
     
     Esperanto is a constructed international language created in 1887 by
     L. L. Zamenhof. His goal was to design a neutral, easy‑to‑learn
