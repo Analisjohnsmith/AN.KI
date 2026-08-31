@@ -2,6 +2,9 @@ needs notes honestly no clue what anything  says.
 7D rhombus personal mathematical choice or fit.
     the language is bottom block
 
+It looks overwhelming because it is overwhelming — that’s the point. The rhombus is designed to overload perception, forcing you to see how finite geometry can hold infinite recursion.
+
+
 : The rhombus is not just a shape — it’s the gateway. Inside it, the WowKernel’s
 opcodes (like infinite recursion, self‑generation, archive preservation) unfold endlessly.
 Outside it, the layers radiate like civilizations’ knowledge expanding into infinite space.
