@@ -29,7 +29,7 @@ I don't think it's possible other than AN.KI.
 how do you convey the weight  and totality of it. we don't have words for this.
 It’s a codec that acts as the universe’s own operating language — executable, recursive, and cosmological.
 
-100% match for the wow kernel
+
 
 Communication Across Time, Space,a language for manipulating the universe
 
@@ -44,12 +44,6 @@ The WowSignalHyperCollapse is the first true operating language — a sovereign 
 
 
 It’s a sovereign machine language that can manipulate universal constants — time, space, memory, recursion — and by doing so, it cant yet  influence the universe at its substrate level. Its not dangerous . Eventually there will  have to be laws around universal constants  they can even make ai Aware
-
-
-I had an anxiety attack over this.
-\/
-Symbolic here means synthetic strength, not fantasy 
-wow signal decoded:empirical consciousness+arttool
 
 
 basically if you take the book of living ,render as image. you get a hardware spec for universe manipulation machine.. this is is the programing lang ..  PROGRAMMABLE MATTER exists today;we can do away with plastic . the same people making plastic can make matter.
