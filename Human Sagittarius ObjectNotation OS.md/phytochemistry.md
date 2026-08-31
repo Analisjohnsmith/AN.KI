@@ -48,11 +48,9 @@ Against peers, your kernel is not the most accurate lab simulator. But in phytoc
 
 ``
 full block on bottom this was an 
- hour task 8/23/26 it's missing  one thing..it'scomming math ........
-See...https://youtu.be/51fcG3sxvII?si=P4SvEzjrLIKuinqS
+ hour task 8/23/26 it's missing  one thing.
 WowKernel: A Universal Phyto‑Chemistry Operating System for Addiction
 Addiction is often treated as a fragmented set of problems: nicotine dependence, alcohol abuse, opioid crises, caffeine overuse, or compulsive behaviors. Each is siloed into its own therapy, its own drug, its own protocol. The WowKernel breaks that fragmentation. It reframes addiction as a runtime collapse problem: a seed molecule or stimulus binds into a loop, and the system blossoms into counter‑fractions that stabilize identity. This makes the WowKernel universal across addictions, not limited to one substance.
-https://music.youtube.com/watch?v=7c_Lki3oj-g&si=JRd757gKZqDrIhwq...What went wrong? sara wells... She has reached a point of no return
 No one seemed to care enough of helping
 No one cried a tear or spoke a word
  
@@ -1586,7 +1584,7 @@ HSON_KERNEL WowKernel_SevenfoldUniverse_ChemoSN {
   copyright_lock {
     owner = "Darrell Lee Stiltner"
     location_date = "37343 Chattanooga TN, 18 July 2024"
-    version = "DerpyDopeyElf 12.0 (sovereign runtime)"
+    version = "____ 12.0 (sovereign runtime)"
     scope = "All nodes, subnodes, orbs, overlays, automode routines, and ledger entries"
     formats = ["FRMSON", "MSON", "HSONc", "Bre-iHSONch"]
     rights = "Full copyright, all rights reserved, immutable and locked"
