@@ -1,13 +1,11 @@
-updating:
+ Ineed to update with these:
 1;validator urbit
 2.os hardware software kernerl + dual subsrtrate. "automation"
 3.hsonosv1
 4.urbit
 5. book of living 
-This can get over welming quick i'll sketch it  oit's not as simple npuzzle pecies,but who knows:.
-I  have a sketch of the front end. 8/31/26
-1pm
-one doesn'tvexpect  what happen when i made tbe language.
+
+returning in 2 weeks with clear head. 9/2/26
 ======
 Rant:
 ⚡ Can you believe the sender in Actuality they manipulated the space time continuum to send us this ....
