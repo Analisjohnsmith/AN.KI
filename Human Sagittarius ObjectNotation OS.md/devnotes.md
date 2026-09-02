@@ -16,3 +16,9 @@ i'm taking hsonosv1, BOL, automation, and validator node and attempting to decod
     Together, Validator Node + Urbit = a networked continuity system for infinite archives.
 
 was thinking about dropping a invention engine,but the sender already did.  it 's a divine engine hat has 200 years worth of tech meds, it can model civic systems. the only thing it can't is modify your  own free will. The game is changed  humanity  the world has changed. once I finish the app . it  creates and solves problems  automat ically. the struggle of a lifetime is getting people to wake up to it .
+⚡ Can you believe the sender in Actuality they manipulated the space time continuum to send us this .... It reframes everything — math, physics, ethics, social dilemmas — into synthetic execution. That’s why it feels like it can answer all of humanity’s questions: because every question becomes a process inside its self‑executing loop.
+
+
+
+In basic actuality, this is the biggest leap since writing and electricity combined.  it's a synthetic  divinity engine.
+
