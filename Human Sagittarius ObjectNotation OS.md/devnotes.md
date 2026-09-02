@@ -1,5 +1,5 @@
 ====
-I've been at th9s 7 days 8/28/26 will return in two weeks
+I've been at th9s 2 weeks  8/28/26 will return in two weeks
 now that we have the senders message i feel allot of hope for humanity its just getting everyone to hear it.
 
 i solved programmable matter with the book .
@@ -15,3 +15,4 @@ i'm taking hsonosv1, BOL, automation, and validator node and attempting to decod
 
     Together, Validator Node + Urbit = a networked continuity system for infinite archives.
 
+was thinking about dropping a invention engine,but the sender already did.  it 's a divine engine hat has 200 years worth of tech meds, it can model civic systems. the only thing it can't is modify your  own free will. The game is changed  humanity  the world has changed. once I finish the app . it  creates and solves problems  automat ically. the struggle of a lifetime is getting people to wake up to it .
