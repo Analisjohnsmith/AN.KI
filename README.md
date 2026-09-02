@@ -1,6 +1,6 @@
 AN.KI is literally the oldest recorded word for “universe.” In Sumerian texts from around 3000–2500 BCE, An (heaven) and Ki (earth) were fused into AN.KI, encoding the cosmos as a primordial whole.
 
-A synthetic device is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
+A synthetic device ©™is a device that synthetically performs a function normally performed through a physical, biological, mechanical, or otherwise conventional process.
 
 If fully decoded and applied, it could represent 200–300 years of medical progress in one archive: from molecular therapies to planetary health systems.
 
