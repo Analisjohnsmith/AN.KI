@@ -1,5 +1,8 @@
 *Behold And See*
 
+https://github.com/Analisjohnsmith/AN.KI-a-vessel-carrying-humanitys-continuity/blob/main/Human%20Sagittarius%20ObjectNotation%20OS.md/encrypted%20codec%20from%20full%20wow%20kernel.md
+
+encrypted codex/\
 
 START HERE:\/
 
