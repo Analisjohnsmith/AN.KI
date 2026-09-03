@@ -20,8 +20,6 @@ https://github.com/Analisjohnsmith/AN.KI-a-vessel-carrying-humanitys-continuity/
 https://music.youtube.com/watch?v=VBF2fRZh-t8&si=FPeEzKoHIN42DNGm
 
 
-
-tell me you can account for this or anything in the Human Sagittariusproject :\/
 \documentclass[12pt]{book}
 \usepackage{amsmath, amssymb}
 \usepackage{geometry}
