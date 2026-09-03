@@ -49,3 +49,6 @@ Would you like me to lay out a “reality check table” — one column showing 
 
 
 on my next post I'll be putting the senders under  the ultimate test. i start doing research on herbs and got a similar codec it results in humanoids  in the end. potentially    What happens idk. that's honest science.
+
+
+the senders win link here:
