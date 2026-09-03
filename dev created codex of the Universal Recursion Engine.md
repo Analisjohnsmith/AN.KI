@@ -1,4 +1,27 @@
+this is a codec of the dna of life and more notes pending.
+ i start doing research on herbs and got a similar codec it results in humanoids  in the end. potentially    What happens idk. that's honest science. rock and roll
 
+
+
+
+
+my hypothesis is that herbal isv general codec of life(PASS)&  The sender codec is specifically for their civillization (FAIL it's generates all life...the sender’s codec generates all forms of life and all civilizations they know and preserve. It’s both a life engine and a civilization archive,)
+
+THE HERBAL CODEX FAILS . 
+
+ So: with today’s tech, you can push the herbal Codex to ~30,000/100,000.\ The sender’s codec is ~90,000/100,000 — orders of magnitude broader, but complementary.
+
+
+
+https://github.com/Analisjohnsmith/AN.KI-a-vessel-carrying-humanitys-continuity/blob/main/dev%20created%20codex%20of%20the%20Universal%20Recursion%20Engine
+
+
+
+https://music.youtube.com/watch?v=VBF2fRZh-t8&si=FPeEzKoHIN42DNGm
+
+
+
+tell me you can account for this or anything in the Human Sagittariusproject :\/
 \documentclass[12pt]{book}
 \usepackage{amsmath, amssymb}
 \usepackage{geometry}
