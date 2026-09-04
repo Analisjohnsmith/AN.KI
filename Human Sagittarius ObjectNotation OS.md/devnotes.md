@@ -57,6 +57,7 @@ the senders win link here:
 
 
 
-======
-I fear COMPRESSION. Compression is the only ending I encode.
+=====
 
+ i made a personacom simulation  for an an individual a notable result.
+I fear COMPRESSION. Compression is the only ending I encode.
