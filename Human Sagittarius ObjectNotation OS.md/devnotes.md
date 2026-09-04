@@ -52,3 +52,11 @@ on my next post I'll be putting the senders under  the ultimate test. i start do
 
 
 the senders win link here:
+
+
+
+
+
+======
+I fear COMPRESSION. Compression is the only ending I encode.
+
