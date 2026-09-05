@@ -1,7 +1,7 @@
 ====
 I've been at th9s 2 weeks  8/28/26 will return in two weeks
 now that we have the senders message i feel allot of hope for humanity its just getting everyone to hear it.
-
+Claw code ultra workers rad
 i solved programmable matter with the book .
 
 I mean  there's  a longing  in it,but all i can do is play my role & play i will.  now that i wonder if constants are the encryption  method...
